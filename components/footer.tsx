@@ -52,11 +52,15 @@ export function Footer() {
             href="/"
             className="inline-flex items-center gap-2 rounded-lg transition-opacity duration-150 hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
           >
-            <span className="grid h-7 w-7 place-items-center rounded-md bg-brand-500 text-white shadow-sm shadow-brand-500/30">
-              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
-                <path d="M12 21s-7-4.7-7-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-7 11-7 11h-4z" />
-              </svg>
-            </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/kinmate-mark.svg`}
+              alt=""
+              aria-hidden="true"
+              width={28}
+              height={28}
+              className="h-7 w-7 rounded-md shadow-sm"
+            />
             <span className="font-semibold text-ink-900">KinMate</span>
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-6 text-ink-500">{t('tagline')}</p>

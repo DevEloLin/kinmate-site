@@ -26,14 +26,16 @@ export function Navbar() {
           className="flex items-center gap-2 rounded-lg transition-opacity duration-150 hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
           aria-label="KinMate - Back to home"
         >
-          <span
-            className="grid h-8 w-8 place-items-center rounded-lg bg-brand-500 text-white shadow-sm shadow-brand-500/30"
+          {/* 品牌图标：与 App 图标一致（浅绿渐变底 + 珊瑚心 + 叶脉），见 public/kinmate-mark.svg */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/kinmate-mark.svg`}
+            alt=""
             aria-hidden="true"
-          >
-            <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
-              <path d="M12 21s-7-4.7-7-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-7 11-7 11h-4z" />
-            </svg>
-          </span>
+            width={32}
+            height={32}
+            className="h-8 w-8 rounded-lg shadow-sm"
+          />
           <span className="text-lg font-semibold tracking-tight text-ink-900">KinMate</span>
         </Link>
 
