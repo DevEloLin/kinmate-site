@@ -20,21 +20,45 @@ export const metadata: Metadata = {
   },
   description: DESCRIPTION,
   keywords: [
-    // EN
-    'family health app', 'health record vault', 'medical records app',
-    'medication reminders', 'lab report AI explanation', 'AI health assistant',
-    'pet health records', 'elderly care app', 'caregiver app',
-    'local-first health', 'private health app', 'bring your own cloud',
-    'iCloud Google Drive OneDrive backup', 'bilingual health app',
-    // 中文
-    '家庭健康', '家人健康管理', '健康档案', '体检报告解读', 'AI 报告解读',
-    '用药提醒', '吃药提醒', '宠物健康', '老人关怀', '家庭医疗记录',
-    '本地优先', '数据隐私', '自带网盘备份', 'KinMate',
+    // ── EN: core ──
+    'KinMate', 'family health app', 'family health record', 'health record vault',
+    'medical records app', 'personal health record', 'PHR app', 'health organizer',
+    'health document storage', 'medical history app',
+    // EN: reports / AI
+    'lab report AI explanation', 'blood test results explained', 'lab results interpreter',
+    'medical report scanner', 'health report OCR', 'AI health assistant',
+    'understand my lab results', 'prescription scanner', 'medical document reader',
+    // EN: medication / reminders / care
+    'medication reminders', 'medication tracker', 'pill reminder', 'medication adherence',
+    'vaccination records', 'immunization tracker', 'appointment reminders',
+    'safety check-in app', 'caregiver app', 'elderly care app', 'aging parents care',
+    'senior care app', 'family caregiver', 'dependents health',
+    // EN: pets / family / privacy
+    'pet health records', 'pet vaccination tracker', 'multi-generational family health',
+    'shared family health', 'local-first health app', 'offline health app',
+    'private health app', 'health data privacy', 'you own your data',
+    'bring your own cloud', 'iCloud health backup', 'Google Drive health backup',
+    'OneDrive health backup', 'bilingual health app', 'English Chinese health app',
+    // ── 中文：核心 ──
+    '家庭健康', '家人健康管理', '家庭健康档案', '健康档案 App',
+    '个人健康档案', '电子病历', '病历管理', '健康记录', '家庭医疗记录',
+    // 中文：报告 / AI
+    '体检报告解读', 'AI 报告解读', '化验单解读', '化验结果解释', '血常规解读',
+    '体检报告看不懂', '报告拍照识别', '病历 OCR', '处方识别', '医疗文档解读',
+    // 中文：用药 / 提醒 / 关怀
+    '用药提醒', '吃药提醒', '服药提醒', '服药管理', '疫苗记录', '疫苗接种提醒',
+    '复诊提醒', '平安打卡', '老人关怀', '父母健康', '长辈照护', '看护人',
+    '被照护人', '居家养老健康',
+    // 中文：宠物 / 家庭 / 隐私
+    '宠物健康', '宠物疫苗记录', '多代家庭健康', '家庭共享健康', '本地优先',
+    '离线可用', '隐私优先', '数据隐私', '数据归你所有', '自带网盘备份',
+    'iCloud 备份', 'Google Drive 备份', 'OneDrive 备份', '中英双语健康 App',
   ],
   authors: [{ name: 'AppLabs' }],
   creator: 'AppLabs',
   publisher: 'AppLabs',
   category: 'health',
+  manifest: `${SITE}/site.webmanifest`,
   alternates: {
     canonical: SITE,
     languages: { en: `${SITE}/en`, zh: `${SITE}/zh` },

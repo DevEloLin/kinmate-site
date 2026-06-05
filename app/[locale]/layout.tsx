@@ -9,6 +9,7 @@ import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
+import { JsonLd } from '@/components/json-ld'
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
@@ -29,6 +30,8 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body className="min-h-screen antialiased">
+        {/* 结构化数据：SEO + GEO（AI 引擎）+ AEO（答案引擎/FAQ） */}
+        <JsonLd locale={locale} />
         <NextIntlClientProvider locale={locale} messages={messages}>
           {/* 无障碍：跳过导航链接，让键盘用户可以直接跳到主内容 */}
           <a
