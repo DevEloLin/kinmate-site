@@ -1,0 +1,401 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "byoc": "Your Cloud",
+    "referral": "Invite & Earn",
+    "download": "Download",
+    "about": "About"
+  },
+  "cta": {
+    "primary": "Start 14-day free trial",
+    "secondary": "See pricing",
+    "appStore": "Download on the App Store",
+    "playStore": "Get it on Google Play"
+  },
+  "hero": {
+    "eyebrow": "For families across borders",
+    "title": "Your family's health records, in one calm place.",
+    "subtitle": "Lab reports, prescriptions, medications and pet records — organized in one private vault, explained by AI in your language, and shared with family only when you choose.",
+    "promise": "Local-first. Your files stay on your device unless you choose otherwise.",
+    "stats": [
+      {
+        "k": "3",
+        "v": "Cloud providers"
+      },
+      {
+        "k": "100%",
+        "v": "End-to-end encrypted"
+      },
+      {
+        "k": "0",
+        "v": "Data on our servers"
+      },
+      {
+        "k": "EN · 中文",
+        "v": "Bilingual"
+      }
+    ]
+  },
+  "trust": {
+    "title": "Why people switch to KinMate",
+    "items": [
+      {
+        "title": "Local-first by default",
+        "body": "PDFs, images, and AI summaries live in your device's secure storage. We never see your files."
+      },
+      {
+        "title": "Bring your own cloud",
+        "body": "Back up to your own iCloud Drive, Google Drive, or OneDrive. Encrypted with a key only you hold."
+      },
+      {
+        "title": "Bilingual AI",
+        "body": "Explain English lab reports in Chinese, or vice versa. Great for diaspora families and overseas students."
+      },
+      {
+        "title": "One flexible pool, not rigid seats",
+        "body": "Every paid plan includes 2 managed seats. Family plans add a flexible pool you can use for real family members or extra managed profiles. Pets are separate — even Free includes one."
+      }
+    ]
+  },
+  "features": {
+    "title": "Built for the way diaspora families actually live",
+    "subtitle": "KinMate makes health management simple, secure, and smart",
+    "items": [
+      {
+        "title": "Capture in seconds",
+        "body": "Snap a photo, pick from your library, or import a PDF — KinMate files it by person, date and report type."
+      },
+      {
+        "title": "Metrics that show the trend",
+        "body": "Log blood pressure, glucose, lipids, liver & kidney values — charted over 7/30/90 days with normal-range markers."
+      },
+      {
+        "title": "Medications & smart reminders",
+        "body": "Track prescriptions and get gentle local reminders for doses, follow-ups, vaccines and vet visits — never spam."
+      },
+      {
+        "title": "Bilingual AI explanations",
+        "body": "Turn a dense lab report into plain English or Chinese. Disclaimers built in — it informs, it never diagnoses."
+      },
+      {
+        "title": "Care check-in for distant family",
+        "body": "Aging parents tap once a day to say they’re okay; miss it and you get an alert. Caring, not surveillance."
+      },
+      {
+        "title": "Family, dependents & pets",
+        "body": "One vault for the whole household — members you care for and pets, each with their own private records."
+      },
+      {
+        "title": "Your cloud, your export",
+        "body": "Back up to iCloud, Google Drive or OneDrive, and export the entire vault anytime as an encrypted archive."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple pricing. No surprises.",
+    "subtitle": "Start with a one-time 14-day free trial. Cancel anytime in the App Store or Google Play.",
+    "billingMonthly": "Monthly",
+    "billingYearly": "Yearly · 2 months off",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "freeTrialBadge": "14-day free trial included",
+    "current": "Try it",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "tag": "To get started",
+        "features": [
+          "1 personal profile + 1 pet",
+          "Up to 3 local reports (upgrade for unlimited)",
+          "3 AI summaries per month",
+          "Accept family invites"
+        ]
+      },
+      "personalPlus": {
+        "name": "Personal Plus",
+        "price": "$4.99",
+        "yearly": "$49.99",
+        "tag": "For individuals",
+        "features": [
+          "2 managed profiles (no family creation)",
+          "2 pet slots",
+          "Unlimited local reports",
+          "30 AI summaries per month",
+          "Advanced reminders + full export"
+        ]
+      },
+      "family3": {
+        "name": "Family 3",
+        "price": "$9.99",
+        "yearly": "$99.99",
+        "tag": "Most popular",
+        "features": [
+          "Up to 3 family members (2 base + flexible pool of 3)",
+          "or up to 5 managed profiles",
+          "1 family · 3 pet slots",
+          "60 AI summaries per month (shared)",
+          "Unlimited reports · timeline & sharing"
+        ]
+      },
+      "family5": {
+        "name": "Family 5",
+        "price": "$14.99",
+        "yearly": "$149.99",
+        "tag": "Multigenerational",
+        "features": [
+          "Up to 5 family members",
+          "or up to 7 managed profiles",
+          "1 family · 5 pet slots",
+          "100 AI summaries per month",
+          "Bilingual report support"
+        ]
+      },
+      "family8": {
+        "name": "Family 8",
+        "price": "$19.99",
+        "yearly": "$199.99",
+        "tag": "Large families",
+        "features": [
+          "Up to 8 family members",
+          "or up to 10 managed profiles",
+          "2 families · 8 pet slots",
+          "160 AI summaries per month",
+          "Everything in Family 5"
+        ]
+      },
+      "bigFamilies": "Need more than 8? Family 10 and Family 12 are available for large multigenerational households — get in touch."
+    }
+  },
+  "byoc": {
+    "title": "Bring your own cloud backup",
+    "subtitle": "Your files. Your cloud. Your encryption key.",
+    "body": "Most apps store your data on their servers. KinMate stores it on yours. Enable cloud backup once, and KinMate encrypts your vault locally with AES-256-GCM before uploading. The key never leaves your device.",
+    "providers": [
+      {
+        "name": "iCloud Drive",
+        "scope": "iOS / iPadOS / macOS"
+      },
+      {
+        "name": "Google Drive",
+        "scope": "OAuth scope drive.file only — we can't see your other files"
+      },
+      {
+        "name": "OneDrive",
+        "scope": "Microsoft Graph AppFolder — KinMate folder only"
+      }
+    ],
+    "warning": "Your 12-word recovery phrase is shown once. Write it down or save to your system password manager. If you lose it, even KinMate cannot decrypt your backup."
+  },
+  "referral": {
+    "title": "Invite & earn",
+    "subtitle": "The more friends who actually use KinMate, the more free Pro days you get. Each tier is one-time; cumulative cap is 365 days per account.",
+    "tableInvites": "Invites",
+    "tableReward": "Reward",
+    "tiers": [
+      {
+        "invites": "1 friend",
+        "reward": "+3 days Pro"
+      },
+      {
+        "invites": "3 friends",
+        "reward": "+7 days Pro"
+      },
+      {
+        "invites": "5 friends",
+        "reward": "+15 days Pro"
+      },
+      {
+        "invites": "10 friends",
+        "reward": "+30 days Pro"
+      },
+      {
+        "invites": "20 friends",
+        "reward": "+60 days Pro"
+      },
+      {
+        "invites": "30 friends",
+        "reward": "+90 days Pro"
+      }
+    ],
+    "validInvite": "What counts as a valid invite",
+    "validInviteItems": [
+      "Invitee completes registration",
+      "Verifies their email",
+      "Uses the app for more than 2 days",
+      "Uploads at least 1 file",
+      "Generates at least 1 AI summary",
+      "Unique device, not flagged by anti-abuse"
+    ],
+    "settlement": "How rewards are settled",
+    "settlementItems": [
+      "Lifetime cumulative valid invites determine which tier you qualify for",
+      "Each tier can be claimed once",
+      "Per-account cumulative cap: 365 days of Pro",
+      "We review and grant rewards every 3 days; flagged accounts go through manual review"
+    ]
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "lastUpdated": "Last updated: May 20, 2026",
+    "summary": "Short version: your files stay on your device by default. We never see them.",
+    "sections": [
+      {
+        "h": "What stays on your device only",
+        "p": "PDFs, images, OCR text, AI summaries, lab values, medication names, condition names. None of this is uploaded to KinMate servers."
+      },
+      {
+        "h": "What we store on our backend",
+        "p": "Your account (email, sign-in method), family relationships, invite codes, subscription status, referral events, device IDs for anti-abuse. We never store report content."
+      },
+      {
+        "h": "Bring Your Own Cloud (BYOC)",
+        "p": "If you enable cloud backup, your vault is encrypted locally with AES-256-GCM and uploaded to a folder in your own iCloud Drive, Google Drive, or OneDrive. KinMate backend never receives the file content, OAuth token, or decryption key."
+      },
+      {
+        "h": "AI summaries",
+        "p": "When you tap 'AI explanation', we send the OCR text of that one report to OpenAI / Anthropic via our server proxy. We do not persist the prompt or output on our backend. Your local copy of the summary lives only on your device."
+      },
+      {
+        "h": "Referral data",
+        "p": "We store referral events (inviter, invitee, timestamp, device ID, status). No health content is ever attached to referral records."
+      },
+      {
+        "h": "Account deletion",
+        "p": "Delete your account from inside the app (Settings → Delete account). After a 7-day grace period, all your cloud data is permanently removed. Local data is deleted immediately on uninstall."
+      },
+      {
+        "h": "No ads, no data sales",
+        "p": "We don't run third-party ad SDKs. We don't sell, rent, or share your data with brokers. KinMate is funded by subscriptions only."
+      },
+      {
+        "h": "Contact",
+        "p": "Privacy questions: privacy@kinmate.app. Data deletion: delete@kinmate.app."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of service",
+    "lastUpdated": "Last updated: May 20, 2026",
+    "sections": [
+      {
+        "h": "What KinMate is",
+        "p": "KinMate is a personal health vault. It helps you organize your own and your family's health documents. It is not a medical service, telehealth platform, or insurance product."
+      },
+      {
+        "h": "Not medical advice",
+        "p": "AI explanations are for understanding, not diagnosis. Always consult a licensed clinician for medical decisions. KinMate is not responsible for outcomes based on AI summaries."
+      },
+      {
+        "h": "Subscriptions",
+        "p": "Trials auto-convert to paid subscriptions unless cancelled before the trial ends. Cancellation is handled by App Store / Google Play. Refunds follow platform policies."
+      },
+      {
+        "h": "Referral rewards",
+        "p": "Rewards are non-transferable, not redeemable for cash, capped at 365 days per grant, and subject to anti-abuse review. KinMate may revoke rewards in case of detected abuse."
+      },
+      {
+        "h": "Account termination",
+        "p": "We may suspend accounts found to be abusing referral systems, uploading illegal content, or violating these terms. You can delete your account at any time from inside the app."
+      }
+    ]
+  },
+  "delete": {
+    "title": "Delete your KinMate account",
+    "body": "You can delete your account from inside the app in three taps: Settings → Delete my account → Confirm. After a 7-day grace period, your account and all server-side data are permanently removed.",
+    "fallback": "If you've already lost access to the app and want to request deletion, email us at delete@kinmate.app from the address linked to your account. We'll process within 7 business days."
+  },
+  "aiDisclaimer": {
+    "title": "AI explanation disclaimer",
+    "body": "KinMate uses large language models to help you understand lab reports, prescriptions, and clinical notes in plain language. These explanations are educational only. They do not constitute medical diagnosis, treatment, or professional opinion. Always confirm with a licensed clinician or veterinarian before making health decisions."
+  },
+  "download": {
+    "title": "Get KinMate",
+    "subtitle": "Free to download. 14-day Pro trial included. Available on iPhone, iPad, and Android.",
+    "ios": "App Store",
+    "android": "Google Play"
+  },
+  "about": {
+    "title": "Built by a small team for families like yours",
+    "body": "KinMate started because one of us spent a weekend trying to explain a Chinese-language hospital discharge note to American doctors. We thought: there should be one calm place for your family's health records, that respects your privacy and speaks your language. So we built it."
+  },
+  "contact": {
+    "title": "Contact",
+    "support": "Support: support@kinmate.app",
+    "privacy": "Privacy: privacy@kinmate.app",
+    "press": "Press: press@kinmate.app"
+  },
+  "notFound": {
+    "message": "Sorry, we couldn't find the page you're looking for",
+    "backHome": "Back to home"
+  },
+  "footer": {
+    "tagline": "Local-first health vault for diaspora families.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "byoc": "Your Cloud",
+      "referral": "Invite & Earn",
+      "download": "Download",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "deleteAccount": "Delete account",
+      "aiDisclaimer": "AI disclaimer"
+    },
+    "rights": "© 2026 KinMate. All rights reserved."
+  },
+  "howItWorks": {
+    "title": "Up and running in three steps",
+    "subtitle": "No new cloud account. Your data stays in storage you already own.",
+    "steps": [
+      {
+        "title": "Create your account",
+        "body": "Sign up with email. A 6-digit code verifies you — no passwords to leak."
+      },
+      {
+        "title": "Connect your own cloud",
+        "body": "Link iCloud, Google Drive or OneDrive. Reports and files are written straight to your drive."
+      },
+      {
+        "title": "Manage health together",
+        "body": "Track metrics, medications and reminders. Invite family with a short code to share the load."
+      }
+    ]
+  },
+  "problems": {
+    "title": "The real problems KinMate solves",
+    "subtitle": "Health records shouldn't be scattered, unreadable, or locked inside someone else's server.",
+    "items": [
+      {
+        "pain": "Records scattered across paper, photos and a dozen hospital apps — never findable when the doctor asks.",
+        "gain": "One organized vault: every report, prescription and metric on a single timeline, searchable by person or pet."
+      },
+      {
+        "pain": "Foreign-language lab reports full of jargon you simply can’t decode.",
+        "gain": "AI explains any report in plain English or Chinese — so you understand before the appointment, not after."
+      },
+      {
+        "pain": "Caring for aging parents an ocean away, with no real sense of how they’re doing.",
+        "gain": "Track their medications and metrics, get a daily care check-in, and an alert the moment they miss one."
+      },
+      {
+        "pain": "Health apps that quietly upload your most private data to their own servers.",
+        "gain": "Local-first, plus your own cloud. Zero medical data on our servers — encrypted with a key only you hold."
+      },
+      {
+        "pain": "Years of records trapped in an app that could shut down tomorrow.",
+        "gain": "You own every file. Export the whole vault anytime as an encrypted archive. No lock-in, ever."
+      },
+      {
+        "pain": "Forgotten pills and missed follow-ups across the whole household.",
+        "gain": "Smart local reminders for medications, vaccines, follow-ups and vet visits — for every family member and pet."
+      }
+    ]
+  }
+}

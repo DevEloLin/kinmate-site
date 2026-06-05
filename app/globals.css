@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 整站基础变量 */
+:root {
+  --max-content: 72rem;
+  --header-h: 64px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: theme('colors.cream');
+  color: theme('colors.ink.900');
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+}
+
+/* 长文章排版：隐私 / 条款页用 */
+.prose-kinmate h2 {
+  @apply mt-12 mb-3 text-2xl font-semibold tracking-tight;
+}
+.prose-kinmate p {
+  @apply mt-2 leading-7 text-ink-700;
+}
+.prose-kinmate a {
+  @apply text-brand-600 underline underline-offset-4 hover:text-brand-700;
+}
