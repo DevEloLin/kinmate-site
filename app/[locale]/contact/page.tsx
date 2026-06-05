@@ -32,21 +32,21 @@ export default async function ContactPage({
       icon: HelpCircle,
       text: t('support'),
       label: { en: 'Product Support', zh: '产品支持' },
-      email: 'support@kinmate.app',
+      email: 'devs.applabs@gmail.com',
     },
     {
       key: 'privacy',
       icon: Shield,
       text: t('privacy'),
       label: { en: 'Privacy Concerns', zh: '隐私问题' },
-      email: 'privacy@kinmate.app',
+      email: 'devs.applabs@gmail.com',
     },
     {
       key: 'press',
       icon: Newspaper,
       text: t('press'),
       label: { en: 'Press & Media', zh: '媒体合作' },
-      email: 'press@kinmate.app',
+      email: 'devs.applabs@gmail.com',
     },
   ]
 

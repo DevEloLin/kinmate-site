@@ -22,7 +22,7 @@ const PATHS = [
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://kinmate.app'
+  const base = 'https://develolin.github.io/kinmate-site'
   return PATHS.flatMap((p) =>
     routing.locales.map((loc) => ({
       url: `${base}/${loc}${p}`,

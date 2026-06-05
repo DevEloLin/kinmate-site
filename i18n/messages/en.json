@@ -14,7 +14,7 @@
     "playStore": "Get it on Google Play"
   },
   "hero": {
-    "eyebrow": "For families across borders",
+    "eyebrow": "For every family, everywhere",
     "title": "Your family's health records, in one calm place.",
     "subtitle": "Lab reports, prescriptions, medications and pet records — organized in one private vault, explained by AI in your language, and shared with family only when you choose.",
     "promise": "Local-first. Your files stay on your device unless you choose otherwise.",
@@ -50,7 +50,7 @@
       },
       {
         "title": "Bilingual AI",
-        "body": "Explain English lab reports in Chinese, or vice versa. Great for diaspora families and overseas students."
+        "body": "Explain a report in English or Chinese, either way. Ideal for families living across languages and borders."
       },
       {
         "title": "One flexible pool, not rigid seats",
@@ -59,7 +59,7 @@
     ]
   },
   "features": {
-    "title": "Built for the way diaspora families actually live",
+    "title": "Built for the way real families live",
     "subtitle": "KinMate makes health management simple, secure, and smart",
     "items": [
       {
@@ -271,7 +271,7 @@
       },
       {
         "h": "Contact",
-        "p": "Privacy questions: privacy@kinmate.app. Data deletion: delete@kinmate.app."
+        "p": "Privacy questions: devs.applabs@gmail.com. Data deletion: devs.applabs@gmail.com."
       }
     ]
   },
@@ -304,7 +304,7 @@
   "delete": {
     "title": "Delete your KinMate account",
     "body": "You can delete your account from inside the app in three taps: Settings → Delete my account → Confirm. After a 7-day grace period, your account and all server-side data are permanently removed.",
-    "fallback": "If you've already lost access to the app and want to request deletion, email us at delete@kinmate.app from the address linked to your account. We'll process within 7 business days."
+    "fallback": "If you've already lost access to the app and want to request deletion, email us at devs.applabs@gmail.com from the address linked to your account. We'll process within 7 business days."
   },
   "aiDisclaimer": {
     "title": "AI explanation disclaimer",
@@ -322,16 +322,16 @@
   },
   "contact": {
     "title": "Contact",
-    "support": "Support: support@kinmate.app",
-    "privacy": "Privacy: privacy@kinmate.app",
-    "press": "Press: press@kinmate.app"
+    "support": "Support: devs.applabs@gmail.com",
+    "privacy": "Privacy: devs.applabs@gmail.com",
+    "press": "Press: devs.applabs@gmail.com"
   },
   "notFound": {
     "message": "Sorry, we couldn't find the page you're looking for",
     "backHome": "Back to home"
   },
   "footer": {
-    "tagline": "Local-first health vault for diaspora families.",
+    "tagline": "Local-first health vault for your whole family.",
     "product": "Product",
     "company": "Company",
     "legal": "Legal",
