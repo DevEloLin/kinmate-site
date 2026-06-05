@@ -33,7 +33,7 @@ Every page is available under both locales (`/en/...` and `/zh/...`); the root `
 | `/pricing` | Plan comparison (Free / Personal Plus / Family 3 / 5 / Family 8 founder offer) |
 | `/byoc` | Bring-your-own-cloud backup |
 | `/referral` | Referral rewards |
-| `/download` | App Store / Google Play |
+| `/download` | App Store / Google Play / GitHub APK |
 | `/about` · `/contact` | About / contact |
 | `/privacy` · `/terms` · `/delete-account` · `/ai-disclaimer` | Legal pages |
 
@@ -61,6 +61,7 @@ builds a static export, and commits it to `docs/`. GitHub Pages serves from `mai
 - `STATIC_EXPORT=1` enables Next.js static export (`output: 'export'`).
 - `NEXT_PUBLIC_BASE_PATH` defaults to `/<repo>` for project pages. For a custom domain or root
   path, set the repository variable `SITE_BASE_PATH` to override (use a single space for the root).
+- `data/release.json` is CI-managed and carries the latest app version plus GitHub Release APK URL for `/download`.
 
 ## Contact
 

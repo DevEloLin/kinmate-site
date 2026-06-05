@@ -328,7 +328,10 @@
     "title": "获取 KinMate",
     "subtitle": "免费下载。含 60 天 Pro 试用。iPhone、iPad、Android 通用。",
     "ios": "App Store",
-    "android": "Google Play"
+    "android": "Google Play",
+    "apk": "Android APK",
+    "apkStore": "GitHub 发布",
+    "version": "版本 {baseVersion}"
   },
   "about": {
     "title": "由小团队为像你这样的家庭打造",
