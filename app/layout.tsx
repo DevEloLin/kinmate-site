@@ -4,15 +4,15 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kinmate.app'),
+  metadataBase: new URL('https://develolin.github.io/kinmate-site'),
   title: 'KinMate · Your family\'s health vault',
   description:
-    'Local-first health record vault for diaspora families. Bilingual AI explanations, family + pets, bring your own cloud backup.',
+    'Local-first health record vault for every family. Bilingual AI explanations (EN/中文), family + pets, bring your own cloud backup.',
   openGraph: {
     title: 'KinMate · Your family\'s health vault',
     description:
-      'Local-first health record vault for diaspora families. Bilingual AI explanations, family + pets, bring your own cloud backup.',
-    url: 'https://kinmate.app',
+      'Local-first health record vault for every family. Bilingual AI explanations (EN/中文), family + pets, bring your own cloud backup.',
+    url: 'https://develolin.github.io/kinmate-site',
     siteName: 'KinMate',
     type: 'website',
   },

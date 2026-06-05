@@ -14,7 +14,7 @@
     "playStore": "Google Play 下载"
   },
   "hero": {
-    "eyebrow": "为跨国家庭而做",
+    "eyebrow": "为每个家庭，无论身处何地",
     "title": "把全家健康记录管明白。",
     "subtitle": "化验单、处方、用药、宠物记录——汇成一个私密保险箱，AI 用你的语言讲明白，你愿意时才分享给家人。",
     "promise": "本地优先。文件不会偷偷上传。",
@@ -50,7 +50,7 @@
       },
       {
         "title": "中英双语 AI",
-        "body": "英文化验单用中文解读，反之也行。给海外华人家庭、留学生量身设计。"
+        "body": "英文报告用中文解读，中文报告用英文解读——为跨越语言与国界的家庭而生。"
       },
       {
         "title": "一个弹性池，不是死板席位",
@@ -59,7 +59,7 @@
     ]
   },
   "features": {
-    "title": "为海外家庭真实生活方式打造",
+    "title": "为真实家庭的生活方式打造",
     "subtitle": "KinMate 让健康管理变得简单、安全、智能",
     "items": [
       {
@@ -271,7 +271,7 @@
       },
       {
         "h": "联系我们",
-        "p": "隐私问题：privacy@kinmate.app。数据删除：delete@kinmate.app。"
+        "p": "隐私问题：devs.applabs@gmail.com。数据删除：devs.applabs@gmail.com。"
       }
     ]
   },
@@ -304,7 +304,7 @@
   "delete": {
     "title": "删除 KinMate 账号",
     "body": "在 App 内三步删除账号：设置 → 删除账号 → 确认。7 天宽限期后，账号与所有云端数据永久清除。",
-    "fallback": "如果已无法登录 App 想申请删除，请用账号绑定邮箱发邮件到 delete@kinmate.app，我们 7 个工作日内处理。"
+    "fallback": "如果已无法登录 App 想申请删除，请用账号绑定邮箱发邮件到 devs.applabs@gmail.com，我们 7 个工作日内处理。"
   },
   "aiDisclaimer": {
     "title": "AI 解读免责声明",
@@ -322,16 +322,16 @@
   },
   "contact": {
     "title": "联系我们",
-    "support": "客服：support@kinmate.app",
-    "privacy": "隐私：privacy@kinmate.app",
-    "press": "媒体：press@kinmate.app"
+    "support": "客服：devs.applabs@gmail.com",
+    "privacy": "隐私：devs.applabs@gmail.com",
+    "press": "媒体：devs.applabs@gmail.com"
   },
   "notFound": {
     "message": "抱歉，找不到你要的页面",
     "backHome": "返回首页"
   },
   "footer": {
-    "tagline": "面向跨国家庭的本地优先健康保险箱。",
+    "tagline": "为全家打造的本地优先健康保险箱。",
     "product": "产品",
     "company": "公司",
     "legal": "合规",
