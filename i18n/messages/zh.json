@@ -8,7 +8,7 @@
     "about": "关于"
   },
   "cta": {
-    "primary": "开启 14 天免费试用",
+    "primary": "开启 60 天免费试用",
     "secondary": "查看套餐",
     "appStore": "App Store 下载",
     "playStore": "Google Play 下载"
@@ -93,13 +93,25 @@
     ]
   },
   "pricing": {
-    "title": "价格简单，不玩花样。",
-    "subtitle": "提供一生一次的 14 天免费试用，可随时在 App Store 或 Google Play 取消。",
+    "title": "创始会员价格，不玩花样。",
+    "subtitle": "先享受 60 天完整功能试用。Family 8 以永久创始价 $199.99 上线，较原价 $399.99 永久优惠 50%。",
     "billingMonthly": "月付",
     "billingYearly": "年付 · 省 2 个月",
     "perMonth": "/月",
     "perYear": "/年",
-    "freeTrialBadge": "含 14 天免费试用",
+    "freeTrialBadge": "首发特别活动：含 60 天免费试用",
+    "launchPromo": {
+      "title": "KinMate 正式上线",
+      "badge": "首发活动",
+      "body": "感谢每一位早期用户的支持。为了庆祝 KinMate 在 App Store 正式发布，我们特别推出首发限时福利：免费试用从 21 天升级至 60 天，并开放永久会员优惠。",
+      "originalPriceLabel": "原价",
+      "originalPrice": "$399.99",
+      "launchPriceLabel": "首发特惠价",
+      "launchPrice": "$199.99",
+      "footer": "一次购买，永久使用，未来所有核心功能更新持续包含。活动结束后，将恢复原价。",
+      "primaryCta": "去下载 App",
+      "secondaryCta": "稍后再说"
+    },
     "current": "试试看",
     "plans": {
       "free": {
@@ -130,7 +142,7 @@
         "name": "Family 3",
         "price": "$9.99",
         "yearly": "$99.99",
-        "tag": "最受欢迎",
+        "tag": "热门",
         "features": [
           "最多 3 位家庭成员（2 基础 + 弹性池 3）",
           "或最多 5 个托管档案",
@@ -154,18 +166,20 @@
       },
       "family8": {
         "name": "Family 8",
-        "price": "$19.99",
-        "yearly": "$199.99",
-        "tag": "大家庭",
+        "price": "$199.99",
+        "originalPrice": "$399.99",
+        "billing": "永久",
+        "offer": "永久优惠 50%",
+        "tag": "热门",
         "features": [
           "最多 8 位家庭成员",
           "或最多 10 个托管档案",
           "2 个家庭 · 8 个宠物位",
           "每月 160 次 AI 摘要",
-          "包含 Family 5 全部功能"
+          "永久会员 · 后续核心功能持续更新"
         ]
       },
-      "bigFamilies": "需要超过 8 人？Family 10 / Family 12 面向超大三代家庭，请联系我们。"
+      "bigFamilies": "需要超过 8 人？Family 10 / Family 12 面向更大的多代家庭，请联系我们。"
     }
   },
   "byoc": {
@@ -312,7 +326,7 @@
   },
   "download": {
     "title": "获取 KinMate",
-    "subtitle": "免费下载。含 14 天 Pro 试用。iPhone、iPad、Android 通用。",
+    "subtitle": "免费下载。含 60 天 Pro 试用。iPhone、iPad、Android 通用。",
     "ios": "App Store",
     "android": "Google Play"
   },
