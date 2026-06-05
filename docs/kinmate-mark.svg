@@ -1,4 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#2F6B5C"/>
-  <path d="M32 50s-16-10.7-16-23.5C16 19.6 21.6 14 29 14c2.7 0 4.5 1 5.8 2.4C36.5 14.9 38.3 14 41 14c7.4 0 13 5.6 13 12.5C54 39.3 38 50 38 50h-6z" fill="#FAF7F2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="KinMate">
+  <defs>
+    <linearGradient id="kmBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ECFDF5"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <linearGradient id="kmHeart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#E11D6A"/>
+    </linearGradient>
+    <clipPath id="kmHeartClip">
+      <path d="M512 770 C 360 668 248 566 248 446 C 248 374 304 328 366 328 C 432 328 478 378 512 432 C 546 378 592 328 658 328 C 720 328 776 374 776 446 C 776 566 664 668 512 770 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#kmBg)"/>
+  <path d="M512 770 C 360 668 248 566 248 446 C 248 374 304 328 366 328 C 432 328 478 378 512 432 C 546 378 592 328 658 328 C 720 328 776 374 776 446 C 776 566 664 668 512 770 Z" fill="url(#kmHeart)"/>
+  <g clip-path="url(#kmHeartClip)" stroke="#FFFFFF" stroke-width="19" stroke-linecap="round" stroke-opacity="0.85" fill="none">
+    <line x1="512" y1="432" x2="512" y2="720"/>
+    <line x1="512" y1="520" x2="436" y2="472"/>
+    <line x1="512" y1="520" x2="588" y2="472"/>
+    <line x1="512" y1="602" x2="456" y2="562"/>
+    <line x1="512" y1="602" x2="568" y2="562"/>
+  </g>
 </svg>
