@@ -328,7 +328,10 @@
     "title": "Get KinMate",
     "subtitle": "Free to download. 60-day Pro trial included. Available on iPhone, iPad, and Android.",
     "ios": "App Store",
-    "android": "Google Play"
+    "android": "Google Play",
+    "apk": "Android APK",
+    "apkStore": "GitHub Release",
+    "version": "Version {baseVersion}"
   },
   "about": {
     "title": "Built by a small team for families like yours",

@@ -1,15 +1,16 @@
-// 下载页。左文案 + 商店徽章 + 信任标识，右侧一台手机 mockup（HomeScreen）。
-// URL 来源：环境变量 NEXT_PUBLIC_APP_STORE_URL / NEXT_PUBLIC_GOOGLE_PLAY_URL（见 .env.example）。
-// 未配置时按钮以 disabled 状态渲染，避免链向无效 href。
+// 下载页。左文案 + 商店徽章 + GitHub APK 直链 + 信任标识，右侧一台手机 mockup（HomeScreen）。
+// URL 来源：环境变量 NEXT_PUBLIC_APP_STORE_URL / NEXT_PUBLIC_GOOGLE_PLAY_URL / NEXT_PUBLIC_ANDROID_APK_URL（见 .env.example）
+// 或 CI 生成的 data/release.json。未配置时按钮以 disabled 状态渲染，避免链向无效 href。
 // 视觉对齐首页：网格 + 渐变光斑背景、Reveal 错位进场、rounded-2xl/3xl、focus-visible、aria-hidden 装饰。
 
 import { getTranslations, setRequestLocale } from 'next-intl/server'
-import { Section, SectionHeading } from '@/components/section'
+import { SectionHeading } from '@/components/section'
 import { Reveal, RevealStagger, RevealItem, Floaty } from '@/components/motion'
 import { PhoneFrame } from '@/components/app-mockup/phone-frame'
 import { HomeScreen } from '@/components/app-mockup/screens'
-import { Apple, Smartphone, ShieldCheck, Cloud, Zap } from 'lucide-react'
-import { getAppStoreUrl, getGooglePlayUrl } from '@/lib/store-links'
+import { Apple, Smartphone, ShieldCheck, Cloud, Zap, Download } from 'lucide-react'
+import { latestRelease } from '@/lib/release'
+import { getAppStoreUrl, getAndroidApkUrl, getGooglePlayUrl } from '@/lib/store-links'
 
 interface StoreBadgeProps {
   href: string | null
@@ -82,6 +83,7 @@ export default async function DownloadPage({
 
   const appStoreUrl = getAppStoreUrl()
   const googlePlayUrl = getGooglePlayUrl()
+  const androidApkUrl = getAndroidApkUrl()
 
   return (
     <section className="relative overflow-hidden">
@@ -121,6 +123,13 @@ export default async function DownloadPage({
               storeText={t('cta.playStore')}
               icon={<Smartphone className="h-7 w-7" aria-hidden="true" />}
             />
+            <StoreBadge
+              href={androidApkUrl}
+              ariaLabel={t('download.apk')}
+              badgeText={t('download.apk')}
+              storeText={t('download.apkStore')}
+              icon={<Download className="h-7 w-7" aria-hidden="true" />}
+            />
           </div>
 
           {/* 信任标识 */}
@@ -138,7 +147,9 @@ export default async function DownloadPage({
           </RevealStagger>
 
           {/* 版本信息 */}
-          <p className="mt-8 text-sm text-ink-400">Version 1.0.0 · iOS 15+ / Android 10+</p>
+          <p className="mt-8 text-sm text-ink-400">
+            {t('download.version', { baseVersion: latestRelease.baseVersion })} · iOS 15+ / Android 10+
+          </p>
         </Reveal>
 
         {/* 右：手机 mockup（HomeScreen） */}
