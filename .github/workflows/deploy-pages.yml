@@ -1,0 +1,75 @@
+name: Build & publish site → docs/
+
+# GitHub 自动编译落地站点为纯静态 HTML，提交到本仓库 docs/ 目录，
+# 供 GitHub Pages（Settings → Pages → Source = Deploy from a branch / main / /docs）托管。
+# 站点地址：https://<user>.github.io/<repo>/  （basePath 自动取仓库名）
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build static export
+        env:
+          STATIC_EXPORT: '1'
+          # 项目站点位于 https://<user>.github.io/<repo>/ → basePath = /<repo>。
+          # 自定义域名/根路径时在仓库 Variables 设 SITE_BASE_PATH 覆盖（设为单个空格代表根）。
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.SITE_BASE_PATH || format('/{0}', github.event.repository.name) }}
+        run: |
+          # middleware 不支持静态导出，临时移开后构建
+          [ -f middleware.ts ] && mv middleware.ts middleware.ts.disabled || true
+          npx next build
+          [ -f middleware.ts.disabled ] && mv middleware.ts.disabled middleware.ts || true
+
+      - name: Assemble docs/
+        run: |
+          rm -rf docs
+          mkdir -p docs
+          cp -R out/. docs/
+          touch docs/.nojekyll
+          # localePrefix=always 没有 / 路由，补一个根重定向到默认语言
+          cat > docs/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en"><head><meta charset="utf-8">
+          <title>KinMate</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta http-equiv="refresh" content="0; url=./en/">
+          <link rel="canonical" href="./en/">
+          <script>location.replace('./en/' + location.search + location.hash)</script>
+          </head><body>Redirecting to <a href="./en/">KinMate</a>…</body></html>
+          HTML
+
+      - name: Commit docs/
+        run: |
+          git config user.name  "DevEloLin"
+          git config user.email "268260703+DevEloLin@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "docs/ 无变化，跳过提交"
+          else
+            git commit -m "chore(site): rebuild static export"
+            git push
+          fi
