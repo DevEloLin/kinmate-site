@@ -30,7 +30,7 @@ Every page is available under both locales (`/en/...` and `/zh/...`); the root `
 |---|---|
 | `/` | Home (landing) |
 | `/features` | Feature overview |
-| `/pricing` | Plan comparison (Free / Personal Plus / Family 3 / 5 / 8) |
+| `/pricing` | Plan comparison (Free / Personal Plus / Family 3 / 5 / Family 8 founder offer) |
 | `/byoc` | Bring-your-own-cloud backup |
 | `/referral` | Referral rewards |
 | `/download` | App Store / Google Play |
@@ -40,6 +40,7 @@ Every page is available under both locales (`/en/...` and `/zh/...`); the root `
 ## Internationalization
 
 - Messages live in `i18n/messages/{en,zh}.json`. **English is the default**; every route is locale-prefixed.
+- Pricing copy mirrors the app paywall: `Family 3` and `Family 8` are marked as hot, and `Family 8` is shown as a lifetime founder offer at `$199.99` with `$399.99` as the original price.
 - Both JSON files must keep keys in sync — next-intl flags missing keys at build time.
 - The language switcher (`components/locale-switcher.tsx`) toggles English ↔ 中文.
 

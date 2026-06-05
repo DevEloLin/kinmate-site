@@ -8,7 +8,7 @@
     "about": "About"
   },
   "cta": {
-    "primary": "Start 14-day free trial",
+    "primary": "Start 60-day free trial",
     "secondary": "See pricing",
     "appStore": "Download on the App Store",
     "playStore": "Get it on Google Play"
@@ -93,13 +93,25 @@
     ]
   },
   "pricing": {
-    "title": "Simple pricing. No surprises.",
-    "subtitle": "Start with a one-time 14-day free trial. Cancel anytime in the App Store or Google Play.",
+    "title": "Founding member pricing. No surprises.",
+    "subtitle": "Start with a 60-day full-feature trial. Family 8 is a lifetime founder offer at $199.99, 50% off the regular $399.99.",
     "billingMonthly": "Monthly",
     "billingYearly": "Yearly · 2 months off",
     "perMonth": "/month",
     "perYear": "/year",
-    "freeTrialBadge": "14-day free trial included",
+    "freeTrialBadge": "Launch special: 60-day free trial included",
+    "launchPromo": {
+      "title": "KinMate is officially live",
+      "badge": "Launch special",
+      "body": "Thank you to our earliest users. To celebrate our App Store launch, we're extending the free trial from 21 days to 60 days and opening a limited-time lifetime membership offer.",
+      "originalPriceLabel": "Original price",
+      "originalPrice": "$399.99",
+      "launchPriceLabel": "Launch price",
+      "launchPrice": "$199.99",
+      "footer": "One-time purchase. Lifetime access. Future core updates included. When the campaign ends, the price returns to normal.",
+      "primaryCta": "Get the app",
+      "secondaryCta": "Maybe later"
+    },
     "current": "Try it",
     "plans": {
       "free": {
@@ -130,7 +142,7 @@
         "name": "Family 3",
         "price": "$9.99",
         "yearly": "$99.99",
-        "tag": "Most popular",
+        "tag": "Popular",
         "features": [
           "Up to 3 family members (2 base + flexible pool of 3)",
           "or up to 5 managed profiles",
@@ -154,18 +166,20 @@
       },
       "family8": {
         "name": "Family 8",
-        "price": "$19.99",
-        "yearly": "$199.99",
-        "tag": "Large families",
+        "price": "$199.99",
+        "originalPrice": "$399.99",
+        "billing": "Lifetime",
+        "offer": "50% off",
+        "tag": "Hot",
         "features": [
           "Up to 8 family members",
           "or up to 10 managed profiles",
           "2 families · 8 pet slots",
           "160 AI summaries per month",
-          "Everything in Family 5"
+          "Lifetime access + future core updates"
         ]
       },
-      "bigFamilies": "Need more than 8? Family 10 and Family 12 are available for large multigenerational households — get in touch."
+      "bigFamilies": "Need more than 8? Family 10 and Family 12 are available for larger multigenerational households — get in touch."
     }
   },
   "byoc": {
@@ -312,7 +326,7 @@
   },
   "download": {
     "title": "Get KinMate",
-    "subtitle": "Free to download. 14-day Pro trial included. Available on iPhone, iPad, and Android.",
+    "subtitle": "Free to download. 60-day Pro trial included. Available on iPhone, iPad, and Android.",
     "ios": "App Store",
     "android": "Google Play"
   },

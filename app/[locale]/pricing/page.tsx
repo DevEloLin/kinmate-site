@@ -7,6 +7,7 @@ import { Reveal, RevealStagger, RevealItem } from '@/components/motion'
 import { Link } from '@/i18n/routing'
 import { CheckCircle2, Sparkles, Users, Crown } from 'lucide-react'
 import clsx from 'clsx'
+import { LaunchPromoDialog } from '@/components/launch-promo-dialog'
 
 type PlanKey = 'free' | 'personalPlus' | 'family3' | 'family5' | 'family8'
 
@@ -14,8 +15,24 @@ interface Plan {
   name: string
   price: string
   yearly?: string
+  originalPrice?: string
+  billing?: string
+  offer?: string
   tag: string
   features: string[]
+}
+
+interface LaunchPromoCopy {
+  title: string
+  badge: string
+  body: string
+  originalPriceLabel: string
+  originalPrice: string
+  launchPriceLabel: string
+  launchPrice: string
+  footer: string
+  primaryCta: string
+  secondaryCta: string
 }
 
 export default async function PricingPage({
@@ -43,9 +60,11 @@ export default async function PricingPage({
     family5: Crown,
     family8: Crown,
   }
+  const launchPromo = t.raw('pricing.launchPromo') as LaunchPromoCopy
 
   return (
     <Section className="relative overflow-hidden bg-cream/30">
+      <LaunchPromoDialog copy={launchPromo} />
       {/* 背景：网格 + 渐变光斑（与首页一致） */}
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,theme(colors.brand.100)_1px,transparent_0)] [background-size:32px_32px] opacity-50" />
@@ -151,19 +170,29 @@ export default async function PricingPage({
                     >
                       {plan.price}
                     </span>
-                    {key !== 'free' && (
+                    {key !== 'free' && !plan.originalPrice && (
                       <span className="text-sm text-ink-500">{t('pricing.perMonth')}</span>
                     )}
                   </div>
 
-                  {plan.yearly && (
+                  {plan.originalPrice ? (
+                    <p className="mt-1.5 inline-flex flex-wrap items-center gap-1.5 text-sm text-ink-500">
+                      <span className="rounded bg-accent-50 px-1.5 py-0.5 text-xs font-medium text-accent-700">
+                        {plan.offer ?? '50% off'}
+                      </span>
+                      <span className="text-ink-400 line-through">
+                        {plan.originalPrice}
+                      </span>
+                      <span>{plan.billing ?? 'Lifetime'}</span>
+                    </p>
+                  ) : plan.yearly ? (
                     <p className="mt-1.5 inline-flex items-center gap-1 text-sm text-ink-500">
                       <span className="rounded bg-brand-50 px-1.5 py-0.5 text-xs font-medium text-brand-600">
                         Save
                       </span>
                       {plan.yearly} {t('pricing.perYear')}
                     </p>
-                  )}
+                  ) : null}
 
                   <div className="my-6 h-px bg-ink-100" />
 
