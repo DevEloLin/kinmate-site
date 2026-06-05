@@ -1,0 +1,17 @@
+{
+  "name": "KinMate · Family Health Vault",
+  "short_name": "KinMate",
+  "description": "Local-first family health record app: reports, medications & reminders for you, family and pets; bilingual AI lab-report explanations; bring-your-own-cloud backup.",
+  "lang": "en",
+  "categories": ["health", "medical", "lifestyle", "productivity"],
+  "start_url": "https://develolin.github.io/kinmate-site/",
+  "scope": "https://develolin.github.io/kinmate-site/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [
+    { "src": "https://develolin.github.io/kinmate-site/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "https://develolin.github.io/kinmate-site/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "https://develolin.github.io/kinmate-site/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
