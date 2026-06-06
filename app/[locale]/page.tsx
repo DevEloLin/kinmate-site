@@ -6,7 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Section, SectionHeading, TrustCard, FeatureCard } from '@/components/section'
 import { CtaGroup } from '@/components/cta'
 import { Reveal, RevealStagger, RevealItem, Floaty } from '@/components/motion'
-import { TestimonialsWall } from '@/components/testimonials-wall'
+import { TestimonialsMarquee } from '@/components/testimonials-marquee'
 import { PhoneFrame } from '@/components/app-mockup/phone-frame'
 import { HomeScreen, HealthScreen } from '@/components/app-mockup/screens'
 import { Link } from '@/i18n/routing'
@@ -118,7 +118,7 @@ export default async function Home({
           />
         </Reveal>
         <Reveal className="mt-10">
-          <TestimonialsWall items={testimonials} />
+          <TestimonialsMarquee items={testimonials} />
         </Reveal>
       </Section>
 
