@@ -22,13 +22,18 @@ function TestimonialCard({
   item,
   accent,
   compact = false,
+  ariaHidden = false,
 }: {
   item: TestimonialItem
   accent: string
   compact?: boolean
+  ariaHidden?: boolean
 }) {
   return (
-    <article className="group relative w-[clamp(18rem,28vw,24rem)] shrink-0 overflow-hidden rounded-[28px] border border-white/70 bg-white/82 p-5 shadow-[0_18px_40px_-28px_rgba(15,23,42,0.30)] backdrop-blur-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_50px_-28px_rgba(15,23,42,0.35)] sm:p-6">
+    <article
+      aria-hidden={ariaHidden}
+      className="group relative w-[clamp(18rem,28vw,24rem)] shrink-0 overflow-hidden rounded-[28px] border border-white/70 bg-white/82 p-5 shadow-[0_18px_40px_-28px_rgba(15,23,42,0.30)] backdrop-blur-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_50px_-28px_rgba(15,23,42,0.35)] sm:p-6"
+    >
       <div className={`absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r ${accent}`} aria-hidden />
       <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-brand-50/70 blur-3xl opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden />
 
@@ -96,10 +101,11 @@ export function TestimonialsMarquee({ items }: { items: TestimonialItem[] }) {
       >
         {[...lane, ...lane].map((item, index) => (
           <TestimonialCard
-            key={`${item.name}-${index}`}
+            key={`${item.name}-${laneId}-${index}`}
             item={item}
             accent={accentStyles[index % accentStyles.length]}
             compact
+            ariaHidden={index >= lane.length}
           />
         ))}
       </div>
