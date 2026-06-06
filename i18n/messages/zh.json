@@ -419,42 +419,42 @@
   },
   "feedback": {
     "metaTitle": "反馈与支持",
-    "eyebrow": "反馈",
-    "title": "一起打磨 KinMate",
-    "subtitle": "发现 Bug、有好点子、或只是想问个问题？每一条我们都会看。",
+    "eyebrow": "我们在认真听",
+    "title": "你的声音，塑造 KinMate",
+    "subtitle": "我们是一个小团队，每一条留言都会认真读。无论是一个 Bug、一个想法，还是一点小小的担心——谢谢你愿意花时间告诉我们。这真的很有帮助，我们也很在意。",
     "github": {
       "title": "在 GitHub 反馈",
-      "subtitle": "公开、可追踪 —— 处理完会通知你。",
+      "subtitle": "公开、可追踪——我们会跟进，并在处理好后通知你。",
       "bug": "报告 Bug",
-      "bugDesc": "出错了或行为不符合预期。",
-      "feature": "功能建议",
-      "featureDesc": "让 KinMate 更好用的想法。",
-      "question": "提个问题",
-      "questionDesc": "不确定某个功能怎么用？问我们。",
+      "bugDesc": "哪里不对劲、或没正常工作。抱歉给你添麻烦了，我们来修。",
+      "feature": "提个想法",
+      "featureDesc": "告诉我们，怎样能让 KinMate 更适合你的家庭。",
+      "question": "随便问",
+      "questionDesc": "不确定某个功能怎么用？再小的问题也欢迎。",
       "browse": "查看已有 issue"
     },
     "form": {
-      "title": "提交反馈",
-      "subtitle": "更喜欢表单？填好后我们会帮你打开预填的 GitHub issue 或邮件。",
-      "category": "类型",
-      "catBug": "Bug",
-      "catFeature": "功能建议",
-      "catQuestion": "问题",
-      "catOther": "其它",
-      "summary": "概要",
-      "summaryPlaceholder": "一句话标题",
-      "details": "详细描述",
-      "detailsPlaceholder": "发生了什么、你期望的结果、复现步骤……",
+      "title": "想说什么都可以",
+      "subtitle": "无需账号。写几句，我们会帮你打开预填好的 GitHub issue 或邮件——你喜欢哪种都行。",
+      "category": "想聊点什么？",
+      "catBug": "哪里出问题了",
+      "catFeature": "一个想法",
+      "catQuestion": "一个问题",
+      "catOther": "只是想说说",
+      "summary": "一句话概括",
+      "summaryPlaceholder": "先写几个字",
+      "details": "多说一点",
+      "detailsPlaceholder": "慢慢说——发生了什么、你期望的样子、任何能帮我们理解的细节。",
       "email": "你的邮箱（选填）",
-      "emailPlaceholder": "方便我们回复你",
-      "submitGithub": "以 GitHub issue 提交",
+      "emailPlaceholder": "如果希望我们回复就留一下",
+      "submitGithub": "通过 GitHub 发送",
       "submitEmail": "通过邮件发送",
-      "required": "请先填写概要和详细描述。",
-      "privacyNote": "请勿填写敏感健康数据 —— KinMate 隐私优先。"
+      "required": "写一句概括 + 一点细节，我们才能更好地帮到你。",
+      "privacyNote": "请不要填写敏感健康信息——你的隐私，永远排在第一位。"
     },
     "contact": {
-      "title": "或直接发邮件给我们",
-      "desc": "我们通常几天内回复。"
+      "title": "或者直接写信给我们",
+      "desc": "每一封都会有真人阅读。我们通常几天内回复——谢谢你的耐心等待。"
     }
   }
 }

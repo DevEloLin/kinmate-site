@@ -419,42 +419,42 @@
   },
   "feedback": {
     "metaTitle": "Feedback & Support",
-    "eyebrow": "Feedback",
-    "title": "Help shape KinMate",
-    "subtitle": "Found a bug, have an idea, or just a question? We read every message.",
+    "eyebrow": "We're listening",
+    "title": "Your voice shapes KinMate",
+    "subtitle": "We're a small team, and we read every single message. Whether it's a bug, an idea, or a quiet worry — thank you for taking the time to tell us. It genuinely helps, and it matters to us.",
     "github": {
       "title": "Report on GitHub",
-      "subtitle": "Public and trackable — you'll be notified when it's resolved.",
+      "subtitle": "Public and trackable — we'll follow up and let you know when it's resolved.",
       "bug": "Report a bug",
-      "bugDesc": "Something is broken or behaving unexpectedly.",
-      "feature": "Request a feature",
-      "featureDesc": "An idea that would make KinMate better.",
-      "question": "Ask a question",
-      "questionDesc": "Not sure how something works? Ask us.",
+      "bugDesc": "Something feels off or isn't working. We're sorry — let's fix it.",
+      "feature": "Suggest an idea",
+      "featureDesc": "Tell us what would make KinMate better for your family.",
+      "question": "Ask us anything",
+      "questionDesc": "Not sure how something works? No question is too small.",
       "browse": "Browse existing issues"
     },
     "form": {
-      "title": "Send feedback",
-      "subtitle": "Prefer a form? Fill it in and we'll open a prefilled GitHub issue or email for you.",
-      "category": "Category",
-      "catBug": "Bug",
-      "catFeature": "Feature idea",
-      "catQuestion": "Question",
-      "catOther": "Other",
-      "summary": "Summary",
-      "summaryPlaceholder": "A short, clear title",
-      "details": "Details",
-      "detailsPlaceholder": "What happened, what you expected, and steps to reproduce…",
+      "title": "Tell us anything",
+      "subtitle": "No account needed. Write a few words and we'll open a prefilled GitHub issue or an email for you — whichever you prefer.",
+      "category": "What's this about?",
+      "catBug": "Something's wrong",
+      "catFeature": "An idea",
+      "catQuestion": "A question",
+      "catOther": "Just sharing",
+      "summary": "In short",
+      "summaryPlaceholder": "A few words to start",
+      "details": "Tell us more",
+      "detailsPlaceholder": "Take your time — what happened, what you hoped for, anything that helps us understand.",
       "email": "Your email (optional)",
-      "emailPlaceholder": "So we can follow up with you",
-      "submitGithub": "Open as GitHub issue",
+      "emailPlaceholder": "Only if you'd like us to reply",
+      "submitGithub": "Send via GitHub",
       "submitEmail": "Send via email",
-      "required": "Please add a summary and some details first.",
-      "privacyNote": "Please don't include sensitive health data — KinMate is private by design."
+      "required": "A short summary and a little detail help us help you.",
+      "privacyNote": "Please leave out sensitive health details — your privacy comes first, always."
     },
     "contact": {
-      "title": "Or just email us",
-      "desc": "We typically reply within a few days."
+      "title": "Or just write to us",
+      "desc": "A real person reads every message. We usually reply within a few days — thank you for your patience."
     }
   }
 }
