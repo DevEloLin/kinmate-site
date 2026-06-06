@@ -7,6 +7,11 @@ name: Build & publish site → docs/
 on:
   push:
     branches: [main]
+    # 忽略本 workflow 自己提交的构建产物，避免「重建→提交 docs/→再触发」的自循环。
+    # data/release.json（发版时由 applabs 写入）不在忽略列表，故新版本会正常触发
+    # 一次重建，下载页随之更新。
+    paths-ignore:
+      - 'docs/**'
   workflow_dispatch: {}
 
 permissions:
