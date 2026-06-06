@@ -59,7 +59,7 @@ export default async function ReferralPage({
         <RevealStagger className="mx-auto mt-10 grid max-w-4xl grid-cols-2 gap-3 sm:grid-cols-3 lg:gap-4" gap={0.07}>
           {tiers.map((row, i) => (
             <RevealItem key={row.invites}>
-              <div className="group flex h-full flex-col items-center rounded-2xl border border-ink-100 bg-white p-5 text-center shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-md">
+              <div className="group flex h-full flex-col items-center rounded-[1.6rem] border border-white/70 bg-white/75 p-4 text-center shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200/70 hover:bg-white/90 hover:shadow-[0_18px_40px_rgba(21,128,61,0.08)]">
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-50 text-brand-600 transition-colors duration-200 group-hover:bg-brand-100">
                   <Users className="h-5 w-5" aria-hidden="true" />
                 </span>
@@ -83,7 +83,7 @@ export default async function ReferralPage({
         </Reveal>
         <RevealStagger className="mx-auto mt-10 grid max-w-4xl gap-4 md:grid-cols-2 lg:gap-5">
           <RevealItem>
-            <article className="group h-full rounded-2xl border border-ink-100 bg-white p-6 shadow-sm transition-all duration-200 hover:border-brand-200 hover:shadow-md">
+            <article className="group h-full rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200/70 hover:bg-white/90 hover:shadow-[0_18px_40px_rgba(21,128,61,0.08)]">
               <div className="mb-4 flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-50 text-brand-600 group-hover:bg-brand-100">
                   <Users className="h-5 w-5" />
@@ -101,7 +101,7 @@ export default async function ReferralPage({
             </article>
           </RevealItem>
           <RevealItem>
-            <article className="group h-full rounded-2xl border border-ink-100 bg-white p-6 shadow-sm transition-all duration-200 hover:border-brand-200 hover:shadow-md">
+            <article className="group h-full rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200/70 hover:bg-white/90 hover:shadow-[0_18px_40px_rgba(21,128,61,0.08)]">
               <div className="mb-4 flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-50 text-brand-600 group-hover:bg-brand-100">
                   <Clock className="h-5 w-5" />

@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Section, SectionHeading, TrustCard, FeatureCard } from '@/components/section'
 import { CtaGroup } from '@/components/cta'
 import { Reveal, RevealStagger, RevealItem, Floaty } from '@/components/motion'
+import { TestimonialsCarousel } from '@/components/testimonials-carousel'
 import { PhoneFrame } from '@/components/app-mockup/phone-frame'
 import { HomeScreen, HealthScreen } from '@/components/app-mockup/screens'
 import { Link } from '@/i18n/routing'
@@ -24,6 +25,12 @@ export default async function Home({
   const trustIcons = [ShieldCheck, Cloud, Languages, PawPrint]
   const stats = t.raw('hero.stats') as Array<{ k: string; v: string }>
   const steps = t.raw('howItWorks.steps') as Array<{ title: string; body: string }>
+  const testimonials = t.raw('testimonials.items') as Array<{
+    name: string
+    role: string
+    quote: string
+    outcome: string
+  }>
 
   return (
     <>
@@ -145,6 +152,21 @@ export default async function Home({
             )
           })}
         </RevealStagger>
+      </Section>
+
+      {/* ───────────────── 真实用户声音 ───────────────── */}
+      <Section className="border-t border-ink-100 bg-cream/30">
+        <Reveal>
+          <SectionHeading
+            eyebrow={t('testimonials.eyebrow')}
+            title={t('testimonials.title')}
+            subtitle={t('testimonials.subtitle')}
+            center
+          />
+        </Reveal>
+        <Reveal className="mt-10">
+          <TestimonialsCarousel items={testimonials} />
+        </Reveal>
       </Section>
 
       {/* ───────────────── 功能 ───────────────── */}

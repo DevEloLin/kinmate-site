@@ -31,7 +31,7 @@ export default async function ByocPage({
           <div className="absolute -top-20 right-0 h-[24rem] w-[24rem] rounded-full bg-accent-400/20 blur-3xl" />
         </div>
 
-        <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-16 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:py-24">
+        <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 py-14 sm:py-18 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:py-22">
           {/* 左：文案 */}
           <Reveal from="up">
             <p className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/70 px-3 py-1 text-sm font-semibold uppercase tracking-wider text-brand-600 backdrop-blur">
@@ -54,15 +54,15 @@ export default async function ByocPage({
 
             {/* 安全说明胶囊 */}
             <div className="mt-8 flex flex-wrap gap-3 text-sm text-ink-500">
-              <span className="inline-flex items-center gap-2 rounded-full border border-ink-100 bg-white px-3 py-1.5 shadow-sm">
+              <span className="inline-flex items-center gap-2 rounded-full border border-white/70 bg-white/70 px-3 py-1.5 shadow-[0_8px_24px_rgba(15,23,42,0.05)] backdrop-blur-md">
                 <Shield className="h-4 w-4 text-brand-500" aria-hidden />
                 AES-256-GCM
               </span>
-              <span className="inline-flex items-center gap-2 rounded-full border border-ink-100 bg-white px-3 py-1.5 shadow-sm">
+              <span className="inline-flex items-center gap-2 rounded-full border border-white/70 bg-white/70 px-3 py-1.5 shadow-[0_8px_24px_rgba(15,23,42,0.05)] backdrop-blur-md">
                 <KeyRound className="h-4 w-4 text-brand-500" aria-hidden />
                 12-word BIP39
               </span>
-              <span className="inline-flex items-center gap-2 rounded-full border border-ink-100 bg-white px-3 py-1.5 shadow-sm">
+              <span className="inline-flex items-center gap-2 rounded-full border border-white/70 bg-white/70 px-3 py-1.5 shadow-[0_8px_24px_rgba(15,23,42,0.05)] backdrop-blur-md">
                 <Lock className="h-4 w-4 text-brand-500" aria-hidden />
                 Device-only
               </span>
@@ -95,7 +95,7 @@ export default async function ByocPage({
         <RevealStagger className="mt-10 grid gap-4 sm:mt-12 md:grid-cols-3 lg:gap-5">
           {providers.map((p, index) => (
             <RevealItem key={p.name}>
-              <div className="group relative h-full overflow-hidden rounded-2xl border border-ink-100 bg-white p-6 shadow-sm transition-all duration-200 hover:border-brand-200 hover:shadow-md">
+              <div className="group relative h-full overflow-hidden rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200/70 hover:bg-white/90 hover:shadow-[0_18px_40px_rgba(21,128,61,0.08)]">
                 {/* 背景装饰 */}
                 <div
                   aria-hidden
@@ -103,14 +103,14 @@ export default async function ByocPage({
                 />
                 <div className="relative">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white shadow-lg shadow-brand-500/20">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 text-white shadow-lg shadow-brand-500/20">
                       <Cloud className="h-6 w-6" aria-hidden="true" />
                     </div>
                     <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ink-100/60 text-xs font-bold text-ink-500">
                       {index + 1}
                     </span>
                   </div>
-                  <h3 className="mt-4 text-lg font-semibold text-ink-900">{p.name}</h3>
+                  <h3 className="mt-4 text-base font-semibold text-ink-900">{p.name}</h3>
                   <p className="mt-2 text-sm leading-6 text-ink-500">{p.scope}</p>
                 </div>
               </div>
@@ -124,7 +124,7 @@ export default async function ByocPage({
         <div className="grid items-stretch gap-6 lg:grid-cols-[1.15fr_0.85fr] lg:gap-8">
           {/* 加密承诺面板：复用 hero 安全要点，重点强调本地加密 */}
           <Reveal from="right">
-            <div className="relative h-full overflow-hidden rounded-3xl bg-gradient-to-br from-brand-500 via-brand-600 to-brand-700 p-8 text-white shadow-2xl shadow-brand-500/25 sm:p-10">
+            <div className="relative h-full overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-brand-500 via-brand-600 to-brand-700 p-7 text-white shadow-2xl shadow-brand-500/25 sm:p-9 backdrop-blur-sm">
               <div className="pointer-events-none absolute -right-12 -top-12 h-48 w-48 rounded-full bg-white/5 blur-3xl" aria-hidden />
               <div className="pointer-events-none absolute -bottom-12 -left-12 h-40 w-40 rounded-full bg-white/5 blur-3xl" aria-hidden />
               <div className="relative">
@@ -143,7 +143,7 @@ export default async function ByocPage({
                   ].map(({ icon: Icon, label }) => (
                     <li
                       key={label}
-                      className="flex items-center gap-3 rounded-xl bg-white/10 px-4 py-3 backdrop-blur-sm transition-colors duration-150 hover:bg-white/15"
+                      className="flex items-center gap-3 rounded-2xl bg-white/10 px-4 py-3 backdrop-blur-md transition-colors duration-150 hover:bg-white/15"
                     >
                       <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white/15">
                         <Icon className="h-5 w-5" aria-hidden />
@@ -158,8 +158,8 @@ export default async function ByocPage({
 
           {/* 警告框 */}
           <Reveal from="left" delay={0.1}>
-            <div className="flex h-full flex-col overflow-hidden rounded-3xl border border-amber-200 bg-gradient-to-br from-amber-50 to-amber-50/40 p-6 sm:p-8">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-amber-100 shadow-sm">
+            <div className="flex h-full flex-col overflow-hidden rounded-[2rem] border border-amber-200/70 bg-gradient-to-br from-amber-50/90 to-amber-50/50 p-6 shadow-[0_10px_28px_rgba(245,158,11,0.08)] backdrop-blur-md sm:p-8">
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-amber-100 shadow-sm">
                 <AlertTriangle className="h-6 w-6 text-amber-600" aria-hidden="true" />
               </div>
               <h4 className="mt-5 text-lg font-semibold text-amber-900">
