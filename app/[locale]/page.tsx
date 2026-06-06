@@ -108,19 +108,21 @@ export default async function Home({
       </section>
 
       {/* ───────────────── 真实用户声音 ───────────────── */}
-      <Section className="border-t border-ink-100 bg-white/80">
-        <Reveal>
-          <SectionHeading
-            eyebrow={t('testimonials.eyebrow')}
-            title={t('testimonials.title')}
-            subtitle={t('testimonials.subtitle')}
-            center
-          />
-        </Reveal>
+      <section className="border-t border-ink-100 bg-white/80 py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto max-w-7xl px-6">
+          <Reveal>
+            <SectionHeading
+              eyebrow={t('testimonials.eyebrow')}
+              title={t('testimonials.title')}
+              subtitle={t('testimonials.subtitle')}
+              center
+            />
+          </Reveal>
+        </div>
         <Reveal className="mt-10">
           <TestimonialsMarquee items={testimonials} />
         </Reveal>
-      </Section>
+      </section>
 
       {/* ───────────────── 痛点 → 方案 ───────────────── */}
       <Section className="border-t border-ink-100 bg-cream/30">
