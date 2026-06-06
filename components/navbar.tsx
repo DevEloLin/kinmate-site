@@ -58,6 +58,9 @@ export function Navbar() {
           <Link href="/download" className={navLinkClass}>
             {t('download')}
           </Link>
+          <Link href="/feedback" className={navLinkClass}>
+            {t('feedback')}
+          </Link>
         </nav>
 
         <div className="flex items-center gap-3">
