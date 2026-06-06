@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "buildNumber": 7,
-  "appVersion": "1.0.0+7",
+  "buildNumber": 10,
+  "appVersion": "1.0.0+10",
   "releaseTag": "v1.0.0",
   "releaseUrl": "https://github.com/DevEloLin/kinmate-site/releases/tag/v1.0.0",
-  "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/v1.0.0/kinmate-1.0.0-7-release.apk"
+  "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/v1.0.0/kinmate-1.0.0-10-release.apk"
 }
