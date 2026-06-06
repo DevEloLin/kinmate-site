@@ -414,6 +414,72 @@
         "role": "Daughter, Virginia",
         "quote": "I wanted a simple way to help my parents without taking over their whole routine. KinMate makes that feel manageable.",
         "outcome": "Helps without adding more work"
+      },
+      {
+        "name": "Hannah",
+        "role": "Nurse, Illinois",
+        "quote": "I can open the same timeline on the phone and stop asking families to resend the same scans over and over.",
+        "outcome": "Less back-and-forth during care"
+      },
+      {
+        "name": "Ben",
+        "role": "Son, Florida",
+        "quote": "My parents don't need to explain every appointment twice anymore. I just check the record and move on.",
+        "outcome": "Saves time after visits"
+      },
+      {
+        "name": "Chloe",
+        "role": "Daughter, California",
+        "quote": "The medication reminders are calm and simple. That matters because my mom actually keeps using the app.",
+        "outcome": "More consistent medication follow-through"
+      },
+      {
+        "name": "Henry",
+        "role": "Adult son, New Jersey",
+        "quote": "We used to keep one folder for each hospital and none of them matched. Now everything is in one place, which is a huge relief.",
+        "outcome": "One place instead of scattered folders"
+      },
+      {
+        "name": "Ruby",
+        "role": "Pet owner, Texas",
+        "quote": "I stopped missing vet reminders because the pet record and the reminder live together now.",
+        "outcome": "Fewer missed pet tasks"
+      },
+      {
+        "name": "Leo",
+        "role": "Son abroad, Singapore",
+        "quote": "Living overseas means I need updates that are quick, clear, and not a full family call every time.",
+        "outcome": "Keeps me updated remotely"
+      },
+      {
+        "name": "Claire",
+        "role": "Family organizer, Ohio",
+        "quote": "It feels lighter when the reports, reminders, and family notes all move together instead of living in different apps.",
+        "outcome": "Less mental overhead"
+      },
+      {
+        "name": "Jason",
+        "role": "Caregiver, Washington",
+        "quote": "The biggest difference is not having to chase people for the same information. The app keeps the facts ready.",
+        "outcome": "Less chasing, more clarity"
+      },
+      {
+        "name": "Nora",
+        "role": "Daughter, Arizona",
+        "quote": "I can help my dad stay on track without taking over his phone or his routine.",
+        "outcome": "Support without control"
+      },
+      {
+        "name": "Evelyn",
+        "role": "Mom, Oregon",
+        "quote": "When a doctor asks a follow-up question, I can answer from the record instead of memory.",
+        "outcome": "Less guessing at appointments"
+      },
+      {
+        "name": "Owen",
+        "role": "Working father, Utah",
+        "quote": "I finally get a few minutes back in the evening because I am not reorganizing files after dinner.",
+        "outcome": "Gives back evening time"
       }
     ]
   },
