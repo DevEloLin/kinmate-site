@@ -3,11 +3,10 @@
 
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Section, SectionHeading } from '@/components/section'
-import { Reveal, RevealStagger, RevealItem } from '@/components/motion'
-import { Link } from '@/i18n/routing'
-import { CheckCircle2, Sparkles, Users, Crown } from 'lucide-react'
-import clsx from 'clsx'
+import { Reveal } from '@/components/motion'
 import { LaunchPromoDialog } from '@/components/launch-promo-dialog'
+import { PricingPlans, type PricingPlan } from '@/components/pricing-plans'
+import { ShieldCheck, Smartphone, Clock3 } from 'lucide-react'
 
 type PlanKey = 'free' | 'personalPlus' | 'family3' | 'family5' | 'family8'
 
@@ -51,16 +50,12 @@ export default async function PricingPage({
     { key: 'family5' },
     { key: 'family8' },
   ]
-
-  // 套餐图标映射
-  const planIcons: Record<PlanKey, typeof Sparkles> = {
-    free: Sparkles,
-    personalPlus: Users,
-    family3: Crown,
-    family5: Crown,
-    family8: Crown,
-  }
   const launchPromo = t.raw('pricing.launchPromo') as LaunchPromoCopy
+  const isZh = locale === 'zh'
+  const planCards = plans.map(({ key, highlighted }): PricingPlan => {
+    const plan = t.raw(`pricing.plans.${key}`) as Plan
+    return { key, ...plan, highlighted }
+  })
 
   return (
     <Section className="relative overflow-hidden bg-cream/30">
@@ -80,159 +75,52 @@ export default async function PricingPage({
         />
       </Reveal>
 
-      {/* 试用徽章 */}
       <Reveal delay={0.1}>
-        <div className="mx-auto mt-6 flex justify-center">
-          <div className="inline-flex items-center gap-2.5 rounded-full border border-brand-200/60 bg-gradient-to-r from-brand-50/80 to-white px-4 py-2 text-sm font-medium text-brand-700 shadow-sm">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-400 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-accent-500" />
-            </span>
-            {t('pricing.freeTrialBadge')}
+        <div className="mx-auto mt-8 grid max-w-5xl gap-4 md:grid-cols-3">
+          <div className="rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-600/90">
+              {isZh ? '首发试用' : 'Launch trial'}
+            </p>
+            <p className="mt-2 text-lg font-semibold text-ink-900">
+              {isZh ? '前 1000 名用户可获得 60 天免费试用' : 'The first 1,000 users get a 60-day free trial'}
+            </p>
+            <p className="mt-2 text-sm leading-6 text-ink-500">
+              {isZh ? '先到先得，名额用完即止。' : 'First come, first served. The offer ends once the quota is claimed.'}
+            </p>
+          </div>
+          <div className="rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-600/90">
+              {isZh ? '当前可订阅平台' : 'Subscription availability'}
+            </p>
+            <p className="mt-2 text-lg font-semibold text-ink-900">
+              {isZh ? '目前仅开放 iPhone / iPad 订阅' : 'Subscriptions are available on iPhone and iPad only for now'}
+            </p>
+            <p className="mt-2 text-sm leading-6 text-ink-500">
+              {isZh ? 'Android 用户可先下载使用，待 Google Play 上架后再开放订阅。' : 'Android users can download the app now and wait for Google Play launch before subscriptions open.'}
+            </p>
+          </div>
+          <div className="rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-600/90">
+              {isZh ? '计费方式' : 'Billing'}
+            </p>
+            <p className="mt-2 text-lg font-semibold text-ink-900">
+              {isZh ? '先只看月付，年付稍后开放' : 'Monthly first, yearly coming later'}
+            </p>
+            <p className="mt-2 text-sm leading-6 text-ink-500">
+              {isZh ? '先把产品用顺手，再开放更复杂的计费选项。' : 'We are keeping the flow simple while the product is still growing.'}
+            </p>
           </div>
         </div>
       </Reveal>
 
-      {/* 计费周期说明（月 / 年） */}
-      <Reveal delay={0.15}>
-        <div className="mx-auto mt-5 flex w-fit items-center gap-1 rounded-full border border-ink-100 bg-white p-1 text-sm shadow-sm">
-          <span className="rounded-full bg-ink-900 px-4 py-1.5 font-medium text-white">
-            {t('pricing.billingMonthly')}
-          </span>
-          <span className="px-4 py-1.5 font-medium text-ink-500">
-            {t('pricing.billingYearly')}
-          </span>
-        </div>
-      </Reveal>
-
-      <RevealStagger
-        className="mt-10 grid items-start gap-4 sm:mt-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 lg:gap-5"
-        gap={0.1}
-      >
-        {plans.map(({ key, highlighted }) => {
-          const plan = t.raw(`pricing.plans.${key}`) as Plan
-          const Icon = planIcons[key]
-          return (
-            <RevealItem key={key} className={clsx(highlighted && 'lg:-mt-4')}>
-              <article
-                className={clsx(
-                  'group relative flex h-full flex-col rounded-3xl p-6 transition-all duration-200',
-                  highlighted
-                    // 推荐档：brand 渐变描边（gradient border via padding trick）+ 高亮阴影
-                    ? 'bg-gradient-to-b from-brand-400 to-brand-600 p-[1.5px] shadow-xl shadow-brand-500/20 lg:scale-[1.03]'
-                    : 'border border-ink-100 bg-white shadow-sm hover:border-ink-200 hover:shadow-md'
-                )}
-              >
-                {/* 推荐徽章 */}
-                {highlighted && (
-                  <div className="absolute -top-3.5 left-1/2 z-10 -translate-x-1/2">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-accent-500 to-accent-600 px-4 py-1.5 text-xs font-semibold text-white shadow-md shadow-accent-500/30">
-                      <Crown className="h-3 w-3" aria-hidden="true" />
-                      {plan.tag}
-                    </span>
-                  </div>
-                )}
-
-                {/* 推荐档：内层白卡（实现渐变描边效果） */}
-                <div
-                  className={clsx(
-                    'flex h-full flex-col',
-                    highlighted && 'rounded-[calc(1.5rem-1.5px)] bg-white p-6'
-                  )}
-                >
-                  {/* 套餐图标和标签 */}
-                  <div className="flex items-center gap-3">
-                    <span
-                      className={clsx(
-                        'flex h-10 w-10 items-center justify-center rounded-xl transition-colors duration-200',
-                        highlighted
-                          ? 'bg-brand-100 text-brand-600 group-hover:bg-brand-200'
-                          : 'bg-ink-100/60 text-ink-500 group-hover:bg-ink-100'
-                      )}
-                    >
-                      <Icon className="h-5 w-5" aria-hidden="true" />
-                    </span>
-                    {!highlighted && (
-                      <p className="text-xs font-semibold uppercase tracking-wider text-ink-500">
-                        {plan.tag}
-                      </p>
-                    )}
-                  </div>
-
-                  <h3 className="mt-4 text-xl font-bold text-ink-900">{plan.name}</h3>
-
-                  <div className="mt-4 flex items-baseline gap-1">
-                    <span
-                      className={clsx(
-                        'text-4xl font-bold tracking-tight',
-                        highlighted ? 'text-brand-600' : 'text-ink-900'
-                      )}
-                    >
-                      {plan.price}
-                    </span>
-                    {key !== 'free' && !plan.originalPrice && (
-                      <span className="text-sm text-ink-500">{t('pricing.perMonth')}</span>
-                    )}
-                  </div>
-
-                  {plan.originalPrice ? (
-                    <p className="mt-1.5 inline-flex flex-wrap items-center gap-1.5 text-sm text-ink-500">
-                      <span className="rounded bg-accent-50 px-1.5 py-0.5 text-xs font-medium text-accent-700">
-                        {plan.offer ?? '50% off'}
-                      </span>
-                      <span className="text-ink-400 line-through">
-                        {plan.originalPrice}
-                      </span>
-                      <span>{plan.billing ?? 'Lifetime'}</span>
-                    </p>
-                  ) : plan.yearly ? (
-                    <p className="mt-1.5 inline-flex items-center gap-1 text-sm text-ink-500">
-                      <span className="rounded bg-brand-50 px-1.5 py-0.5 text-xs font-medium text-brand-600">
-                        Save
-                      </span>
-                      {plan.yearly} {t('pricing.perYear')}
-                    </p>
-                  ) : null}
-
-                  <div className="my-6 h-px bg-ink-100" />
-
-                  <ul className="flex-1 space-y-3 text-sm text-ink-700">
-                    {plan.features.map((f) => (
-                      <li key={f} className="flex items-start gap-2.5">
-                        <CheckCircle2
-                          className={clsx(
-                            'mt-0.5 h-4 w-4 shrink-0',
-                            highlighted ? 'text-brand-500' : 'text-ink-400'
-                          )}
-                          aria-hidden="true"
-                        />
-                        <span className="leading-6">{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <Link
-                    href="/download"
-                    className={clsx(
-                      'mt-8 inline-flex min-h-[48px] items-center justify-center rounded-xl px-4 py-3 text-sm font-semibold',
-                      'transition-all duration-200',
-                      highlighted
-                        ? 'bg-gradient-to-r from-accent-500 to-accent-600 text-white shadow-lg shadow-accent-500/30 hover:from-accent-600 hover:to-accent-700 hover:shadow-xl hover:shadow-accent-500/40 active:scale-[0.98]'
-                        : 'bg-ink-100/60 text-ink-900 hover:bg-ink-100 active:scale-[0.98]',
-                      'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2',
-                      highlighted
-                        ? 'focus-visible:outline-accent-500'
-                        : 'focus-visible:outline-brand-500'
-                    )}
-                  >
-                    {t('pricing.current')}
-                  </Link>
-                </div>
-              </article>
-            </RevealItem>
-          )
-        })}
-      </RevealStagger>
+      <PricingPlans
+        plans={planCards}
+        currentLabel={t('pricing.current')}
+        perMonth={t('pricing.perMonth')}
+        perYear={t('pricing.perYear')}
+        billingMonthlyLabel={t('pricing.billingMonthly')}
+        billingYearlyLabel={t('pricing.billingYearly')}
+      />
 
       <Reveal delay={0.1}>
         <p className="mx-auto mt-10 max-w-3xl text-center text-sm leading-6 text-ink-500 sm:mt-12">

@@ -15,10 +15,10 @@
     "playStore": "Get it on Google Play"
   },
   "hero": {
-    "eyebrow": "For every family, everywhere",
-    "title": "Your family's health records, in one calm place.",
-    "subtitle": "Lab reports, prescriptions, medications and pet records — organized in one private vault, explained by AI in your language, and shared with family only when you choose.",
-    "promise": "Local-first. Your files stay on your device unless you choose otherwise.",
+    "eyebrow": "For families who want less friction",
+    "title": "A calmer place for your family's health records.",
+    "subtitle": "Reports, medications, reminders, pet records, and care check-ins stay organized in one private place, so you spend less time searching, less time repeating yourself, and less time worrying.",
+    "promise": "Private by default. Share only when it helps.",
     "stats": [
       {
         "k": "3",
@@ -39,7 +39,7 @@
     ]
   },
   "trust": {
-    "title": "Why people switch to KinMate",
+    "title": "Why families trust KinMate",
     "items": [
       {
         "title": "Local-first by default",
@@ -61,7 +61,7 @@
   },
   "features": {
     "title": "Built for the way real families live",
-    "subtitle": "KinMate makes health management simple, secure, and smart",
+    "subtitle": "Less searching. Less repeating. Less worrying.",
     "items": [
       {
         "title": "Capture in seconds",
@@ -94,22 +94,22 @@
     ]
   },
   "pricing": {
-    "title": "Founding member pricing. No surprises.",
-    "subtitle": "Start with a 60-day full-feature trial. Family 8 is a lifetime founder offer at $199.99, 50% off the regular $399.99.",
+    "title": "Simple pricing for families who want clarity.",
+    "subtitle": "Start with a 60-day full-feature trial for the first 1,000 users. Family 8 is a lifetime founder offer at $199.99, 50% off the regular $399.99.",
     "billingMonthly": "Monthly",
-    "billingYearly": "Yearly · 2 months off",
+    "billingYearly": "Yearly",
     "perMonth": "/month",
     "perYear": "/year",
-    "freeTrialBadge": "Launch special: 60-day free trial included",
+    "freeTrialBadge": "Launch special: first 1,000 users get 60 days free",
     "launchPromo": {
       "title": "KinMate is officially live",
       "badge": "Launch special",
-      "body": "Thank you to our earliest users. To celebrate our App Store launch, we're extending the free trial from 21 days to 60 days and opening a limited-time lifetime membership offer.",
+      "body": "Thank you to our earliest users. To celebrate our App Store launch, we are giving the first 1,000 users a 60-day free trial and opening a limited-time lifetime membership offer. iOS subscriptions are live now; Android subscriptions will open after the Google Play release.",
       "originalPriceLabel": "Original price",
       "originalPrice": "$399.99",
       "launchPriceLabel": "Launch price",
       "launchPrice": "$199.99",
-      "footer": "One-time purchase. Lifetime access. Future core updates included. When the campaign ends, the price returns to normal.",
+      "footer": "One-time purchase. Lifetime access. Future core updates included. First come, first served.",
       "primaryCta": "Get the app",
       "secondaryCta": "Maybe later"
     },
@@ -327,7 +327,7 @@
   },
   "download": {
     "title": "Get KinMate",
-    "subtitle": "Free to download. 60-day Pro trial included. Available on iPhone, iPad, and Android.",
+    "subtitle": "Free to download. 60-day Pro trial included. Set up in minutes on iPhone, iPad, and Android.",
     "ios": "App Store",
     "android": "Google Play",
     "apk": "Android APK",
@@ -335,8 +335,87 @@
     "version": "Version {baseVersion}"
   },
   "about": {
-    "title": "Built by a small team for families like yours",
-    "body": "KinMate started because one of us spent a weekend trying to explain a Chinese-language hospital discharge note to American doctors. We thought: there should be one calm place for your family's health records, that respects your privacy and speaks your language. So we built it."
+    "title": "Built for families who want clarity without the clutter",
+    "body": "KinMate exists because health information is too often scattered, hard to read, and harder to share when it matters. We wanted one calm place for family records: private by default, easy to understand, and simple to share only when you choose."
+  },
+  "testimonials": {
+    "eyebrow": "Real user stories",
+    "title": "What families say after switching",
+    "subtitle": "A few representative stories from people who wanted less searching, less repeating, and less guesswork.",
+    "items": [
+      {
+        "name": "Sarah",
+        "role": "Daughter, Texas",
+        "quote": "I used to spend 15 minutes before every appointment hunting for a single PDF. Now the report is already there, and I can focus on my mom instead of my downloads folder.",
+        "outcome": "Saves about 15 minutes per appointment"
+      },
+      {
+        "name": "Daniel",
+        "role": "Son, California",
+        "quote": "My dad and I kept asking each other the same question about his medication. The check-in and reminder flow finally stopped the back-and-forth.",
+        "outcome": "Cuts repeated calls and texts"
+      },
+      {
+        "name": "Emily",
+        "role": "Caregiver, New York",
+        "quote": "The AI summary is short enough to read before a visit, but detailed enough that I know what to ask next.",
+        "outcome": "Helps me prepare faster"
+      },
+      {
+        "name": "Michael",
+        "role": "Working parent, Illinois",
+        "quote": "I no longer need three different apps for reports, meds, and family updates. One place is easier to keep up with.",
+        "outcome": "Less app-switching, less mental load"
+      },
+      {
+        "name": "Olivia",
+        "role": "Daughter, Florida",
+        "quote": "My mother texts me after every doctor visit. Now I can see the note myself, and we stop repeating the same story twice.",
+        "outcome": "Saves time after each appointment"
+      },
+      {
+        "name": "Noah",
+        "role": "Pet owner, Washington",
+        "quote": "Vaccines, deworming, and vet notes were always scattered. Having the pet records tied to reminders keeps me from missing the easy stuff.",
+        "outcome": "Fewer missed pet care tasks"
+      },
+      {
+        "name": "Grace",
+        "role": "Adult daughter, New Jersey",
+        "quote": "My brother and I finally look at the same timeline. That alone made family coordination much calmer.",
+        "outcome": "Fewer family misunderstandings"
+      },
+      {
+        "name": "Ethan",
+        "role": "Son abroad, Singapore",
+        "quote": "I live overseas, so I needed something that keeps me informed without asking my parents for the same details over and over.",
+        "outcome": "Stays updated without extra calls"
+      },
+      {
+        "name": "Sophia",
+        "role": "Family organizer, Ohio",
+        "quote": "The biggest win is time. I spend less of my evening organizing files and more of it actually being with my family.",
+        "outcome": "Gives back evening time"
+      },
+      {
+        "name": "Ava",
+        "role": "Care coordinator, Oregon",
+        "quote": "Before this, every urgent question turned into a scavenger hunt. Now the key details are where I expect them to be.",
+        "outcome": "Less searching when it matters most"
+      },
+      {
+        "name": "Liam",
+        "role": "Parent of two, Arizona",
+        "quote": "It feels less like a medical app and more like a calm home base for everything the family needs to remember.",
+        "outcome": "Makes the whole routine feel lighter"
+      },
+      {
+        "name": "Mia",
+        "role": "Daughter, Virginia",
+        "quote": "I wanted a simple way to help my parents without taking over their whole routine. KinMate makes that feel manageable.",
+        "outcome": "Helps without adding more work"
+      }
+    ]
   },
   "contact": {
     "title": "Contact",

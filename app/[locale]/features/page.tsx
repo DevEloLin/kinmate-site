@@ -31,7 +31,7 @@ export default async function FeaturesPage({
           <div className="absolute -top-16 right-0 h-[22rem] w-[22rem] rounded-full bg-accent-400/20 blur-3xl" />
         </div>
 
-        <div className="mx-auto max-w-3xl px-6 py-16 text-center sm:py-20 lg:py-24">
+        <div className="mx-auto max-w-3xl px-6 py-14 text-center sm:py-18 lg:py-22">
           <Reveal from="up">
             <p className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/70 px-3 py-1 text-sm font-semibold uppercase tracking-wider text-brand-600 backdrop-blur">
               <span className="relative flex h-2 w-2">
@@ -56,17 +56,17 @@ export default async function FeaturesPage({
         {/* 主打功能：跨列渐变面板，建立层次 */}
         {lead && (
           <Reveal from="up">
-            <article className="group relative overflow-hidden rounded-3xl border border-brand-100 bg-gradient-to-br from-white via-brand-50/40 to-white p-8 shadow-sm transition-all duration-200 hover:shadow-md sm:p-10 lg:p-12">
+            <article className="group relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/80 p-6 shadow-[0_14px_36px_rgba(15,23,42,0.06)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_20px_48px_rgba(21,128,61,0.08)] sm:p-8 lg:p-10">
               <div
                 aria-hidden
-                className="pointer-events-none absolute -right-12 -top-12 h-48 w-48 rounded-full bg-brand-100/50 blur-3xl transition-all duration-200 group-hover:bg-brand-200/50"
+                className="pointer-events-none absolute -right-12 -top-12 h-48 w-48 rounded-full bg-brand-100/40 blur-3xl transition-all duration-200 group-hover:bg-brand-200/50"
               />
               <div className="relative grid items-center gap-6 lg:grid-cols-[auto_1fr] lg:gap-10">
-                <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 text-xl font-bold text-white shadow-lg shadow-brand-500/25">
+                <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 text-lg font-bold text-white shadow-lg shadow-brand-500/20">
                   01
                 </span>
                 <div>
-                  <h2 className="text-2xl font-semibold tracking-tight text-ink-900 sm:text-3xl">
+                  <h2 className="text-2xl font-semibold tracking-tight text-ink-900 sm:text-[2rem]">
                     {lead.title}
                   </h2>
                   <p className="mt-3 max-w-2xl text-base leading-7 text-ink-600 sm:text-lg">
@@ -82,20 +82,20 @@ export default async function FeaturesPage({
         <RevealStagger className="mt-4 grid gap-4 md:grid-cols-2 lg:mt-5 lg:gap-5">
           {rest.map((it, index) => (
             <RevealItem key={it.title}>
-              <article className="group relative h-full overflow-hidden rounded-2xl border border-ink-100 bg-white p-6 shadow-sm transition-all duration-200 hover:border-brand-200 hover:shadow-md sm:p-8">
+              <article className="group relative h-full overflow-hidden rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200/70 hover:bg-white/90 hover:shadow-[0_18px_40px_rgba(21,128,61,0.08)] sm:p-6">
                 {/* 背景装饰光斑 */}
                 <div
                   aria-hidden
-                  className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-brand-50/60 blur-2xl transition-all duration-200 group-hover:bg-brand-100/60"
+                  className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-brand-50/50 blur-2xl transition-all duration-200 group-hover:bg-brand-100/60"
                 />
                 <div className="relative">
-                  <div className="mb-5 flex items-center gap-3">
-                    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-sm font-bold text-white shadow-lg shadow-brand-500/20">
+                  <div className="mb-4 flex items-center gap-3">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 text-sm font-bold text-white shadow-lg shadow-brand-500/20">
                       {String(index + 2).padStart(2, '0')}
                     </span>
                     <span aria-hidden className="h-px flex-1 bg-gradient-to-r from-brand-100 to-transparent" />
                   </div>
-                  <h3 className="text-lg font-semibold text-ink-900 sm:text-xl">{it.title}</h3>
+                  <h3 className="text-base font-semibold text-ink-900 sm:text-lg">{it.title}</h3>
                   <p className="mt-3 leading-7 text-ink-600">{it.body}</p>
                 </div>
               </article>
