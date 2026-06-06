@@ -7,6 +7,13 @@ vault; understand them with bilingual AI; share with family only when you choose
 Built with **Next.js (App Router) + Tailwind CSS + next-intl + framer-motion**.
 Bilingual: **English (default) and 中文**, with a one-tap language switcher.
 
+> **Feedback & contributions / 反馈与贡献**
+> This repo hosts the marketing site only. For bugs, ideas or questions please open an
+> **[Issue](https://github.com/DevEloLin/kinmate-site/issues/new/choose)** (or use the in-site
+> [feedback page](https://develolin.github.io/kinmate-site/en/feedback)). We **do not accept
+> external code pull requests** here — issues are the way to reach us.
+> 本仓库仅为营销落地页。Bug / 建议 / 问题请走 **Issue**（或站内反馈页）；**不接受外部代码 PR**。
+
 ## Live site
 
 Published via GitHub Pages: https://develolin.github.io/kinmate-site/
