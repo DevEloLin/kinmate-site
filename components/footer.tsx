@@ -24,6 +24,7 @@ export function Footer() {
       items: [
         { href: '/about', label: t('links.about') },
         { href: '/contact', label: t('links.contact') },
+        { href: '/feedback', label: t('links.feedback') },
       ],
     },
     {

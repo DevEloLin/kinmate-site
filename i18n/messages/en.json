@@ -5,7 +5,8 @@
     "byoc": "Your Cloud",
     "referral": "Invite & Earn",
     "download": "Download",
-    "about": "About"
+    "about": "About",
+    "feedback": "Feedback"
   },
   "cta": {
     "primary": "Start 60-day free trial",
@@ -363,7 +364,8 @@
       "privacy": "Privacy",
       "terms": "Terms",
       "deleteAccount": "Delete account",
-      "aiDisclaimer": "AI disclaimer"
+      "aiDisclaimer": "AI disclaimer",
+      "feedback": "Feedback"
     },
     "rights": "© 2026 KinMate. All rights reserved."
   },
@@ -414,5 +416,45 @@
         "gain": "Smart local reminders for medications, vaccines, follow-ups and vet visits — for every family member and pet."
       }
     ]
+  },
+  "feedback": {
+    "metaTitle": "Feedback & Support",
+    "eyebrow": "Feedback",
+    "title": "Help shape KinMate",
+    "subtitle": "Found a bug, have an idea, or just a question? We read every message.",
+    "github": {
+      "title": "Report on GitHub",
+      "subtitle": "Public and trackable — you'll be notified when it's resolved.",
+      "bug": "Report a bug",
+      "bugDesc": "Something is broken or behaving unexpectedly.",
+      "feature": "Request a feature",
+      "featureDesc": "An idea that would make KinMate better.",
+      "question": "Ask a question",
+      "questionDesc": "Not sure how something works? Ask us.",
+      "browse": "Browse existing issues"
+    },
+    "form": {
+      "title": "Send feedback",
+      "subtitle": "Prefer a form? Fill it in and we'll open a prefilled GitHub issue or email for you.",
+      "category": "Category",
+      "catBug": "Bug",
+      "catFeature": "Feature idea",
+      "catQuestion": "Question",
+      "catOther": "Other",
+      "summary": "Summary",
+      "summaryPlaceholder": "A short, clear title",
+      "details": "Details",
+      "detailsPlaceholder": "What happened, what you expected, and steps to reproduce…",
+      "email": "Your email (optional)",
+      "emailPlaceholder": "So we can follow up with you",
+      "submitGithub": "Open as GitHub issue",
+      "submitEmail": "Send via email",
+      "required": "Please add a summary and some details first.",
+      "privacyNote": "Please don't include sensitive health data — KinMate is private by design."
+    },
+    "contact": {
+      "title": "Or just email us",
+      "desc": "We typically reply within a few days."
+    }
   }
 }

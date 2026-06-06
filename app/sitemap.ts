@@ -15,6 +15,7 @@ const PATHS = [
   '/download',
   '/about',
   '/contact',
+  '/feedback',
   '/privacy',
   '/terms',
   '/delete-account',
