@@ -1,12 +1,12 @@
 // 首页（landing）重设计版。
-// Hero（文案 + 手机 mockup）→ 数据条 → 信任 → 功能 → How it works → BYOC → 邀请 → CTA。
+// Hero（文案 + 手机 mockup）→ 数据条 → 真实用户声音 → 痛点 → 信任 → 功能 → How it works → BYOC → 邀请 → CTA。
 // 动效走 framer-motion（components/motion），手机图走纯 CSS app-mockup（与真实 App 同配色）。
 
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Section, SectionHeading, TrustCard, FeatureCard } from '@/components/section'
 import { CtaGroup } from '@/components/cta'
 import { Reveal, RevealStagger, RevealItem, Floaty } from '@/components/motion'
-import { TestimonialsCarousel } from '@/components/testimonials-carousel'
+import { TestimonialsWall } from '@/components/testimonials-wall'
 import { PhoneFrame } from '@/components/app-mockup/phone-frame'
 import { HomeScreen, HealthScreen } from '@/components/app-mockup/screens'
 import { Link } from '@/i18n/routing'
@@ -107,6 +107,21 @@ export default async function Home({
         </div>
       </section>
 
+      {/* ───────────────── 真实用户声音 ───────────────── */}
+      <Section className="border-t border-ink-100 bg-white/80">
+        <Reveal>
+          <SectionHeading
+            eyebrow={t('testimonials.eyebrow')}
+            title={t('testimonials.title')}
+            subtitle={t('testimonials.subtitle')}
+            center
+          />
+        </Reveal>
+        <Reveal className="mt-10">
+          <TestimonialsWall items={testimonials} />
+        </Reveal>
+      </Section>
+
       {/* ───────────────── 痛点 → 方案 ───────────────── */}
       <Section className="border-t border-ink-100 bg-cream/30">
         <Reveal>
@@ -152,21 +167,6 @@ export default async function Home({
             )
           })}
         </RevealStagger>
-      </Section>
-
-      {/* ───────────────── 真实用户声音 ───────────────── */}
-      <Section className="border-t border-ink-100 bg-cream/30">
-        <Reveal>
-          <SectionHeading
-            eyebrow={t('testimonials.eyebrow')}
-            title={t('testimonials.title')}
-            subtitle={t('testimonials.subtitle')}
-            center
-          />
-        </Reveal>
-        <Reveal className="mt-10">
-          <TestimonialsCarousel items={testimonials} />
-        </Reveal>
       </Section>
 
       {/* ───────────────── 功能 ───────────────── */}
