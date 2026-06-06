@@ -1,0 +1,10 @@
+name: ❓ Question / 提问
+description: Not sure how something works? / 不确定某个功能怎么用？
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question / 你的问题
+    validations:
+      required: true

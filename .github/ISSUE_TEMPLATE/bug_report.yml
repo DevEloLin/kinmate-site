@@ -1,0 +1,30 @@
+name: 🐞 Bug report / 报告 Bug
+description: Something is broken or behaving unexpectedly. / 出错或行为异常。
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 发生了什么？
+      placeholder: Describe the bug. / 描述这个问题。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / 你期望的结果？
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      placeholder: |
+        1. …
+        2. …
+  - type: input
+    id: env
+    attributes:
+      label: Device / OS / App version / 设备 / 系统 / App 版本
+      placeholder: e.g. iPhone 15, iOS 18, KinMate 1.0.0
+  - type: markdown
+    attributes:
+      value: "⚠️ Please don't include sensitive health data. / 请勿填写敏感健康数据。"

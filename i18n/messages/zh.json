@@ -5,7 +5,8 @@
     "byoc": "自带云盘",
     "referral": "邀请有奖",
     "download": "下载",
-    "about": "关于"
+    "about": "关于",
+    "feedback": "反馈"
   },
   "cta": {
     "primary": "开启 60 天免费试用",
@@ -363,7 +364,8 @@
       "privacy": "隐私",
       "terms": "条款",
       "deleteAccount": "删除账号",
-      "aiDisclaimer": "AI 免责声明"
+      "aiDisclaimer": "AI 免责声明",
+      "feedback": "反馈"
     },
     "rights": "© 2026 KinMate. 保留所有权利。"
   },
@@ -414,5 +416,45 @@
         "gain": "用药、疫苗、复诊、看兽医都有本地智能提醒——覆盖每位家人和宠物。"
       }
     ]
+  },
+  "feedback": {
+    "metaTitle": "反馈与支持",
+    "eyebrow": "反馈",
+    "title": "一起打磨 KinMate",
+    "subtitle": "发现 Bug、有好点子、或只是想问个问题？每一条我们都会看。",
+    "github": {
+      "title": "在 GitHub 反馈",
+      "subtitle": "公开、可追踪 —— 处理完会通知你。",
+      "bug": "报告 Bug",
+      "bugDesc": "出错了或行为不符合预期。",
+      "feature": "功能建议",
+      "featureDesc": "让 KinMate 更好用的想法。",
+      "question": "提个问题",
+      "questionDesc": "不确定某个功能怎么用？问我们。",
+      "browse": "查看已有 issue"
+    },
+    "form": {
+      "title": "提交反馈",
+      "subtitle": "更喜欢表单？填好后我们会帮你打开预填的 GitHub issue 或邮件。",
+      "category": "类型",
+      "catBug": "Bug",
+      "catFeature": "功能建议",
+      "catQuestion": "问题",
+      "catOther": "其它",
+      "summary": "概要",
+      "summaryPlaceholder": "一句话标题",
+      "details": "详细描述",
+      "detailsPlaceholder": "发生了什么、你期望的结果、复现步骤……",
+      "email": "你的邮箱（选填）",
+      "emailPlaceholder": "方便我们回复你",
+      "submitGithub": "以 GitHub issue 提交",
+      "submitEmail": "通过邮件发送",
+      "required": "请先填写概要和详细描述。",
+      "privacyNote": "请勿填写敏感健康数据 —— KinMate 隐私优先。"
+    },
+    "contact": {
+      "title": "或直接发邮件给我们",
+      "desc": "我们通常几天内回复。"
+    }
   }
 }

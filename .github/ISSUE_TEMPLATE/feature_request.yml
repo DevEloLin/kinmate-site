@@ -1,0 +1,14 @@
+name: 💡 Feature request / 功能建议
+description: An idea to make KinMate better. / 让 KinMate 更好的想法。
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve? / 它解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / 你的想法
