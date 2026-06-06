@@ -1,8 +1,8 @@
 {
-  "baseVersion": "1.0.1",
-  "buildNumber": 15,
-  "appVersion": "1.0.1+15",
-  "releaseTag": "android-v1.0.1-b15",
-  "releaseUrl": "https://github.com/DevEloLin/kinmate-site/releases/tag/android-v1.0.1-b15",
-  "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/android-v1.0.1-b15/kinmate-1.0.1-15.apk"
+  "version": "1.0.0",
+  "buildNumber": 1,
+  "appVersion": "1.0.0+1",
+  "releaseTag": "v1.0.0",
+  "releaseUrl": "https://github.com/DevEloLin/kinmate-site/releases/tag/v1.0.0",
+  "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/v1.0.0/kinmate-1.0.0-1-release.apk"
 }
