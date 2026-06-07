@@ -90,6 +90,38 @@
       {
         "title": "Your cloud, your export",
         "body": "Back up to iCloud, Google Drive or OneDrive, and export the entire vault anytime as an encrypted archive."
+      },
+      {
+        "title": "Patient summary for clinic visits",
+        "body": "Generate a structured visit summary in one tap: basic info, disease history, current medications, allergies and recent abnormal indicators. Translate to English on demand and share with your clinician."
+      },
+      {
+        "title": "Multi-metric trend analysis",
+        "body": "See how blood pressure, glucose, cholesterol and more move together over 30, 90 or 180 days. KinMate flags abnormalities, scores severity and offers a plain-language read."
+      },
+      {
+        "title": "Genetic risk insights from family history",
+        "body": "Aggregate diagnoses across your family members into risk profiles for common hereditary conditions. AI-generated, plain language, with prevention suggestions — never a diagnosis."
+      },
+      {
+        "title": "Medical case management",
+        "body": "AI automatically extracts diagnoses and prescriptions from your uploaded reports into structured cases. Track active vs resolved, link reports, and edit by hand whenever you need."
+      },
+      {
+        "title": "Emergency medical card with QR",
+        "body": "One-tap critical info card — blood type, allergies, chronic conditions, current medications, emergency contacts. Show the QR code in a crisis; the receiver opens it in any browser."
+      },
+      {
+        "title": "Unified health timeline",
+        "body": "Reports, diagnoses, medications and important events on one chronological timeline per profile. Filter by event type, jump to any year, see the whole picture at a glance."
+      },
+      {
+        "title": "Family health dashboard",
+        "body": "Family overview card for every member: active cases, attention metrics, overall health status. Surfaces who needs attention first, with one-tap drill-down into their timeline."
+      },
+      {
+        "title": "True cross-device sync",
+        "body": "Sign in on a new phone and your reports, cases, metrics, medications and emergency cards rehydrate from your account automatically. Pull-to-refresh pulls the same complete set — no missing data."
       }
     ]
   },
@@ -278,7 +310,7 @@
       },
       {
         "h": "Account deletion",
-        "p": "Delete your account from inside the app (Settings → Delete account). After a 7-day grace period, all your cloud data is permanently removed. Local data is deleted immediately on uninstall."
+        "p": "Delete your account from inside the app (Settings → Delete account). On confirmation we permanently ban the account, rename the email so it is released back to you, and mark every server-side row tied to your user id as deleted. The original email can be used to register a brand-new account immediately — it will get a new user id and is not linked to your old data. Local data is deleted immediately on uninstall."
       },
       {
         "h": "No ads, no data sales",
@@ -318,8 +350,8 @@
   },
   "delete": {
     "title": "Delete your KinMate account",
-    "body": "You can delete your account from inside the app in three taps: Settings → Delete my account → Confirm. After a 7-day grace period, your account and all server-side data are permanently removed.",
-    "fallback": "If you've already lost access to the app and want to request deletion, email us at devs.applabs@gmail.com from the address linked to your account. We'll process within 7 business days."
+    "body": "You can delete your account from inside the app in three taps: Settings → Delete my account → Confirm. On confirmation we permanently ban the account, release the original email back to you, and mark every server-side row tied to your user id as deleted. There is no grace period — the action is immediate.",
+    "fallback": "If you've already lost access to the app and want to request deletion, email us at devs.applabs@gmail.com from the address linked to your account. We'll process within 7 business days. You can register a brand-new account with the same email right after deletion — it will get a new user id and will not be linked to your old data."
   },
   "aiDisclaimer": {
     "title": "AI explanation disclaimer",
