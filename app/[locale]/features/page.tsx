@@ -8,6 +8,18 @@ import { CtaGroup } from '@/components/cta'
 import { Reveal, RevealStagger, RevealItem } from '@/components/motion'
 import { ArrowUpRight, Sparkles } from 'lucide-react'
 
+interface FeatureItem {
+  title: string
+  body: string
+}
+
+interface FeatureGroup {
+  key: string
+  eyebrow: string
+  heading: string
+  items: FeatureItem[]
+}
+
 export default async function FeaturesPage({
   params,
 }: {
@@ -17,8 +29,9 @@ export default async function FeaturesPage({
   setRequestLocale(locale)
   const t = await getTranslations()
 
-  const items = t.raw('features.items') as Array<{ title: string; body: string }>
-  const [lead, ...rest] = items
+  const groups = t.raw('features.groups') as FeatureGroup[]
+  // 在三组之间累计编号，让用户对全部功能数有整体感
+  let runningNumber = 0
 
   return (
     <>
@@ -51,57 +64,79 @@ export default async function FeaturesPage({
         </div>
       </section>
 
-      {/* ───────────────── 功能列表 ───────────────── */}
+      {/* ───────────────── 分组功能列表 ───────────────── */}
       <Section className="bg-cream/30">
-        {/* 主打功能：跨列渐变面板，建立层次 */}
-        {lead && (
-          <Reveal from="up">
-            <article className="group relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/80 p-6 shadow-[0_14px_36px_rgba(15,23,42,0.06)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_20px_48px_rgba(21,128,61,0.08)] sm:p-8 lg:p-10">
-              <div
-                aria-hidden
-                className="pointer-events-none absolute -right-12 -top-12 h-48 w-48 rounded-full bg-brand-100/40 blur-3xl transition-all duration-200 group-hover:bg-brand-200/50"
-              />
-              <div className="relative grid items-center gap-6 lg:grid-cols-[auto_1fr] lg:gap-10">
-                <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 text-lg font-bold text-white shadow-lg shadow-brand-500/20">
-                  01
-                </span>
-                <div>
-                  <h2 className="text-2xl font-semibold tracking-tight text-ink-900 sm:text-[2rem]">
-                    {lead.title}
+        <div className="space-y-14 sm:space-y-16 lg:space-y-20">
+          {groups.map((group, gIdx) => (
+            <div key={group.key}>
+              {/* 组标题：eyebrow + heading，建立层次 */}
+              <Reveal from="up">
+                <div className="mb-6 flex flex-col items-start gap-2 sm:mb-8">
+                  <span className="inline-flex items-center gap-1.5 rounded-full border border-brand-200 bg-white/80 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wider text-brand-600 backdrop-blur">
+                    {group.eyebrow}
+                  </span>
+                  <h2 className="text-2xl font-semibold tracking-tight text-ink-900 sm:text-3xl">
+                    {group.heading}
                   </h2>
-                  <p className="mt-3 max-w-2xl text-base leading-7 text-ink-600 sm:text-lg">
-                    {lead.body}
-                  </p>
+                  <span aria-hidden className="mt-1 h-1 w-12 rounded-full bg-gradient-to-r from-brand-400 to-brand-600" />
                 </div>
-              </div>
-            </article>
-          </Reveal>
-        )}
+              </Reveal>
 
-        {/* 其余功能：两列编号卡片 */}
-        <RevealStagger className="mt-4 grid gap-4 md:grid-cols-2 lg:mt-5 lg:gap-5">
-          {rest.map((it, index) => (
-            <RevealItem key={it.title}>
-              <article className="group relative h-full overflow-hidden rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200/70 hover:bg-white/90 hover:shadow-[0_18px_40px_rgba(21,128,61,0.08)] sm:p-6">
-                {/* 背景装饰光斑 */}
-                <div
-                  aria-hidden
-                  className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-brand-50/50 blur-2xl transition-all duration-200 group-hover:bg-brand-100/60"
-                />
-                <div className="relative">
-                  <div className="mb-4 flex items-center gap-3">
-                    <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 text-sm font-bold text-white shadow-lg shadow-brand-500/20">
-                      {String(index + 2).padStart(2, '0')}
-                    </span>
-                    <span aria-hidden className="h-px flex-1 bg-gradient-to-r from-brand-100 to-transparent" />
-                  </div>
-                  <h3 className="text-base font-semibold text-ink-900 sm:text-lg">{it.title}</h3>
-                  <p className="mt-3 leading-7 text-ink-600">{it.body}</p>
-                </div>
-              </article>
-            </RevealItem>
+              {/* 该组卡片：3 列紧凑网格，减小尺寸避免视觉过大 */}
+              <RevealStagger className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5">
+                {group.items.map((it) => {
+                  runningNumber += 1
+                  const num = String(runningNumber).padStart(2, '0')
+                  // 中间组（Health Intelligence）用强调色，与其它两组拉开视觉
+                  const isHighlight = group.key === 'intelligence'
+                  return (
+                    <RevealItem key={it.title}>
+                      <article
+                        className={
+                          'group relative h-full overflow-hidden rounded-2xl border bg-white/80 p-5 shadow-[0_8px_24px_rgba(15,23,42,0.05)] backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_14px_32px_rgba(21,128,61,0.08)] ' +
+                          (isHighlight
+                            ? 'border-brand-200/70 hover:border-brand-300'
+                            : 'border-white/70 hover:border-brand-200/70')
+                        }
+                      >
+                        <div
+                          aria-hidden
+                          className={
+                            'pointer-events-none absolute -right-4 -top-4 h-20 w-20 rounded-full blur-2xl transition-all duration-200 ' +
+                            (isHighlight
+                              ? 'bg-brand-100/60 group-hover:bg-brand-200/60'
+                              : 'bg-brand-50/40 group-hover:bg-brand-100/60')
+                          }
+                        />
+                        <div className="relative">
+                          <span
+                            className={
+                              'inline-flex h-8 w-8 items-center justify-center rounded-xl text-xs font-bold text-white shadow-md ' +
+                              (isHighlight
+                                ? 'bg-gradient-to-br from-brand-500 to-brand-700 shadow-brand-500/30'
+                                : 'bg-gradient-to-br from-brand-400/90 to-brand-600/90 shadow-brand-500/20')
+                            }
+                          >
+                            {num}
+                          </span>
+                          <h3 className="mt-3 text-base font-semibold text-ink-900">
+                            {it.title}
+                          </h3>
+                          <p className="mt-2 text-sm leading-6 text-ink-600">{it.body}</p>
+                        </div>
+                      </article>
+                    </RevealItem>
+                  )
+                })}
+              </RevealStagger>
+
+              {/* 组之间的分隔线，最后一组不加 */}
+              {gIdx < groups.length - 1 && (
+                <div aria-hidden className="mx-auto mt-12 h-px max-w-md bg-gradient-to-r from-transparent via-ink-200 to-transparent sm:mt-14" />
+              )}
+            </div>
           ))}
-        </RevealStagger>
+        </div>
       </Section>
 
       {/* ───────────────── CTA 渐变面板 ───────────────── */}

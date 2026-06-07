@@ -62,66 +62,88 @@
   "features": {
     "title": "Built for the way real families live",
     "subtitle": "Less searching. Less repeating. Less worrying.",
-    "items": [
+    "seeAll": "See all features",
+    "groups": [
       {
-        "title": "Capture in seconds",
-        "body": "Snap a photo, pick from your library, or import a PDF — KinMate files it by person, date and report type."
+        "key": "core",
+        "eyebrow": "Core",
+        "heading": "Everyday capture & care",
+        "items": [
+          {
+            "title": "Capture in seconds",
+            "body": "Snap a photo, pick from your library, or import a PDF — KinMate files it by person, date and report type."
+          },
+          {
+            "title": "Metrics that show the trend",
+            "body": "Log blood pressure, glucose, lipids, liver & kidney values — charted over 7/30/90 days with normal-range markers."
+          },
+          {
+            "title": "Medications & smart reminders",
+            "body": "Track prescriptions and get gentle local reminders for doses, follow-ups, vaccines and vet visits — never spam."
+          },
+          {
+            "title": "Family, dependents & pets",
+            "body": "One vault for the whole household — members you care for and pets, each with their own private records."
+          }
+        ]
       },
       {
-        "title": "Metrics that show the trend",
-        "body": "Log blood pressure, glucose, lipids, liver & kidney values — charted over 7/30/90 days with normal-range markers."
+        "key": "intelligence",
+        "eyebrow": "New in v1.2",
+        "heading": "Health Intelligence",
+        "items": [
+          {
+            "title": "Bilingual AI explanations",
+            "body": "Turn a dense lab report into plain English or Chinese. Disclaimers built in — it informs, it never diagnoses."
+          },
+          {
+            "title": "Patient summary for clinic visits",
+            "body": "One-tap structured summary: basic info, disease history, current medications, allergies and recent abnormal indicators. Translate to English to share with your clinician."
+          },
+          {
+            "title": "Multi-metric trend analysis",
+            "body": "Track blood pressure, glucose, cholesterol and more across 30/90/180 days. Abnormalities are flagged, severity scored, with a plain-language read."
+          },
+          {
+            "title": "Medical case management",
+            "body": "AI extracts diagnoses and prescriptions from your reports into structured cases. Track active vs resolved, link reports, edit by hand."
+          },
+          {
+            "title": "Emergency medical card",
+            "body": "Critical info card — blood type, allergies, chronic conditions, current medications, contacts. Show the QR code in a crisis."
+          },
+          {
+            "title": "Genetic risk from family history",
+            "body": "Aggregate family diagnoses into risk profiles for common hereditary conditions. AI-generated, plain language, with prevention suggestions."
+          },
+          {
+            "title": "Unified health timeline",
+            "body": "Reports, diagnoses, medications and key events on one chronological timeline per profile. Filter by type, jump to any year."
+          },
+          {
+            "title": "Family health dashboard",
+            "body": "Overview card for every member: active cases, attention metrics, overall status. Surfaces who needs attention first."
+          }
+        ]
       },
       {
-        "title": "Medications & smart reminders",
-        "body": "Track prescriptions and get gentle local reminders for doses, follow-ups, vaccines and vet visits — never spam."
-      },
-      {
-        "title": "Bilingual AI explanations",
-        "body": "Turn a dense lab report into plain English or Chinese. Disclaimers built in — it informs, it never diagnoses."
-      },
-      {
-        "title": "Care check-in for distant family",
-        "body": "Aging parents tap once a day to say they’re okay; miss it and you get an alert. Caring, not surveillance."
-      },
-      {
-        "title": "Family, dependents & pets",
-        "body": "One vault for the whole household — members you care for and pets, each with their own private records."
-      },
-      {
-        "title": "Your cloud, your export",
-        "body": "Back up to iCloud, Google Drive or OneDrive, and export the entire vault anytime as an encrypted archive."
-      },
-      {
-        "title": "Patient summary for clinic visits",
-        "body": "Generate a structured visit summary in one tap: basic info, disease history, current medications, allergies and recent abnormal indicators. Translate to English on demand and share with your clinician."
-      },
-      {
-        "title": "Multi-metric trend analysis",
-        "body": "See how blood pressure, glucose, cholesterol and more move together over 30, 90 or 180 days. KinMate flags abnormalities, scores severity and offers a plain-language read."
-      },
-      {
-        "title": "Genetic risk insights from family history",
-        "body": "Aggregate diagnoses across your family members into risk profiles for common hereditary conditions. AI-generated, plain language, with prevention suggestions — never a diagnosis."
-      },
-      {
-        "title": "Medical case management",
-        "body": "AI automatically extracts diagnoses and prescriptions from your uploaded reports into structured cases. Track active vs resolved, link reports, and edit by hand whenever you need."
-      },
-      {
-        "title": "Emergency medical card with QR",
-        "body": "One-tap critical info card — blood type, allergies, chronic conditions, current medications, emergency contacts. Show the QR code in a crisis; the receiver opens it in any browser."
-      },
-      {
-        "title": "Unified health timeline",
-        "body": "Reports, diagnoses, medications and important events on one chronological timeline per profile. Filter by event type, jump to any year, see the whole picture at a glance."
-      },
-      {
-        "title": "Family health dashboard",
-        "body": "Family overview card for every member: active cases, attention metrics, overall health status. Surfaces who needs attention first, with one-tap drill-down into their timeline."
-      },
-      {
-        "title": "True cross-device sync",
-        "body": "Sign in on a new phone and your reports, cases, metrics, medications and emergency cards rehydrate from your account automatically. Pull-to-refresh pulls the same complete set — no missing data."
+        "key": "trust",
+        "eyebrow": "Privacy & sync",
+        "heading": "Your data, your devices",
+        "items": [
+          {
+            "title": "Care check-in for distant family",
+            "body": "Aging parents tap once a day to say they're okay; miss it and you get an alert. Caring, not surveillance."
+          },
+          {
+            "title": "Your cloud, your export",
+            "body": "Back up to iCloud, Google Drive or OneDrive. Export the entire vault anytime as an encrypted archive."
+          },
+          {
+            "title": "True cross-device sync",
+            "body": "Sign in on a new phone and reports, cases, metrics, medications and emergency cards rehydrate automatically. Pull-to-refresh pulls the same complete set."
+          }
+        ]
       }
     ]
   },
@@ -378,7 +400,7 @@
       {
         "name": "Sarah",
         "role": "Daughter, Texas",
-        "quote": "I used to spend 15 minutes before every appointment hunting for a single PDF. Now the report is already there, and I can focus on my mom instead of my downloads folder.",
+        "quote": "I used to spend 15 minutes before every appointment hunting for a PDF. Now reports are filed automatically and the timeline shows tests, meds and diagnoses in order — one glance is enough.",
         "outcome": "Saves about 15 minutes per appointment"
       },
       {
@@ -390,7 +412,7 @@
       {
         "name": "Emily",
         "role": "Caregiver, New York",
-        "quote": "The AI summary is short enough to read before a visit, but detailed enough that I know what to ask next.",
+        "quote": "Before each visit I generate a patient summary: basics, history, current meds and recent abnormal values, all laid out. The English translation saves real time in the consultation room.",
         "outcome": "Helps me prepare faster"
       },
       {
@@ -414,14 +436,14 @@
       {
         "name": "Grace",
         "role": "Adult daughter, New Jersey",
-        "quote": "My brother and I finally look at the same timeline. That alone made family coordination much calmer.",
+        "quote": "The family health dashboard makes it obvious who needs attention first — active cases, watch metrics, overall status, all on one card. My brother and I finally see the same picture.",
         "outcome": "Fewer family misunderstandings"
       },
       {
         "name": "Ethan",
         "role": "Son abroad, Singapore",
-        "quote": "I live overseas, so I needed something that keeps me informed without asking my parents for the same details over and over.",
-        "outcome": "Stays updated without extra calls"
+        "quote": "Switching phones used to mean re-organizing years of records. With the new phone I just signed in and everything — reports, cases, meds, emergency card — rehydrated automatically.",
+        "outcome": "Seamless cross-device handover"
       },
       {
         "name": "Sophia",
@@ -432,8 +454,8 @@
       {
         "name": "Ava",
         "role": "Care coordinator, Oregon",
-        "quote": "Before this, every urgent question turned into a scavenger hunt. Now the key details are where I expect them to be.",
-        "outcome": "Less searching when it matters most"
+        "quote": "My mom's allergy list is long — in past emergencies we could never communicate it fast enough. Now the emergency medical card is a single QR: blood type, allergies, chronic conditions, current meds, all there.",
+        "outcome": "Calm in the moments that matter"
       },
       {
         "name": "Liam",
@@ -450,8 +472,8 @@
       {
         "name": "Hannah",
         "role": "Nurse, Illinois",
-        "quote": "I can open the same timeline on the phone and stop asking families to resend the same scans over and over.",
-        "outcome": "Less back-and-forth during care"
+        "quote": "The case manager pulls diagnoses and prescriptions straight out of uploaded reports — active vs resolved at a glance. I don't have to mine family chat history for context anymore.",
+        "outcome": "History clear at first look"
       },
       {
         "name": "Ben",

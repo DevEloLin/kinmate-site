@@ -171,20 +171,40 @@ export default async function Home({
         </RevealStagger>
       </Section>
 
-      {/* ───────────────── 功能 ───────────────── */}
+      {/* ───────────────── 功能：homepage 摘选 ───────────────── */}
+      {/* 完整 15 条分组列表在 /features 页；首页只展示每组前 2 张精选，
+          避免一屏 15 张卡片把 LP 拖得过长，卡片视觉过大。 */}
       <Section className="bg-cream/30">
         <Reveal><SectionHeading title={t('features.title')} subtitle={t('features.subtitle')} center /></Reveal>
         <RevealStagger className="mt-10 grid gap-4 sm:mt-12 md:grid-cols-2 lg:grid-cols-3 lg:gap-5">
-          {(t.raw('features.items') as Array<{ title: string; body: string }>).map((it, index) => (
-            <RevealItem key={it.title}>
-              <FeatureCard
-                icon={<span className="text-sm font-bold">{String(index + 1).padStart(2, '0')}</span>}
-                title={it.title}
-                description={it.body}
-              />
-            </RevealItem>
-          ))}
+          {(() => {
+            const groups = t.raw('features.groups') as Array<{
+              key: string
+              eyebrow: string
+              heading: string
+              items: Array<{ title: string; body: string }>
+            }>
+            const highlights = groups.flatMap((g) => g.items.slice(0, 2))
+            return highlights.map((it, index) => (
+              <RevealItem key={it.title}>
+                <FeatureCard
+                  icon={<span className="text-sm font-bold">{String(index + 1).padStart(2, '0')}</span>}
+                  title={it.title}
+                  description={it.body}
+                />
+              </RevealItem>
+            ))
+          })()}
         </RevealStagger>
+        <div className="mt-10 flex justify-center">
+          <Link
+            href="/features"
+            className="group inline-flex min-h-[44px] items-center gap-2 rounded-xl border border-brand-200 bg-white px-5 py-2.5 text-sm font-medium text-brand-700 transition-all duration-200 hover:border-brand-300 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
+          >
+            {t('features.seeAll')}
+            <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" />
+          </Link>
+        </div>
       </Section>
 
       {/* ───────────────── How it works ───────────────── */}
