@@ -12,7 +12,13 @@ const withNextIntl = createNextIntlPlugin('./i18n/request.ts')
 const isExport = process.env.STATIC_EXPORT === '1'
 // GitHub Pages 项目站点（username.github.io/REPO）需把 basePath 设为 /REPO；
 // 自定义域名或本地静态服务保持空。通过环境变量覆盖，默认空。
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+//
+// .trim() 用途：deploy workflow 里 `${{ vars.SITE_BASE_PATH || fallback }}` 这种 GitHub
+// Actions 表达式会把**空字符串当成 falsy 回退**到默认 fallback；要让自定义域绕过 fallback
+// 又不让 Next 收到非空 basePath，业界做法是把仓库变量设为单个空格 " "（truthy 跳过 ||
+// 回退），然后在这里 trim 掉得到 ''。没有 .trim() 时 basePath 会是字面 " "，下发到所有
+// 静态 URL 前会输出 ` /_next/...`，照样 404。
+const basePath = (process.env.NEXT_PUBLIC_BASE_PATH || '').trim()
 
 const securityHeaders = [
   { key: 'X-Frame-Options', value: 'DENY' },
