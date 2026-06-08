@@ -15,10 +15,14 @@
     "playStore": "Get it on Google Play"
   },
   "hero": {
-    "eyebrow": "For families who want less friction",
-    "title": "A calmer place for your family's health records.",
-    "subtitle": "Reports, medications, reminders, pet records, and care check-ins stay organized in one private place, so you spend less time searching, less time repeating yourself, and less time worrying.",
-    "promise": "Private by default. Share only when it helps.",
+    "launchBanner": {
+      "text": "Launch special · Family 8 lifetime $199.99 (was $399.99)",
+      "cta": "See the offer"
+    },
+    "eyebrow": "For the moment your mom asked — and you couldn't find it",
+    "title": "Last time mom asked for her thyroid result, did you find it?",
+    "subtitle": "KinMate keeps every report, every dose, every reminder for everyone you love — in one private place. So next time, the answer is yes.",
+    "promise": "Private by default. There the moment family asks.",
     "stats": [
       {
         "k": "3",
@@ -29,8 +33,8 @@
         "v": "End-to-end encrypted"
       },
       {
-        "k": "0",
-        "v": "Data on our servers"
+        "k": "1 tap",
+        "v": "To recall any record"
       },
       {
         "k": "EN · 中文",
