@@ -390,7 +390,10 @@
     "android": "Google Play",
     "apk": "Android APK",
     "apkStore": "GitHub Release",
-    "version": "Version {baseVersion}"
+    "version": "Version {baseVersion}",
+    "comingSoon": "Coming soon",
+    "underReviewBanner": "App Store and Google Play submissions are currently under review. Until they go live, you can install the signed Android APK below — or leave us your email and we'll ping you the moment store listings publish.",
+    "pendingBadge": "Under review"
   },
   "about": {
     "title": "Built for families who want clarity without the clutter",
