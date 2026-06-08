@@ -34,6 +34,24 @@ export default async function Home({
 
   return (
     <>
+      {/* ───────────────── Launch banner（首发限时 · Family 8 永久买断） ─────────────────
+         整页顶上一条 ribbon，全宽、可点击 → /pricing。视觉上是首屏第一行，
+         eyebrow + title + mockup 自然顺位下沉到第二行。活动结束需下线 Family 8
+         lifetime SKU 时，删本 ribbon + i18n hero.launchBanner 两段即可。 */}
+      <Link
+        href="/pricing"
+        className="group block bg-gradient-to-r from-accent-500 via-accent-600 to-accent-500 px-4 py-2.5 text-center text-sm font-medium text-white transition-colors hover:from-accent-600 hover:via-accent-700 hover:to-accent-600"
+      >
+        <span className="inline-flex items-center gap-2">
+          <span aria-hidden>🎁</span>
+          <span>{t('hero.launchBanner.text')}</span>
+          <span className="hidden items-center gap-1 underline underline-offset-2 sm:inline-flex">
+            {t('hero.launchBanner.cta')}
+            <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" />
+          </span>
+        </span>
+      </Link>
+
       {/* ───────────────── Hero ───────────────── */}
       <section className="relative overflow-hidden">
         {/* 背景：网格 + 渐变光斑 */}
