@@ -8,7 +8,7 @@ import { SectionHeading } from '@/components/section'
 import { Reveal, RevealStagger, RevealItem, Floaty } from '@/components/motion'
 import { PhoneFrame } from '@/components/app-mockup/phone-frame'
 import { HomeScreen } from '@/components/app-mockup/screens'
-import { Apple, Smartphone, ShieldCheck, Cloud, Zap, Download } from 'lucide-react'
+import { Apple, Smartphone, ShieldCheck, Cloud, Zap, Download, Clock } from 'lucide-react'
 import { latestRelease } from '@/lib/release'
 import { getAppStoreUrl, getAndroidApkUrl, getGooglePlayUrl } from '@/lib/store-links'
 
@@ -18,14 +18,25 @@ interface StoreBadgeProps {
   badgeText: string
   storeText: string
   icon: React.ReactNode
+  /**
+   * 上架审核状态：传入文案（如 "审核中" / "Under review"）即把 badge 渲染为
+   * 「敬请期待」非可点击态，覆盖 href —— 这是 launch 阶段两大商店还没上架时使用。
+   * 商店一旦上架，直接把调用方的 `comingSoon` 参数去掉即可恢复可点击。
+   */
+  comingSoon?: string
+  /** 与 comingSoon 配套的 "敬请期待" 占位文案，覆盖原 storeText 区。 */
+  comingSoonText?: string
 }
 
-function StoreBadge({ href, ariaLabel, badgeText, storeText, icon }: StoreBadgeProps) {
+function StoreBadge({ href, ariaLabel, badgeText, storeText, icon, comingSoon, comingSoonText }: StoreBadgeProps) {
+  const isPending = Boolean(comingSoon)
+  const isDisabled = isPending || !href
+
   const sharedClasses =
-    'group inline-flex min-h-[72px] w-full items-center gap-4 rounded-2xl bg-ink-900 px-6 py-4 text-white shadow-lg shadow-ink-900/20 transition-all duration-200 sm:w-auto'
+    'group relative inline-flex min-h-[72px] w-full items-center gap-4 rounded-2xl bg-ink-900 px-6 py-4 text-white shadow-lg shadow-ink-900/20 transition-all duration-200 sm:w-auto'
   const enabledClasses =
     'hover:bg-ink-800 hover:shadow-xl hover:shadow-ink-900/25 active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500'
-  const disabledClasses = 'opacity-50 cursor-not-allowed pointer-events-none'
+  const disabledClasses = 'opacity-60 cursor-not-allowed pointer-events-none'
 
   const content = (
     <>
@@ -33,17 +44,25 @@ function StoreBadge({ href, ariaLabel, badgeText, storeText, icon }: StoreBadgeP
         {icon}
       </span>
       <div className="text-left">
-        <p className="text-xs font-medium text-white/60">{storeText}</p>
+        <p className="text-xs font-medium text-white/60">
+          {isPending ? (comingSoonText ?? storeText) : storeText}
+        </p>
         <p className="text-lg font-semibold">{badgeText}</p>
       </div>
+      {isPending && (
+        <span className="absolute -right-2 -top-2 inline-flex items-center gap-1 rounded-full bg-accent-500 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white shadow-md">
+          <Clock className="h-3 w-3" aria-hidden="true" />
+          {comingSoon}
+        </span>
+      )}
     </>
   )
 
-  if (!href) {
+  if (isDisabled) {
     return (
       <span
         className={`${sharedClasses} ${disabledClasses}`}
-        aria-label={ariaLabel}
+        aria-label={isPending ? `${ariaLabel} — ${comingSoon}` : ariaLabel}
         aria-disabled="true"
         role="link"
       >
@@ -107,14 +126,26 @@ export default async function DownloadPage({
 
           <SectionHeading title={t('download.title')} subtitle={t('download.subtitle')} />
 
+          {/* 上架审核提示条 —— App Store / Google Play 都还没上架时显示。
+              用 accent（珊瑚橙）系 + 时钟 icon，让用户看到"审核中"的状态，并明确告诉
+              他们"现在可以下 APK 试用"。两个商店上架后删本条 + 删 StoreBadge 的
+              comingSoon 参数即可。
+              accent 调色板只有 400-700，用 alpha 调出浅色背景与边框。 */}
+          <div className="mt-6 flex items-start gap-3 rounded-2xl border border-accent-400/30 bg-accent-400/10 px-4 py-3 text-sm text-ink-700">
+            <Clock className="mt-0.5 h-5 w-5 shrink-0 text-accent-600" aria-hidden="true" />
+            <p className="leading-relaxed">{t('download.underReviewBanner')}</p>
+          </div>
+
           {/* 商店徽章 */}
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+          <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
             <StoreBadge
               href={appStoreUrl}
               ariaLabel={t('download.ios')}
               badgeText={t('download.ios')}
               storeText={t('cta.appStore')}
               icon={<Apple className="h-7 w-7" aria-hidden="true" />}
+              comingSoon={t('download.pendingBadge')}
+              comingSoonText={t('download.comingSoon')}
             />
             <StoreBadge
               href={googlePlayUrl}
@@ -122,6 +153,8 @@ export default async function DownloadPage({
               badgeText={t('download.android')}
               storeText={t('cta.playStore')}
               icon={<Smartphone className="h-7 w-7" aria-hidden="true" />}
+              comingSoon={t('download.pendingBadge')}
+              comingSoonText={t('download.comingSoon')}
             />
             <StoreBadge
               href={androidApkUrl}

@@ -390,7 +390,10 @@
     "android": "Google Play",
     "apk": "Android APK",
     "apkStore": "GitHub 发布",
-    "version": "版本 {baseVersion}"
+    "version": "版本 {baseVersion}",
+    "comingSoon": "敬请期待",
+    "underReviewBanner": "App Store 与 Google Play 上架审核中。在审核通过之前，你可以先下载下方的签名 Android APK 试用；也可以留下邮箱，上架开放当天我们第一时间通知你。",
+    "pendingBadge": "审核中"
   },
   "about": {
     "title": "为想要清晰、又不想添乱的家庭而做",
