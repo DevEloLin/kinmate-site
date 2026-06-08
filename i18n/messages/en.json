@@ -19,26 +19,27 @@
       "text": "Launch special · Family 8 lifetime $199.99 (was $399.99)",
       "cta": "See the offer"
     },
-    "eyebrow": "For the moment your mom asked — and you couldn't find it",
-    "title": "Last time mom asked for her thyroid result, did you find it?",
-    "subtitle": "KinMate keeps every report, every dose, every reminder for everyone you love — in one private place. So next time, the answer is yes.",
-    "promise": "Private by default. There the moment family asks.",
+    "eyebrow": "Happens after every checkup",
+    "title": "Still scrolling through photos when family asks \"where's the report\"?",
+    "subtitle": "Every checkup, the lab report ends up buried in your camera roll. Follow-ups, reimbursements, a family member asking about a number — every time it's ten minutes of scrolling. KinMate files each photo by the person it belongs to and turns lab results into plain English. Next time the phone rings, you open it and answer — no more \"hold on, let me look.\"",
+    "promise": "Stays on your device. There the moment family asks.",
+    "privacyFinePrint": "🔒 Local-first storage · End-to-end encrypted · Zero analytics SDKs · We never see your files",
     "stats": [
       {
-        "k": "3",
-        "v": "Cloud providers"
+        "k": "3 sec",
+        "v": "to find any record"
       },
       {
         "k": "100%",
         "v": "End-to-end encrypted"
       },
       {
-        "k": "1 tap",
-        "v": "To recall any record"
+        "k": "0",
+        "v": "files on our servers"
       },
       {
-        "k": "EN · 中文",
-        "v": "Bilingual"
+        "k": "Whole family",
+        "v": "humans + pets, separate vaults"
       }
     ]
   },

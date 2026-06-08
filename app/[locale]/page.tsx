@@ -89,6 +89,12 @@ export default async function Home({
               </span>
               <span className="font-medium">{t('hero.promise')}</span>
             </div>
+            {/* 隐私保证小字 —— 紧贴 promise pill 下方，让用户在 hero 内就看到
+                「我们看不到你的文件」的承诺，无需滚到下方 trust 区。文字 11px 灰色，
+                不喧宾夺主，但承诺写得很硬：本地优先 / E2E / 0 行为分析 SDK。 */}
+            <p className="mt-3 max-w-xl text-[11px] leading-relaxed text-ink-500">
+              {t('hero.privacyFinePrint')}
+            </p>
           </Reveal>
 
           {/* 右：手机 mockup（双机错位 + 浮动） */}
