@@ -1,7 +1,6 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import { Quote } from 'lucide-react'
 import clsx from 'clsx'
 
 export interface TestimonialItem {
@@ -32,40 +31,37 @@ function TestimonialCard({
   return (
     <article
       aria-hidden={ariaHidden}
-      className="group relative w-[clamp(18rem,28vw,24rem)] shrink-0 overflow-hidden rounded-[28px] border border-white/70 bg-white/82 p-5 shadow-[0_18px_40px_-28px_rgba(15,23,42,0.30)] backdrop-blur-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_50px_-28px_rgba(15,23,42,0.35)] sm:p-6"
+      className="group relative w-[clamp(15rem,22vw,19rem)] shrink-0 overflow-hidden rounded-[22px] border border-white/70 bg-white/82 p-4 shadow-[0_14px_32px_-26px_rgba(15,23,42,0.28)] backdrop-blur-2xl transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_42px_-26px_rgba(15,23,42,0.32)] sm:p-5"
     >
-      <div className={`absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r ${accent}`} aria-hidden />
-      <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-brand-50/70 blur-3xl opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden />
+      <div className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${accent}`} aria-hidden />
+      <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-brand-50/70 blur-3xl opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden />
 
-      <div className="relative flex items-start justify-between gap-4">
-        <div className="flex items-center gap-3">
+      <div className="relative flex items-start justify-between gap-3">
+        <div className="flex items-center gap-2.5">
           <div
-            className={`flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br ${accent} text-sm font-bold text-white shadow-lg shadow-brand-500/10`}
+            className={`flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br ${accent} text-xs font-bold text-white shadow-md shadow-brand-500/10`}
           >
             {getInitials(item.name)}
           </div>
           <div>
-            <p className="text-base font-semibold text-ink-900">{item.name}</p>
-            <p className="mt-0.5 text-sm text-ink-500">{item.role}</p>
+            <p className="text-sm font-semibold text-ink-900">{item.name}</p>
+            <p className="mt-0.5 text-xs text-ink-500">{item.role}</p>
           </div>
         </div>
 
-        <div className="inline-flex shrink-0 items-center rounded-full border border-brand-200/70 bg-brand-50/70 px-3 py-1 text-xs font-semibold text-brand-700">
+        <div className="inline-flex shrink-0 items-center rounded-full border border-brand-200/70 bg-brand-50/70 px-2.5 py-0.5 text-[11px] font-semibold text-brand-700">
           {item.outcome}
         </div>
       </div>
 
-      <div className="relative mt-5">
-        <Quote className="h-5 w-5 text-brand-400/60" aria-hidden />
-        <p
-          className={clsx(
-            'mt-4 text-ink-800',
-            compact ? 'text-[1rem] leading-7' : 'text-[1.02rem] leading-8 sm:text-[1.05rem]'
-          )}
-        >
-          {item.quote}
-        </p>
-      </div>
+      <p
+        className={clsx(
+          'relative mt-3 text-ink-800',
+          compact ? 'text-[0.92rem] leading-6' : 'text-[0.95rem] leading-7'
+        )}
+      >
+        {item.quote}
+      </p>
     </article>
   )
 }
