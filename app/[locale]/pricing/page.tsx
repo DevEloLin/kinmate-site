@@ -76,7 +76,7 @@ export default async function PricingPage({
       </Reveal>
 
       <Reveal delay={0.1}>
-        <div className="mx-auto mt-8 grid max-w-3xl gap-4 md:grid-cols-2">
+        <div className="mx-auto mt-8 max-w-xl">
           <div className="rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-600/90">
               {isZh ? '首发试用' : 'Launch trial'}
@@ -86,17 +86,6 @@ export default async function PricingPage({
             </p>
             <p className="mt-2 text-sm leading-6 text-ink-500">
               {isZh ? '先到先得，名额用完即止。' : 'First come, first served. The offer ends once the quota is claimed.'}
-            </p>
-          </div>
-          <div className="rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-600/90">
-              {isZh ? '当前可订阅平台' : 'Subscription availability'}
-            </p>
-            <p className="mt-2 text-lg font-semibold text-ink-900">
-              {isZh ? '目前仅开放 iPhone / iPad 订阅' : 'Subscriptions are available on iPhone and iPad only for now'}
-            </p>
-            <p className="mt-2 text-sm leading-6 text-ink-500">
-              {isZh ? 'Android 用户可先下载使用，待 Google Play 上架后再开放订阅。' : 'Android users can download the app now and wait for Google Play launch before subscriptions open.'}
             </p>
           </div>
         </div>
