@@ -345,7 +345,7 @@
       },
       {
         "h": "Contact",
-        "p": "Privacy questions: devs.applabs@gmail.com. Data deletion: devs.applabs@gmail.com."
+        "p": "Privacy questions: kinmate@elolin.com. Data deletion: kinmate@elolin.com."
       }
     ]
   },
@@ -378,7 +378,7 @@
   "delete": {
     "title": "Delete your KinMate account",
     "body": "You can delete your account from inside the app in three taps: Settings → Delete my account → Confirm. On confirmation we permanently ban the account, release the original email back to you, and mark every server-side row tied to your user id as deleted. There is no grace period — the action is immediate.",
-    "fallback": "If you've already lost access to the app and want to request deletion, email us at devs.applabs@gmail.com from the address linked to your account. We'll process within 7 business days. You can register a brand-new account with the same email right after deletion — it will get a new user id and will not be linked to your old data."
+    "fallback": "If you've already lost access to the app and want to request deletion, email us at kinmate@elolin.com from the address linked to your account. We'll process within 7 business days. You can register a brand-new account with the same email right after deletion — it will get a new user id and will not be linked to your old data."
   },
   "aiDisclaimer": {
     "title": "AI explanation disclaimer",
@@ -547,9 +547,9 @@
   },
   "contact": {
     "title": "Contact",
-    "support": "Support: devs.applabs@gmail.com",
-    "privacy": "Privacy: devs.applabs@gmail.com",
-    "press": "Press: devs.applabs@gmail.com"
+    "support": "Support: kinmate@elolin.com",
+    "privacy": "Privacy: kinmate@elolin.com",
+    "press": "Press: kinmate@elolin.com"
   },
   "notFound": {
     "message": "Sorry, we couldn't find the page you're looking for",

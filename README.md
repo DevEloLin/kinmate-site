@@ -72,6 +72,6 @@ builds a static export, and commits it to `docs/`. GitHub Pages serves from `mai
 
 ## Contact
 
-All enquiries — support, privacy, press — go to **devs.applabs@gmail.com**.
+All enquiries — support, privacy, press — go to **kinmate@elolin.com**.
 
 No secrets are stored in this repo — only `.env.example` with public store URLs.
