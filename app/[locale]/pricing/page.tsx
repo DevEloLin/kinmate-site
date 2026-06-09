@@ -76,7 +76,7 @@ export default async function PricingPage({
       </Reveal>
 
       <Reveal delay={0.1}>
-        <div className="mx-auto mt-8 grid max-w-5xl gap-4 md:grid-cols-3">
+        <div className="mx-auto mt-8 grid max-w-3xl gap-4 md:grid-cols-2">
           <div className="rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-600/90">
               {isZh ? '首发试用' : 'Launch trial'}
@@ -97,17 +97,6 @@ export default async function PricingPage({
             </p>
             <p className="mt-2 text-sm leading-6 text-ink-500">
               {isZh ? 'Android 用户可先下载使用，待 Google Play 上架后再开放订阅。' : 'Android users can download the app now and wait for Google Play launch before subscriptions open.'}
-            </p>
-          </div>
-          <div className="rounded-[1.6rem] border border-white/70 bg-white/75 p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)] backdrop-blur-md">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-600/90">
-              {isZh ? '计费方式' : 'Billing'}
-            </p>
-            <p className="mt-2 text-lg font-semibold text-ink-900">
-              {isZh ? '先只看月付，年付稍后开放' : 'Monthly first, yearly coming later'}
-            </p>
-            <p className="mt-2 text-sm leading-6 text-ink-500">
-              {isZh ? '先把产品用顺手，再开放更复杂的计费选项。' : 'We are keeping the flow simple while the product is still growing.'}
             </p>
           </div>
         </div>
