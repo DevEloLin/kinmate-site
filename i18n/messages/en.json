@@ -311,78 +311,142 @@
     ]
   },
   "privacy": {
-    "title": "Privacy policy",
-    "lastUpdated": "Last updated: May 20, 2026",
-    "summary": "Short version: your files stay on your device by default. We never see them.",
+    "title": "Privacy Policy",
+    "lastUpdated": "Effective date: June 9, 2026",
+    "summary": "Short version: KinMate is a personal record manager. Your documents stay on your device by default. We never read them.",
     "sections": [
       {
-        "h": "What stays on your device only",
-        "p": "PDFs, images, OCR text, AI summaries, lab values, medication names, condition names. None of this is uploaded to KinMate servers."
+        "h": "What KinMate is",
+        "p": "KinMate is a Personal Record Manager and Family Information Organizer. It helps you and your family keep health documents, care reminders, and personal records organized in one private place. KinMate is NOT a medical service, telehealth platform, diagnostic tool, treatment provider, or insurance product. It does not perform medical monitoring of any kind."
       },
       {
-        "h": "What we store on our backend",
-        "p": "Your account (email, sign-in method), family relationships, invite codes, subscription status, referral events, device IDs for anti-abuse. We never store report content."
+        "h": "What stays on your device only",
+        "p": "Health documents (PDFs and images), text extracted from them, AI-generated explanations, and personal records you enter (such as care reminders, medication names, or condition labels) are stored locally in your device's secure storage. None of this content is uploaded to KinMate's servers."
+      },
+      {
+        "h": "What is stored in your KinMate account",
+        "p": "To provide sign-in, family sharing, reminders, subscription, and cross-device sync we keep the following in your account: your email and sign-in method; profiles you create (yourself, dependents, pets); family group and care-coordination relationships; invite codes; subscription status; referral events; device identifiers used to prevent abuse. If you turn on cross-device sync or family sharing, structured fields you choose to share (such as document titles, dates, types, and AI summary text) are stored in your account to make those features work. Original document files are never uploaded to KinMate servers."
       },
       {
         "h": "Bring Your Own Cloud (BYOC)",
-        "p": "If you enable cloud backup, your vault is encrypted locally with AES-256-GCM and uploaded to a folder in your own iCloud Drive, Google Drive, or OneDrive. KinMate backend never receives the file content, OAuth token, or decryption key."
+        "p": "If you enable cloud backup, your local vault is encrypted on your device with AES-256-GCM using a key only you hold, then uploaded to a folder inside your own iCloud Drive, Google Drive, or OneDrive. KinMate never receives the file contents, the cloud OAuth token, or the decryption key."
       },
       {
-        "h": "AI summaries",
-        "p": "When you tap 'AI explanation', we send the OCR text of that one report to OpenAI / Anthropic via our server proxy. We do not persist the prompt or output on our backend. Your local copy of the summary lives only on your device."
+        "h": "AI explanations",
+        "p": "When you tap 'AI explanation' on a document, the relevant text or image is sent through our secure proxy to a third-party large-language-model provider (currently Azure OpenAI) solely to generate the explanation. We do not use your data to train models, and we do not retain the prompt or output on our servers. The resulting summary is stored only on your device. AI explanations are for personal understanding only — they are not medical advice."
       },
       {
-        "h": "Referral data",
-        "p": "We store referral events (inviter, invitee, timestamp, device ID, status). No health content is ever attached to referral records."
+        "h": "Third-party services",
+        "p": "We use a small set of providers to deliver KinMate: Supabase (account, authentication, structured cloud sync), Apple App Store and Google Play (subscription billing), Azure OpenAI (AI explanations via our proxy, retention-free), Firebase Cloud Messaging (Android push notifications, tokens only), and OAuth providers you choose for BYOC (Google, Microsoft, Apple iCloud). We do not embed any third-party advertising SDK, behavioral analytics SDK, or crash-reporting SDK."
       },
       {
-        "h": "Account deletion",
-        "p": "Delete your account from inside the app (Settings → Delete account). On confirmation we permanently ban the account, rename the email so it is released back to you, and mark every server-side row tied to your user id as deleted. The original email can be used to register a brand-new account immediately — it will get a new user id and is not linked to your old data. Local data is deleted immediately on uninstall."
+        "h": "Email",
+        "p": "We send sign-in and account-verification codes to your email through an email delivery provider. We do not use your email for marketing without your separate opt-in."
       },
       {
-        "h": "No ads, no data sales",
-        "p": "We don't run third-party ad SDKs. We don't sell, rent, or share your data with brokers. KinMate is funded by subscriptions only."
+        "h": "Payments",
+        "p": "Paid subscriptions are processed by Apple App Store or Google Play according to their terms. We never see or store full payment-card details."
+      },
+      {
+        "h": "What we never do",
+        "p": "We do not run third-party advertising SDKs. We do not sell, rent, or share your personal data with data brokers. KinMate is funded by subscriptions only."
+      },
+      {
+        "h": "Retention and deletion",
+        "p": "You can delete your account from inside the app (Settings → Delete account). On confirmation we permanently disable the account, rename the email so the original address is released back to you, and mark every server-side row tied to your user id as deleted. Local data is removed when you uninstall the app or use Settings → Clear local data. Data you previously backed up to your own cloud drive stays under your control — manage or delete it from your cloud provider directly."
+      },
+      {
+        "h": "Your rights",
+        "p": "Depending on where you live (for example GDPR in the European Union and United Kingdom, CCPA in California, or PIPL in mainland China), you may have the right to access, correct, export, or delete your personal data, and to object to certain processing. Email kinmate@elolin.com from the address linked to your account and we will respond within a reasonable time."
+      },
+      {
+        "h": "International transfers",
+        "p": "Our backend providers may process data in countries other than yours. Where required by law, we rely on appropriate safeguards for such transfers, including standard contractual clauses."
+      },
+      {
+        "h": "Children",
+        "p": "KinMate is not directed to children under 13 (or the minimum age in your country) and we do not knowingly collect their data. An adult may manage a dependent profile on behalf of a child as part of family care coordination; the adult is responsible for that content."
+      },
+      {
+        "h": "Security",
+        "p": "Data in transit is protected with TLS. Cloud backups in BYOC are encrypted with AES-256-GCM using a key that only you hold. Account data is protected by row-level security so you can only access your own records."
+      },
+      {
+        "h": "Changes",
+        "p": "We may update this policy. Material changes will be reflected by the effective date above and, where appropriate, surfaced in the app."
       },
       {
         "h": "Contact",
-        "p": "Privacy questions: kinmate@elolin.com. Data deletion: kinmate@elolin.com."
+        "p": "Privacy questions, data subject requests, or data deletion: kinmate@elolin.com."
       }
     ]
   },
   "terms": {
-    "title": "Terms of service",
-    "lastUpdated": "Last updated: May 20, 2026",
+    "title": "Terms of Service",
+    "lastUpdated": "Effective date: June 9, 2026",
     "sections": [
       {
         "h": "What KinMate is",
-        "p": "KinMate is a personal health vault. It helps you organize your own and your family's health documents. It is not a medical service, telehealth platform, or insurance product."
+        "p": "KinMate is a Personal Record Manager and Family Information Organizer for keeping health documents, care reminders, and personal records in one private place. KinMate is NOT a medical service, telehealth platform, diagnostic tool, treatment provider, or insurance product. It does not perform medical monitoring."
       },
       {
         "h": "Not medical advice",
-        "p": "AI explanations are for understanding, not diagnosis. Always consult a licensed clinician for medical decisions. KinMate is not responsible for outcomes based on AI summaries."
+        "p": "AI explanations help you understand health documents. They are educational only, not medical advice. Always confirm with a licensed clinician before making any health decision. You are responsible for how you use the information; KinMate is not liable for medical outcomes."
       },
       {
-        "h": "Subscriptions",
-        "p": "Trials auto-convert to paid subscriptions unless cancelled before the trial ends. Cancellation is handled by App Store / Google Play. Refunds follow platform policies."
+        "h": "Eligibility",
+        "p": "You must be at least 13 (or the minimum age in your country) and able to form a binding agreement to use KinMate."
+      },
+      {
+        "h": "Your account",
+        "p": "You are responsible for the accuracy of your email, for keeping your sign-in credentials secure, and for activity under your account. Tell us promptly of any unauthorized use."
+      },
+      {
+        "h": "Your content and ownership",
+        "p": "You own the documents and personal records you add. You grant KinMate only the limited rights needed to operate the features you turn on — for example, storing structured data in your account for cross-device sync or family sharing, or sending a document through our proxy to an AI provider when you request an explanation. If you enable Bring Your Own Cloud, backups are stored in your own cloud account and are your responsibility."
+      },
+      {
+        "h": "Subscriptions and billing",
+        "p": "Paid plans are sold as auto-renewable subscriptions or, where offered, as one-time purchases through Apple App Store or Google Play. A free trial automatically converts to a paid subscription unless you cancel before it ends. You manage and cancel subscriptions in your store account; refunds follow the platform's policy. The Family 8 lifetime founder offer, when available, is a one-time purchase that remains valid for the original purchaser; we honor it after the promotional window ends."
       },
       {
         "h": "Referral rewards",
-        "p": "Rewards are non-transferable, not redeemable for cash, capped at 365 days per grant, and subject to anti-abuse review. KinMate may revoke rewards in case of detected abuse."
+        "p": "Referral rewards are non-transferable, not redeemable for cash, capped per account, and subject to anti-abuse review. We may withhold or revoke rewards obtained through fraud or abuse."
       },
       {
-        "h": "Account termination",
-        "p": "We may suspend accounts found to be abusing referral systems, uploading illegal content, or violating these terms. You can delete your account at any time from inside the app."
+        "h": "Acceptable use",
+        "p": "Do not use KinMate for unlawful purposes; do not upload content you have no right to; do not attempt to breach security or interfere with the service; do not abuse the referral or AI systems."
+      },
+      {
+        "h": "Termination",
+        "p": "You may delete your account at any time inside the app. We may suspend or terminate accounts that violate these terms or abuse the service."
+      },
+      {
+        "h": "Disclaimers",
+        "p": "KinMate is provided on an 'as-is' and 'as-available' basis without warranties of any kind to the extent permitted by law. We do not guarantee that the service will be uninterrupted or error-free, or that AI output will be accurate."
+      },
+      {
+        "h": "Limitation of liability",
+        "p": "To the maximum extent permitted by law, KinMate and its operators are not liable for indirect, incidental, special, or consequential damages, or for loss of data, arising from your use of the service."
+      },
+      {
+        "h": "Changes",
+        "p": "We may update these terms. Continued use after changes take effect means you accept the updated terms."
+      },
+      {
+        "h": "Contact",
+        "p": "Questions about these terms: kinmate@elolin.com."
       }
     ]
   },
   "delete": {
     "title": "Delete your KinMate account",
-    "body": "You can delete your account from inside the app in three taps: Settings → Delete my account → Confirm. On confirmation we permanently ban the account, release the original email back to you, and mark every server-side row tied to your user id as deleted. There is no grace period — the action is immediate.",
-    "fallback": "If you've already lost access to the app and want to request deletion, email us at kinmate@elolin.com from the address linked to your account. We'll process within 7 business days. You can register a brand-new account with the same email right after deletion — it will get a new user id and will not be linked to your old data."
+    "body": "You can delete your account from inside the app in three taps: Settings → Delete my account → Confirm. On confirmation we permanently disable the account, release the original email back to you, and mark every server-side row tied to your user id as deleted. Local data on the device is removed by uninstalling the app or by using Settings → Clear local data.",
+    "fallback": "If you've already lost access to the app and want to request deletion, email us at kinmate@elolin.com from the address linked to your account. We'll process within 7 business days. You can register a brand-new account with the same email right after deletion — it will get a new user id and will not be linked to your old data. Data you backed up to your own cloud drive (Bring Your Own Cloud) stays under your control; manage or delete it from your cloud provider directly."
   },
   "aiDisclaimer": {
     "title": "AI explanation disclaimer",
-    "body": "KinMate uses large language models to help you understand lab reports, prescriptions, and clinical notes in plain language. These explanations are educational only. They do not constitute medical diagnosis, treatment, or professional opinion. Always confirm with a licensed clinician or veterinarian before making health decisions."
+    "body": "AI explanations help you understand health documents. They are educational only, not medical advice. Always confirm with a licensed clinician. KinMate sends the relevant text or image of a document through our secure proxy to a third-party large-language-model provider solely to generate the explanation; we do not use your data to train models and do not retain the prompt or output on our servers."
   },
   "download": {
     "title": "Get KinMate",
