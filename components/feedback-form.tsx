@@ -11,7 +11,7 @@ import { useTranslations } from 'next-intl'
 import { Bug, Lightbulb, HelpCircle, MessageSquare, Github, Mail } from 'lucide-react'
 
 const ISSUE_REPO = 'https://github.com/DevEloLin/kinmate-site'
-const SUPPORT_EMAIL = 'devs.applabs@gmail.com'
+const SUPPORT_EMAIL = 'kinmate@elolin.com'
 
 type Category = 'bug' | 'feature' | 'question' | 'other'
 

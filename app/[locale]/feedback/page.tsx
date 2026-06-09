@@ -9,7 +9,7 @@ import { FeedbackForm } from '@/components/feedback-form'
 import { Bug, Lightbulb, HelpCircle, ArrowUpRight, ListChecks, Mail } from 'lucide-react'
 
 const ISSUE_REPO = 'https://github.com/DevEloLin/kinmate-site'
-const SUPPORT_EMAIL = 'devs.applabs@gmail.com'
+const SUPPORT_EMAIL = 'kinmate@elolin.com'
 
 export async function generateMetadata({
   params,

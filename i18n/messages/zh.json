@@ -345,7 +345,7 @@
       },
       {
         "h": "联系我们",
-        "p": "隐私问题：devs.applabs@gmail.com。数据删除：devs.applabs@gmail.com。"
+        "p": "隐私问题：kinmate@elolin.com。数据删除：kinmate@elolin.com。"
       }
     ]
   },
@@ -378,7 +378,7 @@
   "delete": {
     "title": "删除 KinMate 账号",
     "body": "在 App 内三步删除账号：设置 → 删除账号 → 确认。点击确认后，我们会永久封禁该账号、把原邮箱释放回你手中，并把服务端所有与你用户 ID 关联的行打上「已删除」标记。无宽限期——立即生效。",
-    "fallback": "如果已无法登录 App 想申请删除，请用账号绑定邮箱发邮件到 devs.applabs@gmail.com，我们 7 个工作日内处理。删除后可以立即用原邮箱重新注册——会拿到全新的用户 ID，与旧账号数据没有关联。"
+    "fallback": "如果已无法登录 App 想申请删除，请用账号绑定邮箱发邮件到 kinmate@elolin.com，我们 7 个工作日内处理。删除后可以立即用原邮箱重新注册——会拿到全新的用户 ID，与旧账号数据没有关联。"
   },
   "aiDisclaimer": {
     "title": "AI 解读免责声明",
@@ -547,9 +547,9 @@
   },
   "contact": {
     "title": "联系我们",
-    "support": "客服：devs.applabs@gmail.com",
-    "privacy": "隐私：devs.applabs@gmail.com",
-    "press": "媒体：devs.applabs@gmail.com"
+    "support": "客服：kinmate@elolin.com",
+    "privacy": "隐私：kinmate@elolin.com",
+    "press": "媒体：kinmate@elolin.com"
   },
   "notFound": {
     "message": "抱歉，找不到你要的页面",
