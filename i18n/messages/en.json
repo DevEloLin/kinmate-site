@@ -457,8 +457,14 @@
     "apkStore": "GitHub Release",
     "version": "Version {baseVersion}",
     "comingSoon": "Coming soon",
-    "underReviewBanner": "App Store and Google Play submissions are currently under review. Until they go live, you can install the signed Android APK below — or leave us your email and we'll ping you the moment store listings publish.",
-    "pendingBadge": "Under review"
+    "underReviewBanner": "Apple App Store and Google Play submissions are under review, and the production Android APK is also pending. While we wait for store approval, you can try the public beta below — same first-class feature set on a separate test environment, with the kind of caveats you'd expect from a beta.",
+    "pendingBadge": "Under review",
+    "beta": "Public Beta",
+    "betaStore": "Direct download · early access",
+    "betaBadge": "Beta",
+    "betaUnavailable": "Coming soon",
+    "betaWarningTitle": "About the public beta",
+    "betaWarningBody": "The public beta runs against a separate test environment. Data you enter may be reset between iterations as we refine the app — please use it with information that isn't critical until we go live."
   },
   "about": {
     "title": "Built for families who want clarity without the clutter",
