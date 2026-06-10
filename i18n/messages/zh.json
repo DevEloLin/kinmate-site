@@ -457,8 +457,14 @@
     "apkStore": "GitHub 发布",
     "version": "版本 {baseVersion}",
     "comingSoon": "敬请期待",
-    "underReviewBanner": "App Store 与 Google Play 上架审核中。在审核通过之前，你可以先下载下方的签名 Android APK 试用；也可以留下邮箱，上架开放当天我们第一时间通知你。",
-    "pendingBadge": "审核中"
+    "underReviewBanner": "Apple App Store 与 Google Play 都还在审核中，正式版 Android APK 也在等审核通过同步开放。在此期间，欢迎下载下方的公测版本抢先体验 —— 功能与正式版同一套，跑在独立的测试环境上，请按公测的预期使用。",
+    "pendingBadge": "审核中",
+    "beta": "公测版",
+    "betaStore": "直链下载 · 抢先体验",
+    "betaBadge": "公测",
+    "betaUnavailable": "敬请期待",
+    "betaWarningTitle": "关于公测版",
+    "betaWarningBody": "公测版跑在独立的测试环境上。我们持续迭代期间，你输入的数据可能会被重置 —— 在正式版上线前，请尽量不要用它存储重要资料。"
   },
   "about": {
     "title": "为想要清晰、又不想添乱的家庭而做",

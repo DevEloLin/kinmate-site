@@ -1,8 +1,20 @@
 {
-  "version": "1.2.0",
-  "buildNumber": 32,
-  "appVersion": "1.2.0+32",
-  "releaseTag": "v1.2.0",
-  "releaseUrl": "https://github.com/DevEloLin/kinmate-site/releases/tag/v1.2.0",
-  "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/v1.2.0/kinmate-1.2.0-32-release.apk"
+  "prod": {
+    "status": "in_review",
+    "version": "1.2.0",
+    "buildNumber": 0,
+    "appVersion": "1.2.0",
+    "releaseTag": "v1.2.0",
+    "releaseUrl": "",
+    "apkDownloadUrl": ""
+  },
+  "beta": {
+    "available": false,
+    "version": "1.2.0",
+    "buildNumber": 0,
+    "appVersion": "1.2.0",
+    "releaseTag": "",
+    "releaseUrl": "",
+    "apkDownloadUrl": ""
+  }
 }

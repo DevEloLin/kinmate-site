@@ -8,8 +8,8 @@ import { SectionHeading } from '@/components/section'
 import { Reveal, RevealStagger, RevealItem, Floaty } from '@/components/motion'
 import { PhoneFrame } from '@/components/app-mockup/phone-frame'
 import { HomeScreen } from '@/components/app-mockup/screens'
-import { Apple, Smartphone, ShieldCheck, Cloud, Zap, Download, Clock } from 'lucide-react'
-import { latestRelease } from '@/lib/release'
+import { Apple, Smartphone, ShieldCheck, Cloud, Zap, Download, Clock, FlaskConical, AlertTriangle } from 'lucide-react'
+import { latestRelease, metadata } from '@/lib/release'
 import { getAppStoreUrl, getAndroidApkUrl, getGooglePlayUrl } from '@/lib/store-links'
 
 interface StoreBadgeProps {
@@ -102,7 +102,15 @@ export default async function DownloadPage({
 
   const appStoreUrl = getAppStoreUrl()
   const googlePlayUrl = getGooglePlayUrl()
+  // FIX-1207：APK 三个 badge 现在统一进 "under review" 状态 ——
+  // prod APK 与 App Store / Play 同步等审核，公测版本由下面单独的 Beta badge 提供。
+  // metadata.prod.status === 'in_review' 时 APK badge 一律按 comingSoon 渲染，
+  // 不暴露 androidApkUrl（即便 ENV / data/release.json 仍有值）—— 避免「正在审核」期间用户误下载。
   const androidApkUrl = getAndroidApkUrl()
+  const prodApkUnderReview = metadata.prod.status === 'in_review'
+  const betaApkUrl = metadata.beta.available && metadata.beta.apkDownloadUrl
+    ? metadata.beta.apkDownloadUrl
+    : null
 
   return (
     <section className="relative overflow-hidden">
@@ -157,13 +165,38 @@ export default async function DownloadPage({
               comingSoonText={t('download.comingSoon')}
             />
             <StoreBadge
-              href={androidApkUrl}
+              href={prodApkUnderReview ? null : androidApkUrl}
               ariaLabel={t('download.apk')}
               badgeText={t('download.apk')}
               storeText={t('download.apkStore')}
               icon={<Download className="h-7 w-7" aria-hidden="true" />}
+              comingSoon={prodApkUnderReview ? t('download.pendingBadge') : undefined}
+              comingSoonText={prodApkUnderReview ? t('download.comingSoon') : undefined}
+            />
+            {/* FIX-1207 Public Beta badge —— prod APK 进入 in_review 后给用户的入口。
+                betaApkUrl 由 CI 在 staging build 完成时写到 data/release.json 的 beta 节点。 */}
+            <StoreBadge
+              href={betaApkUrl}
+              ariaLabel={t('download.beta')}
+              badgeText={t('download.beta')}
+              storeText={t('download.betaStore')}
+              icon={<FlaskConical className="h-7 w-7" aria-hidden="true" />}
+              comingSoon={betaApkUrl ? undefined : t('download.betaBadge')}
+              comingSoonText={betaApkUrl ? undefined : t('download.betaUnavailable')}
             />
           </div>
+
+          {/* FIX-1207 Beta 警告条 —— 仅当 Beta APK 真的可下载时显示，
+              避免在 Beta 不可用时还展示警告引起困惑。 */}
+          {betaApkUrl && (
+            <div className="mt-5 flex items-start gap-3 rounded-2xl border border-amber-300/40 bg-amber-50/80 px-4 py-3 text-sm text-ink-700">
+              <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-amber-600" aria-hidden="true" />
+              <div className="leading-relaxed">
+                <p className="font-semibold text-ink-800">{t('download.betaWarningTitle')}</p>
+                <p className="mt-1">{t('download.betaWarningBody')}</p>
+              </div>
+            </div>
+          )}
 
           {/* 信任标识 */}
           <RevealStagger className="mt-8 grid max-w-md grid-cols-3 gap-3" gap={0.1}>
