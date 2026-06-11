@@ -11,10 +11,10 @@
   "beta": {
     "available": true,
     "version": "1.2.0",
-    "buildNumber": 47,
-    "appVersion": "1.2.0+47",
-    "releaseTag": "v1.2.0-beta.47",
-    "releaseUrl": "https://github.com/DevEloLin/kinmate-site/releases/tag/v1.2.0-beta.47",
-    "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/v1.2.0-beta.47/kinmate-1.2.0-47-staging-beta.apk"
+    "buildNumber": 48,
+    "appVersion": "1.2.0+48",
+    "releaseTag": "v1.2.0-beta.48",
+    "releaseUrl": "https://github.com/DevEloLin/kinmate-site/releases/tag/v1.2.0-beta.48",
+    "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/v1.2.0-beta.48/kinmate-1.2.0-48-staging-beta.apk"
   }
 }
