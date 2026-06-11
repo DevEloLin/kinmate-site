@@ -19,10 +19,10 @@
       "text": "Launch special · Family 8 lifetime $199.99 (was $399.99)",
       "cta": "See the offer"
     },
-    "eyebrow": "Happens after every checkup",
-    "title": "Still scrolling through photos when family asks \"where's the report\"?",
-    "subtitle": "Every checkup, the lab report ends up buried in your camera roll. Follow-ups, reimbursements, a family member asking about a number — every time it's ten minutes of scrolling. KinMate files each photo by the person it belongs to and turns lab results into plain English. Next time the phone rings, you open it and answer — no more \"hold on, let me look.\"",
-    "promise": "Stays on your device. There the moment family asks.",
+    "eyebrow": "Built for the caregiver in the middle",
+    "title": "Walk into the next appointment ready — in one tap.",
+    "subtitle": "Snap any lab report or prescription. KinMate's AI extracts the medication, dose, date and doctor in seconds, then files it under the right person. No typing. No drawer of paper. No scrolling your camera roll while the doctor waits. Just one tap — mom's current meds, dad's recent labs, your kid's vaccine record — ready on the appointment screen.",
+    "promise": "Stays on your device. There the moment the doctor asks.",
     "privacyFinePrint": "🔒 Local-first storage · End-to-end encrypted · Zero analytics SDKs · We never see your files",
     "stats": [
       {
@@ -44,7 +44,7 @@
     ]
   },
   "trust": {
-    "title": "Why families trust KinMate",
+    "title": "Why caregivers trust KinMate with the most private data their family owns",
     "items": [
       {
         "title": "Local-first by default",
@@ -65,8 +65,8 @@
     ]
   },
   "features": {
-    "title": "Built for the way real families live",
-    "subtitle": "Less searching. Less repeating. Less worrying.",
+    "title": "Built for the caregiver doing the caring",
+    "subtitle": "Less typing. Less hunting. Less mental load — for the daughter, son, partner managing it all.",
     "seeAll": "See all features",
     "groups": [
       {
@@ -647,20 +647,20 @@
     "rights": "© 2026 KinMate. All rights reserved."
   },
   "howItWorks": {
-    "title": "Up and running in three steps",
-    "subtitle": "No new cloud account. Your data stays in storage you already own.",
+    "title": "From scattered to appointment-ready in three steps",
+    "subtitle": "The fastest health archive is the one that builds itself. No typing. No drawer of paper. No data-entry fatigue.",
     "steps": [
       {
-        "title": "Create your account",
-        "body": "Sign up with email. A 6-digit code verifies you — no passwords to leak."
+        "title": "1. Snap any report or prescription",
+        "body": "Photo, photo library, or PDF — KinMate's AI extracts medication, dose, date, doctor and lab values in seconds. The data-entry friction that kills every other family-health app — gone."
       },
       {
-        "title": "Connect your own cloud",
-        "body": "Link iCloud, Google Drive or OneDrive. Reports and files are written straight to your drive."
+        "title": "2. KinMate files it under the right person",
+        "body": "Mom's BP meds, dad's lipids, your kid's vaccines — every record auto-organized on one timeline. Searchable by person, by date, by indicator."
       },
       {
-        "title": "Manage health together",
-        "body": "Track metrics, medications and reminders. Invite family with a short code to share the load."
+        "title": "3. Walk into the next appointment ready",
+        "body": "One tap: current medications, recent labs, follow-ups due. Caregiver-ready before you sit down. Doctor asks — you answer."
       }
     ]
   },
@@ -668,6 +668,10 @@
     "title": "The real problems KinMate solves",
     "subtitle": "Health records shouldn't be scattered, unreadable, or locked inside someone else's server.",
     "items": [
+      {
+        "pain": "Every family-health app dies the same way: data-entry friction. If you have to type out each medication, dose and lab value manually, you stop using it within a week — and an archive nobody maintains is worthless.",
+        "gain": "KinMate's AI does the typing. Snap a photo, get a structured record. The archive maintains itself because you're not maintaining it — you're just taking photos."
+      },
       {
         "pain": "Records scattered across paper, photos and a dozen hospital apps — never findable when the doctor asks.",
         "gain": "One organized vault: every report, prescription and metric on a single timeline, searchable by person or pet."
