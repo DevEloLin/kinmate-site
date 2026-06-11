@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kinmate.kinmate",
+      "sha256_cert_fingerprints": [
+        "7F:1A:21:68:27:FC:92:F6:54:7A:32:E4:BE:E0:7A:C4:D8:F3:CF:C3:4B:9B:41:AA:7D:5B:C1:F8:7E:39:00:F2"
+      ]
+    }
+  }
+]
