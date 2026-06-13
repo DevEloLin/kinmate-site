@@ -1,49 +1,73 @@
-// Poster 17 — 全屏巨型 phone (Family)（组 E）。粉红渐变。
-import { MktFamilyDetailScreen } from '@/components/app-mockup/marketing-screens'
-import { PhoneFrame } from '@/components/app-mockup/phone-frame'
-import { Heart, Star, Users } from 'lucide-react'
+// Poster 17 v2 — Color Stripe Feature Tour（5 横色带分屏，每条 1 feature）。
+import { Heart, Star, FileText, Calendar, Users, PawPrint, Sparkles, ShieldCheck, ArrowRight } from 'lucide-react'
 type Locale = 'en' | 'zh'
 
 export function Poster17FamilyBig({ locale = 'en' }: { locale?: Locale }) {
   const isZh = locale === 'zh'
   const t = isZh ? {
-    title1: '关心一家人，', title2: '从一张档案开始。',
-    sub: '父母、孩子、宠物 —— 每个人都有自己的一页，按你的方式共享。',
-    cta: '60 天免费试用', rating: '4.9 · 1,200+', chip: 'BETA · 公开测试',
-    chips: ['👤 个人档案', '👥 受控共享', '🐾 含宠物'],
+    chip: 'BETA · 公开测试',
+    title1: '五件事，', title2: '一个 app。',
+    rating: '4.9 · 1,200+',
+    stripes: [
+      { color: '#15803D', icon: FileText,    big: '文件归档', sub: '47 份 · 自动按日期 · AI 双语摘要' },
+      { color: '#0EA5E9', icon: Calendar,    big: '日常提醒', sub: '温柔通知 · 28 天 streak · 共享给家人' },
+      { color: '#F59E0B', icon: Users,       big: '家庭', sub: '父母 · 孩子 · 邀请家人 · 受控共享' },
+      { color: '#F97316', icon: PawPrint,    big: '宠物', sub: '档案 · 日常护理 · 看兽医前一秒就绪' },
+      { color: '#7C3AED', icon: ShieldCheck, big: '隐私', sub: '本地优先 · 端到端加密 · 你的网盘' },
+    ],
+    cta: '60 天免费试用 · KinMate',
   } : {
-    title1: 'Care for family,', title2: 'one profile at a time.',
-    sub: 'Parents, kids, pets — each gets a page, shared on your terms.',
-    cta: '60-day free trial', rating: '4.9 · 1,200+', chip: 'BETA · OPEN TESTING',
-    chips: ['👤 Profiles', '👥 Shared with care', '🐾 Pets included'],
+    chip: 'BETA · OPEN TESTING',
+    title1: 'Five things,', title2: 'one app.',
+    rating: '4.9 · 1,200+',
+    stripes: [
+      { color: '#15803D', icon: FileText,    big: 'Documents', sub: '47 filed · Auto by date · AI bilingual summary' },
+      { color: '#0EA5E9', icon: Calendar,    big: 'Reminders', sub: 'Gentle nudges · 28-day streak · shared' },
+      { color: '#F59E0B', icon: Users,       big: 'Family',    sub: 'Parents · kids · invite · selective share' },
+      { color: '#F97316', icon: PawPrint,    big: 'Pets',      sub: 'Profiles · daily care · vet-ready' },
+      { color: '#7C3AED', icon: ShieldCheck, big: 'Privacy',   sub: 'Local-first · end-to-end · your cloud' },
+    ],
+    cta: '60-day free trial · KinMate',
   }
   return (
-    <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #FFF1F2 0%, #FECDD3 60%, #FDA4AF 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
-      <div className="pointer-events-none absolute -left-32 top-1/3 h-[520px] w-[520px] rounded-full opacity-50 blur-3xl" style={{ background: '#DC2626' }} />
-      <div className="pointer-events-none absolute -right-32 bottom-1/3 h-[480px] w-[480px] rounded-full opacity-40 blur-3xl" style={{ background: '#F43F5E' }} />
+    <div className="relative h-screen w-screen overflow-hidden" style={{ background: '#FAFAF9', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
       <div className="absolute left-12 top-12 z-30 flex items-center gap-3">
-        <div className="flex h-14 w-14 items-center justify-center rounded-2xl shadow-lg" style={{ background: 'linear-gradient(135deg, #DC2626, #991B1B)' }}><Heart className="h-8 w-8 text-white" fill="white" /></div>
-        <p className="text-2xl font-extrabold tracking-tight" style={{ color: '#7F1D1D' }}>KinMate</p>
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl shadow-lg" style={{ background: 'linear-gradient(135deg, #15803D, #059669)' }}><Heart className="h-8 w-8 text-white" fill="white" /></div>
+        <p className="text-3xl font-extrabold tracking-tight" style={{ color: '#0F172A' }}>KinMate</p>
       </div>
-      <div className="absolute right-12 top-12 z-30 flex flex-col items-end gap-2.5">
-        <span className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-bold uppercase shadow-md" style={{ background: 'linear-gradient(90deg, #FF4D4D, #FF7A18)', color: 'white', letterSpacing: '0.14em' }}>{t.chip}</span>
-        <div className="flex items-center gap-1.5 rounded-full bg-white/95 px-3.5 py-1.5 shadow-sm">{[1,2,3,4,5].map(i => <Star key={i} className="h-4 w-4" fill="#F59E0B" stroke="#F59E0B" />)}<span className="ml-2 text-sm font-bold" style={{ color: '#0F172A' }}>{t.rating}</span></div>
+      <div className="absolute right-12 top-14 z-30 flex flex-col items-end gap-2.5">
+        <span className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-bold uppercase shadow-md" style={{ background: 'linear-gradient(90deg, #FF4D4D, #FF7A18)', color: 'white', letterSpacing: '0.14em' }}>{t.chip}</span>
+        <div className="flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 shadow-sm border border-black/10">{[1,2,3,4,5].map(i => <Star key={i} className="h-4 w-4" fill="#F59E0B" stroke="#F59E0B" />)}<span className="ml-2 text-sm font-bold" style={{ color: '#0F172A' }}>{t.rating}</span></div>
       </div>
-      <div className="absolute left-1/2 z-20 -translate-x-1/2 text-center" style={{ top: '140px', maxWidth: '900px' }}>
-        <h1 className="font-extrabold" style={{ fontSize: '88px', lineHeight: 0.96, letterSpacing: '-2.5px', color: '#0F172A' }}>{t.title1}<br /><span style={{ color: '#DC2626' }}>{t.title2}</span></h1>
-        <p className="mx-auto mt-4 font-semibold" style={{ fontSize: '24px', lineHeight: 1.4, color: '#7F1D1D', maxWidth: '740px' }}>{t.sub}</p>
+
+      <div className="absolute left-12 z-20" style={{ top: '170px' }}>
+        <h1 className="font-extrabold" style={{ fontSize: '96px', lineHeight: 0.96, letterSpacing: '-2.6px', color: '#0F172A' }}>{t.title1}<br /><span style={{ color: '#15803D' }}>{t.title2}</span></h1>
       </div>
-      <div className="absolute left-1/2 z-10 -translate-x-1/2" style={{ top: '450px', filter: 'drop-shadow(0 50px 80px rgba(127,29,29,0.4)) drop-shadow(0 25px 50px rgba(0,0,0,0.25))' }}>
-        <PhoneFrame width={620}><MktFamilyDetailScreen locale={locale} /></PhoneFrame>
+
+      {/* 5 条色带 横排（占 1080w × 各 ~220h） */}
+      <div className="absolute inset-x-0 z-10" style={{ top: '480px' }}>
+        {t.stripes.map((s, i) => {
+          const Icon = s.icon
+          return (
+            <div key={i} className="relative flex items-center px-12" style={{ height: '230px', background: `linear-gradient(90deg, ${s.color} 0%, ${s.color}DD 60%, ${s.color}99 100%)` }}>
+              <div className="absolute right-12 top-1/2 -translate-y-1/2 opacity-30">
+                <Icon className="h-40 w-40 text-white" strokeWidth={1.5} />
+              </div>
+              <div className="relative z-10">
+                <div className="flex items-center gap-3">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/30 backdrop-blur"><Icon className="h-7 w-7 text-white" strokeWidth={2.2} /></span>
+                  <p className="font-extrabold text-white" style={{ fontSize: '60px', lineHeight: 1, letterSpacing: '-1.5px' }}>{s.big}</p>
+                </div>
+                <p className="mt-2 text-lg font-semibold text-white/90" style={{ maxWidth: '720px' }}>{s.sub}</p>
+              </div>
+              <ArrowRight className="absolute right-12 top-1/2 -translate-y-1/2 h-10 w-10 text-white/80 opacity-90" />
+            </div>
+          )
+        })}
       </div>
-      <div className="absolute inset-x-0 z-30 px-12 text-center" style={{ bottom: '60px' }}>
-        <div className="mb-4 flex flex-wrap justify-center gap-2.5">
-          {t.chips.map((c, i) => {
-            const colors = ['#DC2626', '#F43F5E', '#F97316']
-            return <span key={i} className="inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-[15px] font-bold shadow-md" style={{ background: colors[i], color: 'white', transform: `rotate(${[-2, 1, -1][i]}deg)` }}>{c}</span>
-          })}
-        </div>
-        <p className="text-xl font-extrabold" style={{ color: '#7F1D1D' }}><Users className="inline h-5 w-5 mr-1.5" />{t.cta}</p>
+
+      <div className="absolute inset-x-0 z-30 px-12 text-center" style={{ bottom: '40px' }}>
+        <p className="text-xl font-extrabold" style={{ color: '#0F172A' }}>★ {t.cta}</p>
       </div>
     </div>
   )

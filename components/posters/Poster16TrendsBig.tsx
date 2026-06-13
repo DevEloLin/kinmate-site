@@ -1,49 +1,66 @@
-// Poster 16 — 全屏巨型 phone (Trends)（组 E）。青绿渐变。
-import { MktTrendsScreen } from '@/components/app-mockup/marketing-screens'
-import { PhoneFrame } from '@/components/app-mockup/phone-frame'
-import { Heart, Star, TrendingUp } from 'lucide-react'
+// Poster 16 v2 — 极简 typography quote（一句话大字海报）。
+import { Heart, Star } from 'lucide-react'
 type Locale = 'en' | 'zh'
 
 export function Poster16TrendsBig({ locale = 'en' }: { locale?: Locale }) {
   const isZh = locale === 'zh'
   const t = isZh ? {
-    title1: '看见的是数字。', title2: '理解的是方向。',
-    sub: '30 / 90 / 180 天 —— 你的轨迹一目了然。',
-    cta: '60 天免费试用', rating: '4.9 · 1,200+', chip: 'BETA · 公开测试',
-    chips: ['📈 趋势线', '🎯 异常标注', '⏱️ 多窗口'],
+    chip: 'BETA · 公开测试',
+    quote: '关心',
+    quote2: '不是',
+    quote3: '一个动词。',
+    quote4: '是',
+    quote5: '一种安排。',
+    attribution: 'KinMate 的产品哲学',
+    sub: '把"记得"和"在意"分开。让 app 替你"记得"，你只需要"在意"。',
+    rating: '4.9 · 1,200+',
+    cta: '60 天免费试用 · KinMate',
   } : {
-    title1: 'See the numbers.', title2: 'Feel the direction.',
-    sub: '30 / 90 / 180 days — your trajectory at a glance.',
-    cta: '60-day free trial', rating: '4.9 · 1,200+', chip: 'BETA · OPEN TESTING',
-    chips: ['📈 Trend lines', '🎯 Outliers flagged', '⏱️ Multi-window'],
+    chip: 'BETA · OPEN TESTING',
+    quote: 'Care',
+    quote2: 'isn\'t',
+    quote3: 'a verb.',
+    quote4: 'It\'s',
+    quote5: 'a system.',
+    attribution: '— KinMate product philosophy',
+    sub: 'Separate "remembering" from "caring". Let the app remember; you focus on caring.',
+    rating: '4.9 · 1,200+',
+    cta: '60-day free trial · KinMate',
   }
   return (
-    <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #F0FDFA 0%, #99F6E4 60%, #5EEAD4 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
-      <div className="pointer-events-none absolute -left-32 top-1/3 h-[520px] w-[520px] rounded-full opacity-50 blur-3xl" style={{ background: '#0D9488' }} />
-      <div className="pointer-events-none absolute -right-32 bottom-1/3 h-[480px] w-[480px] rounded-full opacity-40 blur-3xl" style={{ background: '#0EA5E9' }} />
+    <div className="relative h-screen w-screen overflow-hidden" style={{ background: '#FAFAF9', fontFamily: 'ui-serif, Georgia, "Times New Roman", serif' }}>
+      {/* 极简：仅一条对角线 + 一个角色块 */}
+      <div className="pointer-events-none absolute" style={{ top: 0, left: 0, width: '6px', height: '100%', background: '#0F172A' }} />
+      <div className="pointer-events-none absolute" style={{ bottom: 0, right: 0, width: '30%', height: '8px', background: '#F59E0B' }} />
+      <div className="pointer-events-none absolute" style={{ top: 0, right: 0, width: '180px', height: '180px', background: '#0F172A' }} />
+
       <div className="absolute left-12 top-12 z-30 flex items-center gap-3">
-        <div className="flex h-14 w-14 items-center justify-center rounded-2xl shadow-lg" style={{ background: 'linear-gradient(135deg, #0D9488, #0F766E)' }}><TrendingUp className="h-8 w-8 text-white" /></div>
-        <p className="text-2xl font-extrabold tracking-tight" style={{ color: '#134E4A' }}>KinMate</p>
+        <Heart className="h-7 w-7" style={{ color: '#0F172A' }} fill="#0F172A" />
+        <p className="text-2xl font-extrabold tracking-tight" style={{ color: '#0F172A', fontFamily: 'ui-sans-serif, system-ui' }}>KinMate</p>
       </div>
-      <div className="absolute right-12 top-12 z-30 flex flex-col items-end gap-2.5">
-        <span className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-bold uppercase shadow-md" style={{ background: 'linear-gradient(90deg, #FF4D4D, #FF7A18)', color: 'white', letterSpacing: '0.14em' }}>{t.chip}</span>
-        <div className="flex items-center gap-1.5 rounded-full bg-white/95 px-3.5 py-1.5 shadow-sm">{[1,2,3,4,5].map(i => <Star key={i} className="h-4 w-4" fill="#F59E0B" stroke="#F59E0B" />)}<span className="ml-2 text-sm font-bold" style={{ color: '#0F172A' }}>{t.rating}</span></div>
+      <span className="absolute right-12 top-14 z-30 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-bold uppercase" style={{ background: '#FCD34D', color: '#0F172A', letterSpacing: '0.18em', fontFamily: 'ui-sans-serif, system-ui' }}>★ {t.rating}</span>
+
+      {/* 巨型 quote — 多行斜体 */}
+      <div className="absolute z-20" style={{ left: '60px', top: '260px', maxWidth: '960px' }}>
+        <p className="font-black" style={{ fontSize: '220px', lineHeight: 0.84, letterSpacing: '-6px', color: '#0F172A' }}>{t.quote}</p>
+        <p className="font-black mt-2" style={{ fontSize: '180px', lineHeight: 0.84, letterSpacing: '-4px', color: '#64748B', fontStyle: 'italic' }}>{t.quote2}</p>
+        <p className="font-black mt-2" style={{ fontSize: '220px', lineHeight: 0.84, letterSpacing: '-6px', color: '#0F172A' }}>{t.quote3}</p>
       </div>
-      <div className="absolute left-1/2 z-20 -translate-x-1/2 text-center" style={{ top: '140px', maxWidth: '900px' }}>
-        <h1 className="font-extrabold" style={{ fontSize: '92px', lineHeight: 0.96, letterSpacing: '-2.5px', color: '#0F172A' }}>{t.title1}<br /><span style={{ color: '#0D9488' }}>{t.title2}</span></h1>
-        <p className="mx-auto mt-4 font-semibold" style={{ fontSize: '24px', lineHeight: 1.4, color: '#134E4A', maxWidth: '720px' }}>{t.sub}</p>
+
+      <div className="absolute z-20 text-right" style={{ right: '60px', top: '1340px', maxWidth: '700px' }}>
+        <p className="font-black" style={{ fontSize: '120px', lineHeight: 0.84, letterSpacing: '-4px', color: '#0F172A' }}>{t.quote4} <span style={{ color: '#F59E0B', fontStyle: 'italic' }}>{t.quote5}</span></p>
       </div>
-      <div className="absolute left-1/2 z-10 -translate-x-1/2" style={{ top: '450px', filter: 'drop-shadow(0 50px 80px rgba(19,78,74,0.4)) drop-shadow(0 25px 50px rgba(0,0,0,0.25))' }}>
-        <PhoneFrame width={620}><MktTrendsScreen locale={locale} /></PhoneFrame>
+
+      <div className="absolute inset-x-0 z-30 px-12" style={{ bottom: '120px', fontFamily: 'ui-sans-serif, system-ui' }}>
+        <p className="text-base font-bold uppercase mb-3" style={{ color: '#64748B', letterSpacing: '0.18em' }}>{t.attribution}</p>
+        <p className="text-2xl font-semibold" style={{ color: '#0F172A', maxWidth: '720px' }}>{t.sub}</p>
       </div>
-      <div className="absolute inset-x-0 z-30 px-12 text-center" style={{ bottom: '60px' }}>
-        <div className="mb-4 flex flex-wrap justify-center gap-2.5">
-          {t.chips.map((c, i) => {
-            const colors = ['#0D9488', '#0EA5E9', '#5EEAD4']
-            return <span key={i} className="inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-[15px] font-bold shadow-md" style={{ background: colors[i], color: 'white', transform: `rotate(${[-2, 1, -1][i]}deg)` }}>{c}</span>
-          })}
+
+      <div className="absolute inset-x-0 z-30 px-12" style={{ bottom: '50px', fontFamily: 'ui-sans-serif, system-ui' }}>
+        <div className="flex items-center justify-between">
+          <p className="text-base font-bold uppercase" style={{ color: '#0F172A', letterSpacing: '0.16em' }}>{t.cta}</p>
+          <p className="text-base font-bold uppercase" style={{ color: '#F59E0B', letterSpacing: '0.16em' }}>{t.chip}</p>
         </div>
-        <p className="text-xl font-extrabold" style={{ color: '#134E4A' }}><TrendingUp className="inline h-5 w-5 mr-1.5" />{t.cta}</p>
       </div>
     </div>
   )
