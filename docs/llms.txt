@@ -1,13 +1,13 @@
 # KinMate
 
-> KinMate is a local-first, privacy-first family health record app for iOS and Android. It keeps medical reports, medications, reminders and health metrics for you, your family members and pets; explains lab/medical reports with bilingual (English / 简体中文) AI; and backs up to your own cloud (iCloud, Google Drive or OneDrive). Your data stays on your device and in your own cloud — KinMate does not sell data and uses no third-party analytics or crash SDKs.
+> KinMate is a local-first, privacy-first family record organizer for iOS and Android. It keeps documents, daily reminders and tracking entries for you, your family members and pets; explains uploaded documents with bilingual (English / 简体中文) AI; and backs up to your own cloud (iCloud, Google Drive or OneDrive). Your data stays on your device and in your own cloud — KinMate does not sell data and uses no third-party analytics or crash SDKs.
 
 ## What KinMate does
-- **Family health records**: one private vault for medical reports, prescriptions, documents and health metrics across yourself, managed profiles (elderly parents, children, dependents) and pets.
-- **AI lab-report explanation**: upload a lab report or prescription (image or PDF) and get a plain-language, bilingual explanation of metrics and abnormalities. Educational only — not a medical diagnosis.
-- **Medications & reminders**: medication tracking, pill/dose reminders, vaccination records, appointment and safety check-in reminders.
-- **Family & caregiving**: share profiles within a family, invite caregivers, run "safety check-ins" for elderly relatives, manage a shared family pool with elastic seats.
-- **Pets**: pet health profiles, vaccination records, feeding/medication reminders; share a personal pet into the family pool.
+- **Family records**: one private vault for documents, files, and tracking entries across yourself, managed profiles (older parents, children, family members) and pets.
+- **AI document explanation**: upload a document (image or PDF) and get a plain-language, bilingual explanation of key values and notable items. For reference and understanding only — not medical advice.
+- **Reminders**: daily item reminders, vaccination records, appointment and safety check-in reminders.
+- **Family**: share profiles within a family, invite family members, run "safety check-ins" for older relatives, manage a shared family pool with elastic seats.
+- **Pets**: pet profiles, vaccination records, feeding/daily reminders; share a personal pet into the family pool.
 - **Bring-your-own-cloud (BYOC)**: encrypted backup to iCloud Drive, Google Drive or OneDrive — you choose and can switch providers.
 - **Local-first & offline**: works offline; syncs when back online.
 
@@ -21,7 +21,7 @@
 - Local-first; data lives on-device and in the user's own cloud account.
 - No data selling. No third-party analytics or crash SDKs (no RevenueCat, no Sentry).
 - In-app account deletion removes the account and associated cloud data.
-- AI explanations are for understanding/education only and are not medical advice or diagnosis.
+- AI explanations are for understanding/reference only and are not medical advice or diagnosis.
 
 ## Platforms
 - iOS (iPhone / iPad) and Android. Sign in with email or Google.
