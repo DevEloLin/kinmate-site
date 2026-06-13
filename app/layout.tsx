@@ -9,7 +9,7 @@ import './globals.css'
 const SITE = 'https://develolin.github.io/kinmate-site'
 
 const DESCRIPTION =
-  'KinMate is a Personal Record Manager and Family Information Organizer. Keep health documents, care reminders, and personal records for yourself, family and pets in one private place; get bilingual (EN/中文) AI explanations of lab reports; bring your own cloud backup (iCloud / Google Drive / OneDrive). Private by design — your data stays yours.'
+  'KinMate is a Personal Record Manager and Family Information Organizer. Keep personal documents, daily reminders, and records for yourself, family and pets in one private place; get bilingual (EN/中文) AI explanations of uploaded documents; bring your own cloud backup (iCloud / Google Drive / OneDrive). Private by design — your data stays yours.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
@@ -20,37 +20,32 @@ export const metadata: Metadata = {
   },
   description: DESCRIPTION,
   keywords: [
-    // ── EN: core (lifestyle/utility positioning, NOT medical) ──
+    // ── EN: core (productivity / utility / lifestyle positioning) ──
     'KinMate', 'personal record manager', 'family information organizer',
-    'health document organizer', 'care coordination tool', 'family health app',
-    'family records app', 'personal records app', 'health document storage',
-    // EN: reports / AI explanations (explanation framing, not diagnosis)
-    'lab report explanation', 'blood test results explained', 'lab results explainer',
-    'health report OCR', 'AI document explainer', 'understand my lab results',
-    'document scanner for the family', 'prescription organizer',
-    // EN: medication / reminders / care reminders
-    'medication reminders', 'medication tracker', 'pill reminder', 'medication adherence',
-    'vaccination records', 'immunization reminder', 'appointment reminders',
-    'safety check-in app', 'caregiver app', 'elderly care reminders',
-    'family caregiver organizer', 'dependents organizer',
+    'document organizer', 'family records app', 'personal records app',
+    'file vault', 'document storage', 'archive tool', 'note keeper',
+    // EN: documents / AI explanations (reference framing, not diagnosis)
+    'document scanner', 'AI document explainer', 'document Q&A',
+    'understand my documents', 'document scanner for the family',
+    // EN: reminders (daily routine, not medical)
+    'daily reminders', 'reminder tool', 'appointment reminders',
+    'safety check-in app', 'family organizer app', 'dependents organizer',
     // EN: pets / family / privacy
-    'pet records', 'pet vaccination records', 'multi-generational family records',
+    'pet records', 'family records', 'multi-generational records',
     'shared family records', 'local-first records app', 'offline records app',
     'private records app', 'personal data privacy', 'you own your data',
     'bring your own cloud', 'iCloud records backup', 'Google Drive records backup',
     'OneDrive records backup', 'bilingual records app', 'English Chinese records app',
     // ── 中文：核心 (生活工具/整理工具定位) ──
-    '个人记录管理', '家庭信息整理', '健康文档整理', '关怀协调工具',
-    '家庭记录 App', '个人记录 App', '健康档案 App', '健康记录',
-    // 中文：报告 / AI 解读（理解 / 解释，不是诊断）
-    '体检报告解读', 'AI 报告解读', '化验单解读', '化验结果解释',
-    '体检报告看不懂', '报告拍照识别', '处方整理',
-    // 中文：用药 / 提醒 / 关怀
-    '用药提醒', '吃药提醒', '服药提醒', '服药管理', '疫苗记录', '疫苗接种提醒',
-    '复诊提醒', '平安打卡', '老人关怀', '父母健康', '长辈照护', '看护人',
-    '被照护人', '居家养老',
+    '个人记录管理', '家庭信息整理', '档案整理', '文件整理',
+    '家庭记录 App', '个人记录 App', '档案 App', '资料整理',
+    // 中文：文件 / AI 解读（理解 / 解释，不是诊断）
+    '文件解读', 'AI 文档解读', '文档问答', '文件理解',
+    '上传文件看不懂', '文档拍照识别', '资料归档',
+    // 中文：提醒 / 日常
+    '日常提醒', '提醒工具', '复查提醒', '平安打卡', '家人关怀', '家人记录',
     // 中文：宠物 / 家庭 / 隐私
-    '宠物记录', '宠物疫苗记录', '多代家庭记录', '家庭共享记录', '本地优先',
+    '宠物记录', '宠物档案', '多代家庭记录', '家庭共享记录', '本地优先',
     '离线可用', '隐私优先', '数据隐私', '数据归你所有', '自带网盘备份',
     'iCloud 备份', 'Google Drive 备份', 'OneDrive 备份', '中英双语 App',
   ],
