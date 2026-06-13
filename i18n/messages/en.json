@@ -21,7 +21,7 @@
     },
     "eyebrow": "Built for the family member in the middle",
     "title": "Walk into the next appointment ready — in one tap.",
-    "subtitle": "Snap any document or prescription. KinMate's AI extracts the medication, dose, date and doctor in seconds, then files it under the right person. No typing. No drawer of paper. No scrolling your camera roll while the doctor waits. Just one tap — mom's current meds, dad's recent labs, your kid's vaccine record — ready on the appointment screen.",
+    "subtitle": "Snap any document or item. KinMate's AI extracts the item, dose, date and source in seconds, then files it under the right person. No typing. No drawer of paper. No scrolling your camera roll while the doctor waits. Just one tap — mom's current items, dad's recent records, your kid's vaccine record — ready on the appointment screen.",
     "promise": "Stays on your device. There the moment the doctor asks.",
     "privacyFinePrint": "🔒 Local-first storage · End-to-end encrypted · Zero analytics SDKs · We never see your files",
     "stats": [
@@ -84,7 +84,7 @@
           },
           {
             "title": "Reminders & smart reminders",
-            "body": "Track prescriptions and get gentle local reminders for doses, follow-ups, vaccines and vet visits — never spam."
+            "body": "Track items and get gentle local reminders for doses, follow-ups, vaccines and vet visits — never spam."
           },
           {
             "title": "Family, dependents & pets",
@@ -99,7 +99,7 @@
         "items": [
           {
             "title": "Bilingual AI explanations",
-            "body": "Turn a dense lab report into plain English or Chinese. Disclaimers built in — it informs, it never diagnoses."
+            "body": "Turn a dense document into plain English or Chinese. Disclaimers built in — it informs, it never records."
           },
           {
             "title": "Record summary for appointments",
@@ -111,7 +111,7 @@
           },
           {
             "title": "Case management",
-            "body": "AI extracts diagnoses and prescriptions from your reports into structured cases. Track active vs resolved, link reports, edit by hand."
+            "body": "AI extracts key information and items from your reports into structured cases. Track active vs resolved, link reports, edit by hand."
           },
           {
             "title": "Emergency info card",
@@ -119,11 +119,11 @@
           },
           {
             "title": "Genetic risk from family history",
-            "body": "Aggregate family diagnoses into risk profiles for common patterns. AI-generated, plain language, with prevention suggestions."
+            "body": "Aggregate family records into risk profiles for common patterns. AI-generated, plain language, with general suggestions."
           },
           {
             "title": "Unified timeline",
-            "body": "Reports, diagnoses, medications and key events on one chronological timeline per profile. Filter by type, jump to any year."
+            "body": "Reports, notes, items and key events on one chronological timeline per profile. Filter by type, jump to any year."
           },
           {
             "title": "Family dashboard",
@@ -478,13 +478,13 @@
       {
         "name": "Sarah",
         "role": "Daughter, Texas",
-        "quote": "I used to spend 15 minutes before every appointment hunting for a PDF. Now reports are filed automatically and the timeline shows tests, meds and diagnoses in order — one glance is enough.",
+        "quote": "I used to spend 15 minutes before every appointment hunting for a PDF. Now reports are filed automatically and the timeline shows tests, items and notes in order — one glance is enough.",
         "outcome": "Saves about 15 minutes per appointment"
       },
       {
         "name": "Daniel",
         "role": "Son, California",
-        "quote": "My dad and I kept asking each other the same question about his medication. The check-in and reminder flow finally stopped the back-and-forth.",
+        "quote": "My dad and I kept asking each other the same question about his daily items. The check-in and reminder flow finally stopped the back-and-forth.",
         "outcome": "Cuts repeated calls and texts"
       },
       {
@@ -532,7 +532,7 @@
       {
         "name": "Ava",
         "role": "Care coordinator, Oregon",
-        "quote": "My mom's allergy list is long — in past emergencies we could never communicate it fast enough. Now the emergency info card is a single QR: blood type, allergies, chronic conditions, current meds, all there.",
+        "quote": "My mom's allergy list is long — in past emergencies we could never communicate it fast enough. Now the emergency info card is a single QR: blood type, allergies, chronic conditions, current items, all there.",
         "outcome": "Calm in the moments that matter"
       },
       {
@@ -550,7 +550,7 @@
       {
         "name": "Hannah",
         "role": "Nurse, Illinois",
-        "quote": "The case manager pulls diagnoses and prescriptions straight out of uploaded reports — active vs resolved at a glance. I don't have to mine family chat history for context anymore.",
+        "quote": "The case manager pulls key information and items straight out of uploaded reports — active vs resolved at a glance. I don't have to mine family chat history for context anymore.",
         "outcome": "History clear at first look"
       },
       {
@@ -651,8 +651,8 @@
     "subtitle": "The fastest personal archive is the one that builds itself. No typing. No drawer of paper. No data-entry fatigue.",
     "steps": [
       {
-        "title": "1. Snap any report or prescription",
-        "body": "Photo, photo library, or PDF — KinMate's AI extracts medication, dose, date, doctor and lab values in seconds. The data-entry friction that kills every other family-record app — gone."
+        "title": "1. Snap any report or item",
+        "body": "Photo, photo library, or PDF — KinMate's AI extracts item, dose, date, source and key values in seconds. The data-entry friction that kills every other family-record app — gone."
       },
       {
         "title": "2. KinMate files it under the right person",
@@ -660,7 +660,7 @@
       },
       {
         "title": "3. Walk into the next appointment ready",
-        "body": "One tap: current items, recent labs, follow-ups due. Family Member-ready before you sit down. Doctor asks — you answer."
+        "body": "One tap: current items, recent labs, follow-ups due. Ready before you sit down. Doctor asks — you answer."
       }
     ]
   },
@@ -669,15 +669,15 @@
     "subtitle": "Personal records shouldn't be scattered, unreadable, or locked inside someone else's server.",
     "items": [
       {
-        "pain": "Every family-record app dies the same way: data-entry friction. If you have to type out each medication, dose and lab value manually, you stop using it within a week — and an archive nobody maintains is worthless.",
+        "pain": "Every family-record app dies the same way: data-entry friction. If you have to type out each item, dose and key value manually, you stop using it within a week — and an archive nobody maintains is worthless.",
         "gain": "KinMate's AI does the typing. Snap a photo, get a structured record. The archive maintains itself because you're not maintaining it — you're just taking photos."
       },
       {
         "pain": "Records scattered across paper, photos and a dozen hospital apps — never findable when the doctor asks.",
-        "gain": "One organized vault: every report, prescription and metric on a single timeline, searchable by person or pet."
+        "gain": "One organized vault: every report, item and metric on a single timeline, searchable by person or pet."
       },
       {
-        "pain": "Foreign-language lab reports full of jargon you simply can’t decode.",
+        "pain": "Foreign-language documents full of jargon you simply can’t decode.",
         "gain": "AI explains any report in plain English or Chinese — so you understand before the appointment, not after."
       },
       {
@@ -685,7 +685,7 @@
         "gain": "Track their medications and metrics, get a daily care check-in, and an alert the moment they miss one."
       },
       {
-        "pain": "Health apps that quietly upload your most private data to their own servers.",
+        "pain": "Personal apps that quietly upload your most private data to their own servers.",
         "gain": "Local-first, plus your own cloud. Zero personal data on our servers — encrypted with a key only you hold."
       },
       {
