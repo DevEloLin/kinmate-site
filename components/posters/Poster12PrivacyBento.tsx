@@ -1,73 +1,84 @@
-// Poster 12 — Privacy bento grid（组 D 同风格）。
-// 复用 Poster 11 结构，主题切换 privacy 多面。
-import { Heart, Lock, Cloud, Eye, Server, KeyRound, ShieldX, Star } from 'lucide-react'
-
+// Poster 12 v2 — Privacy Promise（极简白 + 中央大锁 + 6 trust stamps）。
+import { Heart, Star, Lock, KeyRound, Cloud, EyeOff, ShieldCheck, Server } from 'lucide-react'
 type Locale = 'en' | 'zh'
 
 export function Poster12PrivacyBento({ locale = 'en' }: { locale?: Locale }) {
   const isZh = locale === 'zh'
   const t = isZh ? {
-    chip: 'BETA · 公开测试', title1: '隐私不是承诺，', title2: '是设计。',
-    sub: '六个不能被忽略的事实 —— 关于你的数据归谁所有、存在哪里、谁能读到。',
-    cta: '60 天免费试用', rating: '4.9 · 1,200+',
-    cells: [
-      { icon: Lock,      label: 'AES-256-GCM', sub: '端到端加密', color: '#7C3AED', big: true },
-      { icon: KeyRound,  label: '密钥只在你', sub: '设备 / 助记词', color: '#15803D', big: false },
-      { icon: Cloud,     label: '你的网盘',   sub: '可随时切换',   color: '#0EA5E9', big: false },
-      { icon: ShieldX,   label: '零三方 SDK', sub: '无分析无崩溃',  color: '#DC2626', big: false },
-      { icon: Eye,       label: '我们读不到', sub: '一行也不行',   color: '#F59E0B', big: false },
-      { icon: Server,    label: '本地优先',   sub: '默认离线工作', color: '#0F172A', big: true },
+    chip: 'BETA · 公开测试',
+    title1: '你的数据。', title2: '你的钥匙。',
+    sub: '不是我们说的，是密码学说的 —— AES-256-GCM 端到端加密，密钥只在你设备。',
+    rating: '4.9 · 1,200+',
+    stamps: [
+      { icon: Lock,        label: 'AES-256-GCM' },
+      { icon: KeyRound,    label: '密钥只在你' },
+      { icon: Cloud,       label: '你的网盘' },
+      { icon: EyeOff,      label: '我们读不到' },
+      { icon: ShieldCheck, label: '零第三方 SDK' },
+      { icon: Server,      label: '本地优先' },
     ],
+    cta: '60 天免费试用 · KinMate',
   } : {
-    chip: 'BETA · OPEN TESTING', title1: 'Privacy isn\'t', title2: 'a promise. A design.',
-    sub: 'Six facts that cannot be hidden — about who owns your data, where it lives, who can read it.',
-    cta: '60-day free trial', rating: '4.9 · 1,200+',
-    cells: [
-      { icon: Lock,     label: 'AES-256-GCM', sub: 'End-to-end',         color: '#7C3AED', big: true },
-      { icon: KeyRound, label: 'Keys stay',   sub: 'On your device only', color: '#15803D', big: false },
-      { icon: Cloud,    label: 'Your cloud',  sub: 'Switch anytime',     color: '#0EA5E9', big: false },
-      { icon: ShieldX,  label: 'Zero 3rd-party', sub: 'No analytics SDKs', color: '#DC2626', big: false },
-      { icon: Eye,      label: 'We see zero', sub: 'Not a byte',         color: '#F59E0B', big: false },
-      { icon: Server,   label: 'Local-first', sub: 'Works offline',      color: '#0F172A', big: true },
+    chip: 'BETA · OPEN TESTING',
+    title1: 'Your data.', title2: 'Your keys.',
+    sub: 'Not our promise — cryptography\'s. AES-256-GCM end-to-end, keys only on your device.',
+    rating: '4.9 · 1,200+',
+    stamps: [
+      { icon: Lock,        label: 'AES-256-GCM' },
+      { icon: KeyRound,    label: 'Keys stay yours' },
+      { icon: Cloud,       label: 'Your own cloud' },
+      { icon: EyeOff,      label: 'We see zero' },
+      { icon: ShieldCheck, label: 'No 3rd-party SDKs' },
+      { icon: Server,      label: 'Local-first' },
     ],
+    cta: '60-day free trial · KinMate',
   }
   return (
-    <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(135deg, #F3F4F6 0%, #E0E7FF 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
-      <div className="pointer-events-none absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(circle, #0F172A 1.5px, transparent 1.5px)', backgroundSize: '32px 32px' }} />
+    <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(165deg, #FFFFFF 0%, #F5F5F4 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
+      <div className="pointer-events-none absolute inset-0 opacity-[0.06]" style={{ backgroundImage: 'linear-gradient(#0F172A 1px, transparent 1px), linear-gradient(90deg, #0F172A 1px, transparent 1px)', backgroundSize: '100px 100px' }} />
+
       <div className="absolute left-12 top-12 z-30 flex items-center gap-3">
-        <div className="flex h-16 w-16 items-center justify-center rounded-2xl shadow-lg" style={{ background: 'linear-gradient(135deg, #7C3AED, #5B21B6)' }}><Heart className="h-9 w-9 text-white" fill="white" /></div>
-        <div><p className="text-3xl font-extrabold tracking-tight" style={{ color: '#0F172A' }}>KinMate</p><p className="text-sm font-medium" style={{ color: '#475569' }}>{isZh ? '隐私优先' : 'Private by design'}</p></div>
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-black shadow-lg"><Heart className="h-8 w-8" style={{ color: '#FCD34D' }} fill="#FCD34D" /></div>
+        <p className="text-3xl font-extrabold tracking-tight" style={{ color: '#0F172A' }}>KinMate</p>
       </div>
-      <div className="absolute right-12 top-12 z-30 flex flex-col items-end gap-2.5">
-        <span className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-bold uppercase shadow-md" style={{ background: 'linear-gradient(90deg, #FF4D4D, #FF7A18)', color: 'white', letterSpacing: '0.14em' }}>{t.chip}</span>
-        <div className="flex items-center gap-1.5 rounded-full bg-white/95 px-3.5 py-1.5 shadow-sm">{[1,2,3,4,5].map(i => <Star key={i} className="h-4 w-4" fill="#F59E0B" stroke="#F59E0B" />)}<span className="ml-2 text-sm font-bold" style={{ color: '#0F172A' }}>{t.rating}</span></div>
+      <div className="absolute right-12 top-14 z-30 flex flex-col items-end gap-2.5">
+        <span className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-bold uppercase shadow-md" style={{ background: '#0F172A', color: 'white', letterSpacing: '0.14em' }}>{t.chip}</span>
+        <div className="flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 shadow-sm border border-black/10">{[1,2,3,4,5].map(i => <Star key={i} className="h-4 w-4" fill="#F59E0B" stroke="#F59E0B" />)}<span className="ml-2 text-sm font-bold" style={{ color: '#0F172A' }}>{t.rating}</span></div>
       </div>
-      <div className="absolute left-1/2 z-20 -translate-x-1/2 text-center" style={{ top: '180px', maxWidth: '900px', paddingLeft: '40px', paddingRight: '40px' }}>
-        <h1 className="font-extrabold" style={{ fontSize: '88px', lineHeight: 0.98, letterSpacing: '-2.5px', color: '#0F172A' }}>{t.title1}<br /><span style={{ color: '#7C3AED' }}>{t.title2}</span></h1>
-        <p className="mx-auto mt-5 font-semibold" style={{ fontSize: '22px', lineHeight: 1.4, color: '#1E293B', maxWidth: '780px' }}>{t.sub}</p>
+
+      <div className="absolute left-1/2 z-20 -translate-x-1/2 text-center" style={{ top: '150px', maxWidth: '900px' }}>
+        <h1 className="font-extrabold" style={{ fontFamily: 'ui-serif, Georgia, serif', fontSize: '100px', lineHeight: 0.96, letterSpacing: '-2.5px', color: '#0F172A' }}>{t.title1}<br /><span style={{ color: '#0F172A', fontStyle: 'italic' }}>{t.title2}</span></h1>
+        <p className="mx-auto mt-5 font-medium" style={{ fontSize: '22px', lineHeight: 1.45, color: '#475569', maxWidth: '720px' }}>{t.sub}</p>
       </div>
-      <div className="absolute z-10 grid" style={{ left: '60px', right: '60px', top: '600px', gridTemplateColumns: 'repeat(4, 1fr)', gridTemplateRows: 'repeat(3, 280px)', gap: '24px' }}>
-        {t.cells.map((c, i) => {
-          const Icon = c.icon
-          const span = c.big ? { gridColumn: 'span 2' } : {}
-          return (
-            <div key={i} className="relative overflow-hidden rounded-3xl shadow-xl" style={{ ...span, background: 'white', border: '2px solid rgba(255,255,255,0.95)' }}>
-              <div className="absolute -bottom-12 -right-12 h-48 w-48 rounded-full opacity-25 blur-2xl" style={{ background: c.color }} />
-              <div className="relative flex h-full flex-col justify-between p-7">
-                <span className="flex h-16 w-16 items-center justify-center rounded-2xl" style={{ background: `${c.color}1A` }}>
-                  <Icon className="h-9 w-9" style={{ color: c.color }} />
-                </span>
-                <div>
-                  <p className="text-3xl font-extrabold" style={{ color: '#0F172A' }}>{c.label}</p>
-                  <p className="text-base font-medium mt-1" style={{ color: c.color }}>{c.sub}</p>
-                </div>
-              </div>
-            </div>
-          )
-        })}
+
+      {/* 中央巨型 lock + glow */}
+      <div className="absolute z-10 flex items-center justify-center" style={{ left: '50%', top: '60%', transform: 'translate(-50%, -50%)' }}>
+        <div className="absolute h-[500px] w-[500px] rounded-full opacity-15 blur-3xl" style={{ background: '#0F172A' }} />
+        <div className="relative flex h-[300px] w-[300px] items-center justify-center rounded-[64px] shadow-2xl" style={{ background: '#0F172A', border: '4px solid #FCD34D' }}>
+          <Lock className="h-48 w-48" style={{ color: '#FCD34D' }} strokeWidth={1.6} />
+        </div>
       </div>
-      <div className="absolute inset-x-0 z-30 px-12 text-center" style={{ bottom: '50px' }}>
-        <p className="text-xl font-extrabold" style={{ color: '#5B21B6' }}>★ {t.cta} · KinMate</p>
+
+      {/* 6 个 trust stamp 围绕（环形排布） */}
+      {t.stamps.map((s, i) => {
+        const angles = [-90, -30, 30, 90, 150, 210] // 6 个位置 (degrees from center, top = -90)
+        const angle = angles[i] * Math.PI / 180
+        const r = 360
+        const cx = 50  // % from left
+        const cy = 60  // % from top
+        const offsetX = Math.cos(angle) * r
+        const offsetY = Math.sin(angle) * r
+        const Icon = s.icon
+        return (
+          <div key={i} className="absolute z-20 flex items-center gap-2.5 rounded-full bg-white px-5 py-3 shadow-2xl" style={{ left: `calc(${cx}% + ${offsetX}px)`, top: `calc(${cy}% + ${offsetY}px)`, transform: 'translate(-50%, -50%)', border: '2px solid #0F172A22' }}>
+            <Icon className="h-5 w-5" style={{ color: '#0F172A' }} strokeWidth={2.2} />
+            <p className="text-sm font-extrabold whitespace-nowrap" style={{ color: '#0F172A' }}>{s.label}</p>
+          </div>
+        )
+      })}
+
+      <div className="absolute inset-x-0 z-30 px-12 text-center" style={{ bottom: '60px' }}>
+        <p className="text-xl font-extrabold" style={{ color: '#0F172A' }}>★ {t.cta}</p>
       </div>
     </div>
   )

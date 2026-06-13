@@ -1,5 +1,4 @@
-// Poster 19 — 中文 hero typography（组 F）。Locale 强制 zh 文案展示但 EN 版仍可访问。
-// 大字毛笔感（粗体 + 衬线），暖米色 + 墨色，纯文字海报。
+// Poster 19 v2 — Family portrait + connection web（人物关系网，无 phone）。
 import { Heart, Star, Sparkles } from 'lucide-react'
 type Locale = 'en' | 'zh'
 
@@ -7,69 +6,95 @@ export function Poster19ZhHero({ locale = 'en' }: { locale?: Locale }) {
   const isZh = locale === 'zh'
   const t = isZh ? {
     chip: 'BETA · 公开测试',
-    line1: '把一家人',
-    line2: '装进',
-    line3: '一个安静',
-    line4: '的口袋。',
-    sub: '父母、孩子、宠物、文件、提醒 —— 都在你掌心。',
-    sub2: '本地优先 · 隐私第一 · 双语 AI',
-    pills: ['📄 文件归档', '⏰ 日常提醒', '🐾 宠物档案', '🔒 隐私第一'],
-    rating: '4.9 · 1,200+ 评价', cta: '60 天免费试用',
+    title1: '一条线，', title2: '一家人。',
+    sub: '不论住在哪、用什么设备 —— 每个人有自己的一页，互相之间一根线连着。',
+    rating: '4.9 · 1,200+',
+    members: [
+      { emoji: '👵', role: '外婆',   relation: 'top' },
+      { emoji: '👴', role: '外公',   relation: 'top' },
+      { emoji: '👩', role: '妈妈',   relation: 'mid' },
+      { emoji: '👨', role: '爸爸',   relation: 'mid' },
+      { emoji: '👧', role: '女儿',   relation: 'bot' },
+      { emoji: '🐈', role: '咪咪',   relation: 'bot' },
+    ],
+    cta: '60 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
-    line1: 'Put a family',
-    line2: 'into',
-    line3: 'one quiet',
-    line4: 'pocket.',
-    sub: 'Parents, kids, pets, documents, reminders — all in your hand.',
-    sub2: 'Local-first · Private by design · Bilingual AI',
-    pills: ['📄 Documents', '⏰ Reminders', '🐾 Pets', '🔒 Privacy-first'],
-    rating: '4.9 · 1,200+ reviews', cta: '60-day free trial',
+    title1: 'One thread,', title2: 'one family.',
+    sub: 'Wherever you live, whatever device — everyone has a page, all connected by one thread.',
+    rating: '4.9 · 1,200+',
+    members: [
+      { emoji: '👵', role: 'Grandma', relation: 'top' },
+      { emoji: '👴', role: 'Grandpa', relation: 'top' },
+      { emoji: '👩', role: 'Mom',     relation: 'mid' },
+      { emoji: '👨', role: 'Dad',     relation: 'mid' },
+      { emoji: '👧', role: 'Daughter',relation: 'bot' },
+      { emoji: '🐈', role: 'Mimi',    relation: 'bot' },
+    ],
+    cta: '60-day free trial · KinMate',
   }
   return (
-    <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #FFFBEB 0%, #FEF3C7 50%, #FDE68A 100%)', fontFamily: '"PingFang SC", "Microsoft YaHei", ui-serif, Georgia, serif' }}>
-      {/* 装饰：墨点 + 几条手绘曲线 */}
-      <svg className="pointer-events-none absolute" style={{ top: '40px', right: '60px' }} width="180" height="180" viewBox="0 0 180 180">
-        <path d="M 30 90 Q 90 20 150 60 T 170 130" stroke="#7C2D12" strokeWidth="6" strokeLinecap="round" fill="none" opacity="0.35" />
-      </svg>
-      <svg className="pointer-events-none absolute" style={{ bottom: '300px', left: '40px' }} width="220" height="120" viewBox="0 0 220 120">
-        <path d="M 10 60 Q 70 10 130 70 T 210 50" stroke="#92400E" strokeWidth="5" strokeLinecap="round" fill="none" opacity="0.3" />
-      </svg>
-      {[
-        { top: '180px', left: '60px',  size: 12, opacity: 0.4 },
-        { top: '900px',  right: '90px', size: 14, opacity: 0.5 },
-        { top: '1400px', left: '120px', size: 10, opacity: 0.4 },
-      ].map((p, i) => (
-        <div key={i} className="pointer-events-none absolute rounded-full" style={{ ...p, width: p.size, height: p.size, background: '#7C2D12' }} />
-      ))}
+    <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #FFFBEB 0%, #FEE2E2 50%, #FECDD3 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
+      <div className="pointer-events-none absolute -left-40 top-1/3 h-[480px] w-[480px] rounded-full opacity-40 blur-3xl" style={{ background: '#F43F5E' }} />
+      <div className="pointer-events-none absolute -right-40 bottom-1/3 h-[480px] w-[480px] rounded-full opacity-30 blur-3xl" style={{ background: '#F59E0B' }} />
 
       <div className="absolute left-12 top-12 z-30 flex items-center gap-3">
-        <div className="flex h-14 w-14 items-center justify-center rounded-2xl shadow-lg" style={{ background: 'linear-gradient(135deg, #7C2D12, #451A03)' }}><Heart className="h-8 w-8 text-white" fill="white" /></div>
-        <p className="text-2xl font-extrabold tracking-tight" style={{ color: '#451A03' }}>KinMate</p>
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl shadow-lg" style={{ background: 'linear-gradient(135deg, #DC2626, #991B1B)' }}><Heart className="h-8 w-8 text-white" fill="white" /></div>
+        <p className="text-3xl font-extrabold tracking-tight" style={{ color: '#7F1D1D' }}>KinMate</p>
       </div>
-      <div className="absolute right-12 top-12 z-30 flex flex-col items-end gap-2.5">
-        <span className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-bold uppercase shadow-md" style={{ background: 'linear-gradient(90deg, #FF4D4D, #FF7A18)', color: 'white', letterSpacing: '0.14em' }}>{t.chip}</span>
-        <div className="flex items-center gap-1.5 rounded-full bg-white/95 px-3.5 py-1.5 shadow-sm">{[1,2,3,4,5].map(i => <Star key={i} className="h-4 w-4" fill="#92400E" stroke="#92400E" />)}<span className="ml-2 text-sm font-bold" style={{ color: '#451A03' }}>{t.rating}</span></div>
-      </div>
-
-      {/* 4 行大字纵向排列 */}
-      <div className="absolute z-20" style={{ left: '60px', top: '220px' }}>
-        <p className="font-black" style={{ fontSize: '180px', lineHeight: 0.86, letterSpacing: '-4px', color: '#0F172A' }}>{t.line1}</p>
-        <p className="font-black mt-2" style={{ fontSize: '160px', lineHeight: 0.86, letterSpacing: '-4px', color: '#92400E', fontStyle: 'italic' }}>{t.line2}</p>
-        <p className="font-black mt-2" style={{ fontSize: '180px', lineHeight: 0.86, letterSpacing: '-4px', color: '#0F172A' }}>{t.line3}</p>
-        <p className="font-black mt-2" style={{ fontSize: '180px', lineHeight: 0.86, letterSpacing: '-4px', color: '#7C2D12' }}>{t.line4}</p>
+      <div className="absolute right-12 top-14 z-30 flex flex-col items-end gap-2.5">
+        <span className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-bold uppercase shadow-md" style={{ background: 'linear-gradient(90deg, #FF4D4D, #FF7A18)', color: 'white', letterSpacing: '0.14em' }}>{t.chip}</span>
+        <div className="flex items-center gap-1.5 rounded-full bg-white/95 px-3.5 py-1.5 shadow-sm">{[1,2,3,4,5].map(i => <Star key={i} className="h-4 w-4" fill="#F59E0B" stroke="#F59E0B" />)}<span className="ml-2 text-sm font-bold" style={{ color: '#0F172A' }}>{t.rating}</span></div>
       </div>
 
-      <div className="absolute inset-x-0 z-30 px-12" style={{ bottom: '60px' }}>
-        <p className="text-2xl font-bold mb-3" style={{ color: '#451A03' }}>{t.sub}</p>
-        <p className="text-lg font-medium mb-5" style={{ color: '#7C2D12' }}>{t.sub2}</p>
-        <div className="flex flex-wrap gap-2.5">
-          {t.pills.map((p, i) => {
-            const colors = ['#92400E', '#7C2D12', '#451A03', '#0F172A']
-            return <span key={i} className="inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-bold shadow-md" style={{ background: colors[i % 4], color: 'white', transform: `rotate(${[-2, 1, -1, 2][i]}deg)` }}>{p}</span>
-          })}
+      <div className="absolute left-1/2 z-20 -translate-x-1/2 text-center" style={{ top: '150px', maxWidth: '900px' }}>
+        <h1 className="font-extrabold" style={{ fontSize: '92px', lineHeight: 0.96, letterSpacing: '-2.5px', color: '#7F1D1D' }}>{t.title1}<br /><span style={{ color: '#DC2626' }}>{t.title2}</span></h1>
+        <p className="mx-auto mt-5 font-semibold" style={{ fontSize: '22px', lineHeight: 1.4, color: '#0F172A', maxWidth: '760px' }}>{t.sub}</p>
+      </div>
+
+      {/* 关系网 SVG (连线) */}
+      <svg className="pointer-events-none absolute z-5" style={{ left: '0', top: '550px', width: '100%', height: '900px' }}>
+        {/* 中央 KinMate logo 圆位置 */}
+        {/* top row 2 nodes → center; mid 2 → center; bot 2 → center */}
+        {[
+          { x1: 270, y1: 220, x2: 540, y2: 540 },  // top-left → center
+          { x1: 810, y1: 220, x2: 540, y2: 540 },  // top-right → center
+          { x1: 170, y1: 540, x2: 540, y2: 540 },  // mid-left → center
+          { x1: 910, y1: 540, x2: 540, y2: 540 },  // mid-right → center
+          { x1: 270, y1: 860, x2: 540, y2: 540 },  // bot-left → center
+          { x1: 810, y1: 860, x2: 540, y2: 540 },  // bot-right → center
+        ].map((p, i) => (
+          <line key={i} x1={p.x1} y1={p.y1} x2={p.x2} y2={p.y2} stroke="#DC2626" strokeWidth="3" strokeOpacity="0.35" strokeDasharray="8 6" />
+        ))}
+      </svg>
+
+      {/* 中央 KinMate logo 圆（关系核心） */}
+      <div className="absolute z-20 flex items-center justify-center" style={{ left: '50%', top: '1090px', transform: 'translate(-50%, -50%)' }}>
+        <div className="flex h-32 w-32 items-center justify-center rounded-full shadow-2xl" style={{ background: 'linear-gradient(135deg, #DC2626, #991B1B)', border: '6px solid white' }}>
+          <Heart className="h-16 w-16 text-white" fill="white" />
         </div>
-        <p className="mt-5 text-base font-extrabold" style={{ color: '#451A03' }}><Sparkles className="inline h-4 w-4 mr-1.5" />{t.cta}</p>
+      </div>
+
+      {/* 6 个 family member 圆（围绕中央） */}
+      {t.members.map((m, i) => {
+        const positions = [
+          { left: '270px',  top: '770px',  bg: '#F59E0B' },  // top-left grandma
+          { right: '270px', top: '770px',  bg: '#92400E' },  // top-right grandpa
+          { left: '170px',  top: '1090px', bg: '#DC2626' },  // mid-left mom
+          { right: '170px', top: '1090px', bg: '#0EA5E9' },  // mid-right dad
+          { left: '270px',  top: '1410px', bg: '#F43F5E' },  // bot-left daughter
+          { right: '270px', top: '1410px', bg: '#F97316' },  // bot-right pet
+        ][i] as any
+        return (
+          <div key={i} className="absolute z-20 flex flex-col items-center" style={{ ...positions, transform: 'translate(-50%, -50%)' }}>
+            <div className="flex h-24 w-24 items-center justify-center rounded-full shadow-xl" style={{ background: positions.bg, border: '5px solid white', fontSize: '48px' }}>{m.emoji}</div>
+            <p className="mt-3 px-3 py-1 rounded-full text-sm font-bold bg-white shadow-md" style={{ color: '#0F172A' }}>{m.role}</p>
+          </div>
+        )
+      })}
+
+      <div className="absolute inset-x-0 z-30 px-12 text-center" style={{ bottom: '50px' }}>
+        <p className="text-xl font-extrabold" style={{ color: '#7F1D1D' }}>★ {t.cta}</p>
       </div>
     </div>
   )

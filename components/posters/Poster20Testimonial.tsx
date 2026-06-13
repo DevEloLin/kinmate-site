@@ -1,76 +1,95 @@
-// Poster 20 — Quote / Testimonial 风（组 F：纯文字海报）。
-// 大引号 + 用户证言 + 评分 + 小 emoji 头像。
-import { Heart, Star, Quote } from 'lucide-react'
+// Poster 20 v2 — 杂志封面 巨数字 + 评分（CTA finale，磁性大字）。
+import { Heart, Star, Sparkles, CheckCircle2 } from 'lucide-react'
 type Locale = 'en' | 'zh'
 
 export function Poster20Testimonial({ locale = 'en' }: { locale?: Locale }) {
   const isZh = locale === 'zh'
   const t = isZh ? {
     chip: 'BETA · 公开测试',
-    quote: '换手机的时候本来挺紧张，怕几年文件都要重新整理。一登录全自动回来了。',
-    author: '林女士', role: '上海 · 两个孩子的妈妈',
-    quote2: '爸妈的提醒、孩子的疫苗记录、家里宠物的就诊 —— 都在一个 app 里。我终于不慌了。',
-    author2: '张先生', role2: '深圳 · 三代同堂',
-    rating: '4.9', reviews: '1,200+', star: '颗 5 星好评',
-    cta: '加入 1,200+ 家庭', sub: '60 天免费试用 · 本地优先 · 隐私第一',
+    big1: '60', big2: '天',
+    label1: '免费', label2: '试用',
+    title: '把一家人，', title2: '装进口袋。',
+    sub: '本地优先 · 双语 AI · 自带网盘 · 随时取消',
+    rating: '4.9', reviews: '1,200+',
+    quote: '"我换手机的时候本来挺紧张，结果一登录全自动回来了。" — 林女士',
+    chips: ['App Store 4.9 ★', 'Play 4.8 ★', '无广告', '随时取消'],
+    cta: '下载 KinMate · 今天就开始',
+    store1: 'App Store', store2: 'Google Play',
   } : {
     chip: 'BETA · OPEN TESTING',
-    quote: 'I was nervous about switching phones — years of files. Logged in, and everything was just there.',
-    author: 'Sarah K.', role: 'NYC · Mom of two',
-    quote2: 'Mom\'s reminders, the kids\' vaccine records, our cat\'s vet visits — all in one app. I finally stopped panicking.',
-    author2: 'David L.', role2: 'SF · Three-gen household',
-    rating: '4.9', reviews: '1,200+', star: 'five-star reviews',
-    cta: 'Join 1,200+ families', sub: '60-day free trial · Local-first · Private by design',
+    big1: '60', big2: 'days',
+    label1: 'free', label2: 'trial',
+    title: 'Put a family', title2: 'in your pocket.',
+    sub: 'Local-first · Bilingual AI · Your own cloud · Cancel anytime',
+    rating: '4.9', reviews: '1,200+',
+    quote: '"I switched phones — logged in, and everything was just there." — Sarah K.',
+    chips: ['App Store 4.9 ★', 'Play 4.8 ★', 'Zero ads', 'Cancel anytime'],
+    cta: 'Download KinMate · Start today',
+    store1: 'App Store', store2: 'Google Play',
   }
   return (
-    <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #FFFFFF 0%, #F1F5F9 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
-      <div className="pointer-events-none absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(circle, #0F172A 1.5px, transparent 1.5px)', backgroundSize: '40px 40px' }} />
-      <div className="pointer-events-none absolute -left-40 top-1/4 h-[480px] w-[480px] rounded-full opacity-30 blur-3xl" style={{ background: '#15803D' }} />
-      <div className="pointer-events-none absolute -right-40 bottom-1/4 h-[480px] w-[480px] rounded-full opacity-30 blur-3xl" style={{ background: '#0EA5E9' }} />
+    <div className="relative h-screen w-screen overflow-hidden" style={{ background: '#FCD34D', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
+      {/* 杂志拼贴色块 */}
+      <div className="pointer-events-none absolute" style={{ top: 0, right: 0, width: '55%', height: '380px', background: '#0F172A' }} />
+      <div className="pointer-events-none absolute" style={{ bottom: 0, left: 0, width: '60%', height: '420px', background: '#15803D' }} />
+      <div className="pointer-events-none absolute" style={{ top: '380px', left: 0, width: '100%', height: '4px', background: '#0F172A' }} />
 
       <div className="absolute left-12 top-12 z-30 flex items-center gap-3">
-        <div className="flex h-14 w-14 items-center justify-center rounded-2xl shadow-lg" style={{ background: 'linear-gradient(135deg, #15803D, #059669)' }}><Heart className="h-8 w-8 text-white" fill="white" /></div>
-        <p className="text-2xl font-extrabold tracking-tight" style={{ color: '#0F172A' }}>KinMate</p>
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-lg"><Heart className="h-8 w-8" style={{ color: '#DC2626' }} fill="#DC2626" /></div>
+        <p className="text-3xl font-extrabold tracking-tight" style={{ color: '#0F172A' }}>KinMate</p>
       </div>
-      <span className="absolute right-12 top-14 z-30 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-bold uppercase shadow-md" style={{ background: 'linear-gradient(90deg, #FF4D4D, #FF7A18)', color: 'white', letterSpacing: '0.14em' }}>{t.chip}</span>
+      <span className="absolute right-12 top-14 z-30 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-bold uppercase shadow-md" style={{ background: 'white', color: '#0F172A', letterSpacing: '0.18em' }}>{t.chip}</span>
 
-      {/* 大评分块 */}
-      <div className="absolute left-1/2 z-20 -translate-x-1/2 text-center" style={{ top: '150px' }}>
-        <p className="text-[200px] font-black leading-none" style={{ color: '#15803D', letterSpacing: '-8px' }}>{t.rating}</p>
-        <div className="mt-3 flex items-center justify-center gap-1">{[1,2,3,4,5].map(i => <Star key={i} className="h-8 w-8" fill="#F59E0B" stroke="#F59E0B" />)}</div>
-        <p className="mt-3 text-xl font-bold" style={{ color: '#0F172A' }}>{t.reviews} {t.star}</p>
+      {/* 巨型 "60 days" 杂志封面 */}
+      <div className="absolute z-20" style={{ left: '60px', top: '180px' }}>
+        <p className="font-black" style={{ fontSize: '440px', lineHeight: 0.78, letterSpacing: '-22px', color: '#0F172A', textShadow: '12px 12px 0 #DC2626' }}>{t.big1}</p>
+      </div>
+      <div className="absolute z-20 text-right" style={{ right: '60px', top: '270px' }}>
+        <p className="font-black text-white" style={{ fontSize: '140px', lineHeight: 0.86, letterSpacing: '-6px' }}>{t.big2}</p>
+        <p className="font-black mt-2" style={{ fontSize: '80px', lineHeight: 0.86, letterSpacing: '-3px', color: '#FCD34D' }}>{t.label1}</p>
+        <p className="font-black" style={{ fontSize: '80px', lineHeight: 0.86, letterSpacing: '-3px', color: '#FCD34D' }}>{t.label2}</p>
       </div>
 
-      {/* Quote card 1 */}
-      <div className="absolute z-10 rounded-3xl bg-white shadow-2xl" style={{ left: '60px', top: '720px', width: '440px', padding: '40px 32px', transform: 'rotate(-3deg)', border: '2px solid rgba(255,255,255,0.95)' }}>
-        <Quote className="h-12 w-12 mb-3" style={{ color: '#15803D' }} fill="#15803D33" />
-        <p className="text-xl font-semibold leading-snug mb-4" style={{ color: '#0F172A' }}>"{t.quote}"</p>
-        <div className="flex items-center gap-3 mt-5">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full text-2xl" style={{ background: '#15803D' }}>👩</div>
-          <div>
-            <p className="text-base font-bold" style={{ color: '#0F172A' }}>{t.author}</p>
-            <p className="text-sm" style={{ color: '#64748B' }}>{t.role}</p>
-          </div>
+      {/* 标题副 */}
+      <div className="absolute z-20" style={{ left: '60px', top: '770px', maxWidth: '900px' }}>
+        <h2 className="font-extrabold" style={{ fontSize: '72px', lineHeight: 1, letterSpacing: '-1.8px', color: '#0F172A' }}>{t.title}<br /><span style={{ color: 'white', WebkitTextStroke: '2px #0F172A' }}>{t.title2}</span></h2>
+        <p className="mt-4 text-xl font-bold" style={{ color: '#0F172A' }}>{t.sub}</p>
+      </div>
+
+      {/* 评分大块 */}
+      <div className="absolute z-20" style={{ right: '60px', top: '1020px', textAlign: 'right' }}>
+        <p className="font-black" style={{ fontSize: '180px', lineHeight: 0.86, letterSpacing: '-8px', color: 'white' }}>{t.rating}</p>
+        <div className="flex justify-end items-center gap-1 mt-2">{[1,2,3,4,5].map(i => <Star key={i} className="h-8 w-8" fill="#FCD34D" stroke="#FCD34D" />)}</div>
+        <p className="text-xl font-extrabold mt-1" style={{ color: '#FCD34D' }}>{t.reviews}</p>
+      </div>
+
+      {/* Testimonial quote (左下) */}
+      <div className="absolute z-20" style={{ left: '60px', top: '1180px', maxWidth: '600px' }}>
+        <p className="text-lg font-bold italic" style={{ color: '#15803D', lineHeight: 1.4 }}>{t.quote}</p>
+      </div>
+
+      {/* trust chips */}
+      <div className="absolute z-30 flex flex-wrap gap-2.5" style={{ left: '60px', bottom: '320px', maxWidth: '900px' }}>
+        {t.chips.map((c, i) => (
+          <span key={i} className="inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-bold shadow-md" style={{ background: 'white', color: '#0F172A' }}>
+            <CheckCircle2 className="h-4 w-4" style={{ color: '#15803D' }} />{c}
+          </span>
+        ))}
+      </div>
+
+      {/* 商店徽章 */}
+      <div className="absolute z-30 flex items-center gap-4" style={{ left: '60px', bottom: '150px' }}>
+        <div className="flex items-center gap-3 rounded-2xl px-6 py-3.5 shadow-2xl" style={{ background: 'white' }}>
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="#0F172A"><path d="M16.5 1.2c0 1.4-.6 2.7-1.5 3.6-1 1-2.3 1.7-3.6 1.6-.2-1.3.4-2.7 1.4-3.6 1-.9 2.4-1.5 3.7-1.6Zm4.4 16.5c-.7 1.6-1 2.3-1.9 3.7-1.2 1.9-2.9 4.3-5 4.3-1.9 0-2.4-1.2-4.9-1.2s-3.1 1.3-5 1.2c-2.1 0-3.7-2.1-4.9-4-3.4-5.3-3.7-11.6-1.6-14.9 1.5-2.4 3.8-3.7 6-3.7 2.2 0 3.6 1.2 5.4 1.2 1.8 0 2.8-1.2 5.4-1.2 2 0 4 1.1 5.5 3-4.8 2.6-4 9.4 0 11.6Z" /></svg>
+          <div className="leading-tight"><p className="text-xs font-medium" style={{ color: '#64748B' }}>Download</p><p className="text-xl font-bold" style={{ color: '#0F172A' }}>{t.store1}</p></div>
+        </div>
+        <div className="flex items-center gap-3 rounded-2xl px-6 py-3.5 shadow-2xl" style={{ background: 'white' }}>
+          <svg width="32" height="32" viewBox="0 0 24 24"><path d="M3 2v20l11-10L3 2Z" fill="#34A853" /><path d="M3 2l11 10 4-3.6L5.5 1A2 2 0 0 0 3 2Z" fill="#FBBC04" /><path d="M3 22l11-10 4 3.6-12.5 7.5A2 2 0 0 1 3 22Z" fill="#EA4335" /><path d="M14 12l4-3.6 4.5 2.7c.8.5.8 1.7 0 2.2L18 15.6 14 12Z" fill="#4285F4" /></svg>
+          <div className="leading-tight"><p className="text-xs font-medium" style={{ color: '#64748B' }}>Get</p><p className="text-xl font-bold" style={{ color: '#0F172A' }}>{t.store2}</p></div>
         </div>
       </div>
 
-      {/* Quote card 2 */}
-      <div className="absolute z-10 rounded-3xl bg-white shadow-2xl" style={{ right: '60px', top: '900px', width: '440px', padding: '40px 32px', transform: 'rotate(3deg)', border: '2px solid rgba(255,255,255,0.95)' }}>
-        <Quote className="h-12 w-12 mb-3" style={{ color: '#0EA5E9' }} fill="#0EA5E933" />
-        <p className="text-xl font-semibold leading-snug mb-4" style={{ color: '#0F172A' }}>"{t.quote2}"</p>
-        <div className="flex items-center gap-3 mt-5">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full text-2xl" style={{ background: '#0EA5E9' }}>👨</div>
-          <div>
-            <p className="text-base font-bold" style={{ color: '#0F172A' }}>{t.author2}</p>
-            <p className="text-sm" style={{ color: '#64748B' }}>{t.role2}</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="absolute inset-x-0 z-30 text-center" style={{ bottom: '110px' }}>
-        <p className="text-4xl font-extrabold" style={{ color: '#15803D' }}>★ {t.cta}</p>
-        <p className="mt-3 text-lg font-medium" style={{ color: '#475569' }}>{t.sub}</p>
-      </div>
+      <p className="absolute z-30 text-right text-lg font-extrabold" style={{ right: '60px', bottom: '60px', color: 'white' }}>{t.cta} →</p>
     </div>
   )
 }
