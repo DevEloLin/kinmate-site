@@ -19,9 +19,9 @@
       "text": "Launch special · Family 8 lifetime $199.99 (was $399.99)",
       "cta": "See the offer"
     },
-    "eyebrow": "Built for the caregiver in the middle",
+    "eyebrow": "Built for the family member in the middle",
     "title": "Walk into the next appointment ready — in one tap.",
-    "subtitle": "Snap any lab report or prescription. KinMate's AI extracts the medication, dose, date and doctor in seconds, then files it under the right person. No typing. No drawer of paper. No scrolling your camera roll while the doctor waits. Just one tap — mom's current meds, dad's recent labs, your kid's vaccine record — ready on the appointment screen.",
+    "subtitle": "Snap any document or prescription. KinMate's AI extracts the medication, dose, date and doctor in seconds, then files it under the right person. No typing. No drawer of paper. No scrolling your camera roll while the doctor waits. Just one tap — mom's current meds, dad's recent labs, your kid's vaccine record — ready on the appointment screen.",
     "promise": "Stays on your device. There the moment the doctor asks.",
     "privacyFinePrint": "🔒 Local-first storage · End-to-end encrypted · Zero analytics SDKs · We never see your files",
     "stats": [
@@ -44,7 +44,7 @@
     ]
   },
   "trust": {
-    "title": "Why caregivers trust KinMate with the most private data their family owns",
+    "title": "Why family members trust KinMate with the most private data their family owns",
     "items": [
       {
         "title": "Local-first by default",
@@ -65,7 +65,7 @@
     ]
   },
   "features": {
-    "title": "Built for the caregiver doing the caring",
+    "title": "Built for the family member doing the caring",
     "subtitle": "Less typing. Less hunting. Less mental load — for the daughter, son, partner managing it all.",
     "seeAll": "See all features",
     "groups": [
@@ -80,10 +80,10 @@
           },
           {
             "title": "Metrics that show the trend",
-            "body": "Log blood pressure, glucose, lipids, liver & kidney values — charted over 7/30/90 days with normal-range markers."
+            "body": "Log blood pressure, glucose, lipids, liver & kidney indicators — charted over 7/30/90 days with normal-range markers."
           },
           {
-            "title": "Medications & smart reminders",
+            "title": "Reminders & smart reminders",
             "body": "Track prescriptions and get gentle local reminders for doses, follow-ups, vaccines and vet visits — never spam."
           },
           {
@@ -95,38 +95,38 @@
       {
         "key": "intelligence",
         "eyebrow": "New in v1.2",
-        "heading": "Health Intelligence",
+        "heading": "Smart Organization",
         "items": [
           {
             "title": "Bilingual AI explanations",
             "body": "Turn a dense lab report into plain English or Chinese. Disclaimers built in — it informs, it never diagnoses."
           },
           {
-            "title": "Patient summary for clinic visits",
-            "body": "One-tap structured summary: basic info, disease history, current medications, allergies and recent abnormal indicators. Translate to English to share with your clinician."
+            "title": "Record summary for appointments",
+            "body": "One-tap structured summary: basic info, record history, current items, allergies and recent abnormal indicators. Translate to English to share with your clinician."
           },
           {
             "title": "Multi-metric trend analysis",
             "body": "Track blood pressure, glucose, cholesterol and more across 30/90/180 days. Abnormalities are flagged, severity scored, with a plain-language read."
           },
           {
-            "title": "Medical case management",
+            "title": "Case management",
             "body": "AI extracts diagnoses and prescriptions from your reports into structured cases. Track active vs resolved, link reports, edit by hand."
           },
           {
-            "title": "Emergency medical card",
-            "body": "Critical info card — blood type, allergies, chronic conditions, current medications, contacts. Show the QR code in a crisis."
+            "title": "Emergency info card",
+            "body": "Critical info card — blood type, allergies, chronic conditions, current items, contacts. Show the QR code in a crisis."
           },
           {
             "title": "Genetic risk from family history",
-            "body": "Aggregate family diagnoses into risk profiles for common hereditary conditions. AI-generated, plain language, with prevention suggestions."
+            "body": "Aggregate family diagnoses into risk profiles for common patterns. AI-generated, plain language, with prevention suggestions."
           },
           {
-            "title": "Unified health timeline",
+            "title": "Unified timeline",
             "body": "Reports, diagnoses, medications and key events on one chronological timeline per profile. Filter by type, jump to any year."
           },
           {
-            "title": "Family health dashboard",
+            "title": "Family dashboard",
             "body": "Overview card for every member: active cases, attention metrics, overall status. Surfaces who needs attention first."
           }
         ]
@@ -468,7 +468,7 @@
   },
   "about": {
     "title": "Built for families who want clarity without the clutter",
-    "body": "KinMate exists because health information is too often scattered, hard to read, and harder to share when it matters. We wanted one calm place for family records: private by default, easy to understand, and simple to share only when you choose."
+    "body": "KinMate exists because personal information is too often scattered, hard to read, and harder to share when it matters. We wanted one calm place for family records: private by default, easy to understand, and simple to share only when you choose."
   },
   "testimonials": {
     "eyebrow": "Real voices",
@@ -489,8 +489,8 @@
       },
       {
         "name": "Emily",
-        "role": "Caregiver, New York",
-        "quote": "Before each visit I generate a health summary: basics, history, current medications and recent abnormal values, all laid out. The English translation saves real time in the consultation room.",
+        "role": "Family Member, New York",
+        "quote": "Before each visit I generate a personal summary: basics, history, current items and recent abnormal values, all laid out. The English translation saves real time in the consultation room.",
         "outcome": "Helps me prepare faster"
       },
       {
@@ -514,7 +514,7 @@
       {
         "name": "Grace",
         "role": "Adult daughter, New Jersey",
-        "quote": "The family health dashboard makes it obvious who needs attention first — active cases, watch metrics, overall status, all on one card. My brother and I finally see the same picture.",
+        "quote": "The family records dashboard makes it obvious who needs attention first — active cases, watch metrics, overall status, all on one card. My brother and I finally see the same picture.",
         "outcome": "Fewer family misunderstandings"
       },
       {
@@ -532,13 +532,13 @@
       {
         "name": "Ava",
         "role": "Care coordinator, Oregon",
-        "quote": "My mom's allergy list is long — in past emergencies we could never communicate it fast enough. Now the emergency medical card is a single QR: blood type, allergies, chronic conditions, current meds, all there.",
+        "quote": "My mom's allergy list is long — in past emergencies we could never communicate it fast enough. Now the emergency info card is a single QR: blood type, allergies, chronic conditions, current meds, all there.",
         "outcome": "Calm in the moments that matter"
       },
       {
         "name": "Liam",
         "role": "Parent of two, Arizona",
-        "quote": "It feels less like a medical app and more like a calm home base for everything the family needs to remember.",
+        "quote": "It feels less like another app and more like a calm home base for everything the family needs to remember.",
         "outcome": "Makes the whole routine feel lighter"
       },
       {
@@ -562,8 +562,8 @@
       {
         "name": "Chloe",
         "role": "Daughter, California",
-        "quote": "The medication reminders are calm and simple. That matters because my mom actually keeps using the app.",
-        "outcome": "More consistent medication follow-through"
+        "quote": "The reminders are calm and simple. That matters because my mom actually keeps using the app.",
+        "outcome": "More consistent reminder follow-through"
       },
       {
         "name": "Henry",
@@ -591,7 +591,7 @@
       },
       {
         "name": "Jason",
-        "role": "Caregiver, Washington",
+        "role": "Family Member, Washington",
         "quote": "The biggest difference is not having to chase people for the same information. The app keeps the facts ready.",
         "outcome": "Less chasing, more clarity"
       },
@@ -626,7 +626,7 @@
     "backHome": "Back to home"
   },
   "footer": {
-    "tagline": "Local-first health vault for your whole family.",
+    "tagline": "Local-first information vault for your whole family.",
     "product": "Product",
     "company": "Company",
     "legal": "Legal",
@@ -648,11 +648,11 @@
   },
   "howItWorks": {
     "title": "From scattered to appointment-ready in three steps",
-    "subtitle": "The fastest health archive is the one that builds itself. No typing. No drawer of paper. No data-entry fatigue.",
+    "subtitle": "The fastest personal archive is the one that builds itself. No typing. No drawer of paper. No data-entry fatigue.",
     "steps": [
       {
         "title": "1. Snap any report or prescription",
-        "body": "Photo, photo library, or PDF — KinMate's AI extracts medication, dose, date, doctor and lab values in seconds. The data-entry friction that kills every other family-health app — gone."
+        "body": "Photo, photo library, or PDF — KinMate's AI extracts medication, dose, date, doctor and lab values in seconds. The data-entry friction that kills every other family-record app — gone."
       },
       {
         "title": "2. KinMate files it under the right person",
@@ -660,16 +660,16 @@
       },
       {
         "title": "3. Walk into the next appointment ready",
-        "body": "One tap: current medications, recent labs, follow-ups due. Caregiver-ready before you sit down. Doctor asks — you answer."
+        "body": "One tap: current items, recent labs, follow-ups due. Family Member-ready before you sit down. Doctor asks — you answer."
       }
     ]
   },
   "problems": {
     "title": "The real problems KinMate solves",
-    "subtitle": "Health records shouldn't be scattered, unreadable, or locked inside someone else's server.",
+    "subtitle": "Personal records shouldn't be scattered, unreadable, or locked inside someone else's server.",
     "items": [
       {
-        "pain": "Every family-health app dies the same way: data-entry friction. If you have to type out each medication, dose and lab value manually, you stop using it within a week — and an archive nobody maintains is worthless.",
+        "pain": "Every family-record app dies the same way: data-entry friction. If you have to type out each medication, dose and lab value manually, you stop using it within a week — and an archive nobody maintains is worthless.",
         "gain": "KinMate's AI does the typing. Snap a photo, get a structured record. The archive maintains itself because you're not maintaining it — you're just taking photos."
       },
       {
@@ -686,7 +686,7 @@
       },
       {
         "pain": "Health apps that quietly upload your most private data to their own servers.",
-        "gain": "Local-first, plus your own cloud. Zero medical data on our servers — encrypted with a key only you hold."
+        "gain": "Local-first, plus your own cloud. Zero personal data on our servers — encrypted with a key only you hold."
       },
       {
         "pain": "Years of records trapped in an app that could shut down tomorrow.",
@@ -731,7 +731,7 @@
       "submitGithub": "Send via GitHub",
       "submitEmail": "Send via email",
       "required": "A short summary and a little detail help us help you.",
-      "privacyNote": "Please leave out sensitive health details — your privacy comes first, always."
+      "privacyNote": "Please leave out sensitive personal details — your privacy comes first, always."
     },
     "contact": {
       "title": "Or just write to us",
