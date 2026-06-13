@@ -8,5 +8,6 @@ export default createMiddleware(routing)
 
 export const config = {
   // 跳过 api / _next / 资源文件
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
+  // 跳过 api / _next / 资源文件 / Chrome 截图路由（shot, poster）
+  matcher: ['/((?!api|_next|_vercel|shot|poster|.*\\..*).*)'],
 }
