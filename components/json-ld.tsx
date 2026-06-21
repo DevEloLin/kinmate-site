@@ -10,7 +10,7 @@
 // 静态导出安全：纯 server component，输出 <script type="application/ld+json">。
 // FAQ 文案双语内置，按 locale 选择——这些 Q&A 也是 GEO/AEO 的「事实答案源」。
 
-const SITE = 'https://develolin.github.io/kinmate-site'
+const SITE = 'https://kinmate.elolin.com'
 
 type Faq = { q: string; a: string }
 
@@ -112,13 +112,13 @@ export function JsonLd({ locale }: { locale: string }) {
   const graph = [
     {
       '@type': 'Organization',
-      '@id': `${SITE}/#org`,
-      name: 'KinMate',
-      url: SITE,
-      logo: `${SITE}/icon-512.png`,
-      brand: 'KinMate',
-      founder: { '@type': 'Organization', name: 'AppLabs' },
-      sameAs: [] as string[],
+      '@id': 'https://elolin.com/#org',
+      name: 'EloLin',
+      url: 'https://elolin.com',
+      logo: 'https://elolin.com/og-default.png',
+      brand: 'EloLin',
+      founder: { '@type': 'Person', name: 'Wei Li' },
+      sameAs: ['https://github.com/DevEloLin', 'https://x.com/DevEloLin'],
     },
     {
       '@type': 'WebSite',
@@ -126,7 +126,7 @@ export function JsonLd({ locale }: { locale: string }) {
       name: 'KinMate',
       url: SITE,
       inLanguage: isZh ? 'zh-CN' : 'en',
-      publisher: { '@id': `${SITE}/#org` },
+      publisher: { '@id': 'https://elolin.com/#org' },
       description,
     },
     {
@@ -138,7 +138,7 @@ export function JsonLd({ locale }: { locale: string }) {
       applicationCategory: 'ProductivityApplication',
       inLanguage: ['en', 'zh-CN'],
       description,
-      publisher: { '@id': `${SITE}/#org` },
+      publisher: { '@id': 'https://elolin.com/#org' },
       featureList: isZh
         ? '家庭档案整理；上传文件 AI 解读；日常提醒与平安打卡；家人关怀；宠物记录；自带网盘备份；本地优先与隐私保护'
         : 'Family records organization; AI explanation of uploaded files; daily reminders & safety check-ins; family member care; pet records; bring-your-own-cloud backup; local-first privacy',

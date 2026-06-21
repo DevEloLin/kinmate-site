@@ -1,6 +1,6 @@
 # KinMate
 
-> KinMate is a local-first, privacy-first family record organizer for iOS and Android. It keeps documents, daily reminders and tracking entries for you, your family members and pets; explains uploaded documents with bilingual (English / 简体中文) AI; and backs up to your own cloud (iCloud, Google Drive or OneDrive). Your data stays on your device and in your own cloud — KinMate does not sell data and uses no third-party analytics or crash SDKs.
+> KinMate is a local-first, privacy-first family record organizer for iOS and Android. It keeps documents, daily reminders and tracking entries for you, your family members and pets; explains uploaded documents with bilingual (English / 简体中文) AI; and backs up to your own cloud (iCloud, Google Drive or OneDrive). Your data stays on your device and in your own cloud — KinMate does not sell data and uses no third-party analytics or crash SDKs. Part of the EloLin Ecosystem.
 
 ## What KinMate does
 - **Family records**: one private vault for documents, files, and tracking entries across yourself, managed profiles (older parents, children, family members) and pets.
@@ -27,14 +27,15 @@
 - iOS (iPhone / iPad) and Android. Sign in with email or Google.
 
 ## Key pages
-- Home: https://develolin.github.io/kinmate-site/en
-- Features: https://develolin.github.io/kinmate-site/en/features
-- Pricing: https://develolin.github.io/kinmate-site/en/pricing
-- Bring your own cloud: https://develolin.github.io/kinmate-site/en/byoc
-- Download: https://develolin.github.io/kinmate-site/en/download
-- Privacy: https://develolin.github.io/kinmate-site/en/privacy
-- AI disclaimer: https://develolin.github.io/kinmate-site/en/ai-disclaimer
-- 简体中文首页: https://develolin.github.io/kinmate-site/zh
+- Home: https://kinmate.elolin.com/en
+- Features: https://kinmate.elolin.com/en/features
+- Pricing: https://kinmate.elolin.com/en/pricing
+- Bring your own cloud: https://kinmate.elolin.com/en/byoc
+- Download: https://kinmate.elolin.com/en/download
+- Privacy: https://kinmate.elolin.com/en/privacy
+- AI disclaimer: https://kinmate.elolin.com/en/ai-disclaimer
+- 简体中文首页: https://kinmate.elolin.com/zh
 
-## Maker
-KinMate is built by AppLabs.
+## Parent organization
+- [EloLin](https://elolin.com): the indie studio · 6 products
+- Shared SSO: [EloLin Accounts](https://accounts.elolin.com)
