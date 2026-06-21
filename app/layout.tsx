@@ -6,7 +6,7 @@ import './globals.css'
 // 站点根地址（GitHub Pages 项目站点带 /kinmate-site 子路径）。
 // 图标/OG 用「绝对 URL」而非根相对路径——因为本站在子路径下，根相对的
 // /favicon.ico 会解析到域名根（404），导致浏览器标签页无 favicon。
-const SITE = 'https://develolin.github.io/kinmate-site'
+const SITE = 'https://kinmate.elolin.com'
 
 const DESCRIPTION =
   'KinMate is a Personal Record Manager and Family Information Organizer. Keep personal documents, daily reminders, and records for yourself, family and pets in one private place; get bilingual (EN/中文) AI explanations of uploaded documents; bring your own cloud backup (iCloud / Google Drive / OneDrive). Private by design — your data stays yours.'
@@ -61,7 +61,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
   },
   icons: {
     icon: [
