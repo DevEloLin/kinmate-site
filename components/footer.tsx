@@ -46,7 +46,7 @@ export function Footer() {
 
   return (
     <footer className="border-t border-ink-100 bg-white">
-      <div className="mx-auto grid max-w-7xl gap-12 px-6 py-14 md:grid-cols-4">
+      <div className="mx-auto grid max-w-7xl gap-12 px-6 py-14 md:grid-cols-5">
         {/* 品牌区域 */}
         <div>
           <Link
@@ -82,6 +82,38 @@ export function Footer() {
             </ul>
           </div>
         ))}
+
+        {/* EloLin Ecosystem */}
+        <div>
+          <h4 className="text-sm font-semibold text-ink-900">EloLin Ecosystem</h4>
+          <ul className="mt-4 space-y-1 text-sm">
+            <li>
+              <a href="https://elolin.com" target="_blank" rel="noopener" className={linkClass}>
+                EloLin Home
+              </a>
+            </li>
+            <li>
+              <a href="https://testhive.elolin.com" target="_blank" rel="noopener" className={linkClass}>
+                TestHive
+              </a>
+            </li>
+            <li>
+              <a href="https://domains.elolin.com" target="_blank" rel="noopener" className={linkClass}>
+                Domains
+              </a>
+            </li>
+            <li>
+              <a href="https://games.elolin.com" target="_blank" rel="noopener" className={linkClass}>
+                EloGames
+              </a>
+            </li>
+            <li>
+              <a href="https://accounts.elolin.com" target="_blank" rel="noopener" className={linkClass}>
+                Account
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       {/* 版权行 */}
