@@ -464,7 +464,21 @@
     "betaBadge": "Beta",
     "betaUnavailable": "Coming soon",
     "betaWarningTitle": "About the public beta",
-    "betaWarningBody": "The public beta runs against a separate test environment. Data you enter may be reset between iterations as we refine the app — please use it with information that isn't critical until we go live."
+    "betaWarningBody": "The public beta runs against a separate test environment. Data you enter may be reset between iterations as we refine the app — please use it with information that isn't critical until we go live.",
+    "closedTest": {
+      "title": "Join the Android closed test",
+      "subtitle": "KinMate is in Google Play closed testing. Three quick steps to get access — use the same Google account for all of them.",
+      "step1Title": "Join the tester group",
+      "step1Body": "Join our Google Group with the Google account you use on your phone. This adds you to the tester list, which is required before the test unlocks.",
+      "step1Cta": "Open Google Group",
+      "step2Title": "Opt in to the test",
+      "step2Body": "Open the testing page and tap \"Become a tester\" to accept the invitation.",
+      "step2Cta": "Become a tester",
+      "step3Title": "Install from Google Play",
+      "step3Body": "Once you are a tester, install KinMate from the Play Store. It can take a few minutes to appear after you opt in.",
+      "step3Cta": "Open on Google Play",
+      "note": "All three steps must use the same Google account, or Google Play will not show you the test build."
+    }
   },
   "about": {
     "title": "Built for families who want clarity without the clutter",
