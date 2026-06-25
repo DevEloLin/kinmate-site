@@ -9,11 +9,14 @@ export function PhoneFrame({
   className,
   statusTime = '9:41',
   dark = false,
+  width,
 }: {
   children: ReactNode
   className?: string
   statusTime?: string
   dark?: boolean
+  /** 显式像素宽度（海报生成用）。传入时覆盖默认的 w-[270px]/sm:w-[300px]。 */
+  width?: number
 }) {
   return (
     <div
@@ -23,6 +26,7 @@ export function PhoneFrame({
         'ring-1 ring-black/10',
         className,
       )}
+      style={width != null ? { width } : undefined}
     >
       {/* 侧边按钮 */}
       <span className="absolute -left-[3px] top-[110px] h-9 w-[3px] rounded-l bg-neutral-700" />
