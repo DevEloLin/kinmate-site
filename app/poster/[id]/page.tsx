@@ -43,6 +43,11 @@ const POSTERS: Record<string, (p: { locale?: Locale }) => React.ReactNode> = {
   '18': Poster18LocalFirst, '19': Poster19ZhHero, '20': Poster20Testimonial,
 }
 
+// output: export 要求动态路由预声明所有参数。海报 id 为固定的 1..20(见 POSTERS)。
+export function generateStaticParams() {
+  return Object.keys(POSTERS).map((id) => ({ id }))
+}
+
 export default async function PosterPage({
   params,
   searchParams,
