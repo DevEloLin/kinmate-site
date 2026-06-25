@@ -48,16 +48,17 @@ export function generateStaticParams() {
   return Object.keys(POSTERS).map((id) => ({ id }))
 }
 
+// 静态导出(output: export)下 server component 不能读 query(searchParams),
+// 否则 /poster/[id] 预渲染报错。改为纯 param + 固定 locale;各海报自身已含语言
+// (如 Poster19ZhHero 本就中文)。若日后要按语言批量生成,用路径段而非 query。
+export const dynamic = 'force-static'
+
 export default async function PosterPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ id: string }>
-  searchParams: Promise<{ locale?: Locale }>
 }) {
   const { id } = await params
-  const sp = await searchParams
-  const locale = (sp.locale ?? 'en') as Locale
   const Poster = POSTERS[id] ?? POSTERS['1']
-  return <Poster locale={locale} />
+  return <Poster locale="en" />
 }
