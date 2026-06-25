@@ -8,9 +8,15 @@ import { SectionHeading } from '@/components/section'
 import { Reveal, RevealStagger, RevealItem, Floaty } from '@/components/motion'
 import { PhoneFrame } from '@/components/app-mockup/phone-frame'
 import { HomeScreen } from '@/components/app-mockup/screens'
-import { Apple, Smartphone, ShieldCheck, Cloud, Zap, Download, Clock, FlaskConical, AlertTriangle } from 'lucide-react'
+import { Apple, Smartphone, ShieldCheck, Cloud, Zap, Download, Clock, FlaskConical, AlertTriangle, Users } from 'lucide-react'
 import { latestRelease, metadata } from '@/lib/release'
 import { getAppStoreUrl, getAndroidApkUrl, getGooglePlayUrl } from '@/lib/store-links'
+
+// Google Play 封闭测试加入链路（固定 URL，非环境变量）：
+//   1) 加入 Google Group → 进测试者名单  2) opt-in 测试  3) 从 Play 安装
+const CLOSED_TEST_GROUP_URL = 'https://groups.google.com/g/kinmate-test'
+const CLOSED_TEST_OPTIN_URL = 'https://play.google.com/apps/testing/com.kinmate.kinmate'
+const CLOSED_TEST_INSTALL_URL = 'https://play.google.com/store/apps/details?id=com.kinmate.kinmate'
 
 interface StoreBadgeProps {
   href: string | null
@@ -232,6 +238,48 @@ export default async function DownloadPage({
             </Floaty>
           </div>
         </Reveal>
+      </div>
+
+      {/* Google Play 封闭测试加入步骤 (Join the Android closed test) */}
+      <div className="mx-auto max-w-5xl px-6 pb-20">
+        <Reveal from="up">
+          <SectionHeading
+            title={t('download.closedTest.title')}
+            subtitle={t('download.closedTest.subtitle')}
+          />
+        </Reveal>
+        <RevealStagger className="mt-8 grid gap-5 sm:grid-cols-3" gap={0.1}>
+          {[
+            { n: '1', icon: Users, title: 'download.closedTest.step1Title', body: 'download.closedTest.step1Body', cta: 'download.closedTest.step1Cta', href: CLOSED_TEST_GROUP_URL },
+            { n: '2', icon: FlaskConical, title: 'download.closedTest.step2Title', body: 'download.closedTest.step2Body', cta: 'download.closedTest.step2Cta', href: CLOSED_TEST_OPTIN_URL },
+            { n: '3', icon: Smartphone, title: 'download.closedTest.step3Title', body: 'download.closedTest.step3Body', cta: 'download.closedTest.step3Cta', href: CLOSED_TEST_INSTALL_URL },
+          ].map((s) => {
+            const Icon = s.icon
+            return (
+              <RevealItem key={s.n}>
+                <div className="flex h-full flex-col rounded-2xl border border-ink-100 bg-white/80 p-6 shadow-sm backdrop-blur">
+                  <div className="flex items-center gap-3">
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-brand-600 text-sm font-bold text-white">
+                      {s.n}
+                    </span>
+                    <Icon className="h-5 w-5 text-brand-600" aria-hidden="true" />
+                  </div>
+                  <p className="mt-4 font-semibold text-ink-800">{t(s.title)}</p>
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-600">{t(s.body)}</p>
+                  <a
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-ink-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-ink-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
+                  >
+                    {t(s.cta)}
+                  </a>
+                </div>
+              </RevealItem>
+            )
+          })}
+        </RevealStagger>
+        <p className="mt-6 text-center text-sm text-ink-500">{t('download.closedTest.note')}</p>
       </div>
     </section>
   )

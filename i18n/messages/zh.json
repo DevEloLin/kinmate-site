@@ -464,7 +464,21 @@
     "betaBadge": "公测",
     "betaUnavailable": "敬请期待",
     "betaWarningTitle": "关于公测版",
-    "betaWarningBody": "公测版跑在独立的测试环境上。我们持续迭代期间，你输入的数据可能会被重置 —— 在正式版上线前，请尽量不要用它存储重要资料。"
+    "betaWarningBody": "公测版跑在独立的测试环境上。我们持续迭代期间，你输入的数据可能会被重置 —— 在正式版上线前，请尽量不要用它存储重要资料。",
+    "closedTest": {
+      "title": "加入 Android 封闭测试",
+      "subtitle": "KinMate 正在 Google Play 封闭测试中。三步即可获取访问权 —— 三步请使用同一个 Google 账号。",
+      "step1Title": "加入测试者群组",
+      "step1Body": "用你手机上登录的 Google 账号加入我们的 Google Group，这会把你加入测试者名单（解锁测试的前提）。",
+      "step1Cta": "打开 Google Group",
+      "step2Title": "加入测试",
+      "step2Body": "打开测试页面，点「Become a tester / 成为测试员」接受邀请。",
+      "step2Cta": "成为测试员",
+      "step3Title": "从 Google Play 安装",
+      "step3Body": "成为测试员后，从 Play 商店安装 KinMate。加入后可能需要几分钟才会出现。",
+      "step3Cta": "在 Google Play 打开",
+      "note": "三步必须使用同一个 Google 账号，否则 Google Play 不会向你显示测试版本。"
+    }
   },
   "about": {
     "title": "为想要清晰、又不想添乱的家庭而做",
