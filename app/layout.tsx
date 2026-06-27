@@ -8,6 +8,11 @@ import { SITE_URL } from '@/lib/site'
 // 图标/OG 用「绝对 URL」而非根相对路径，避免子路径/CDN 下解析到错误位置。
 const SITE = SITE_URL
 
+// 图标版本号（cache-busting）。换了品牌图标后，浏览器/CDN 会顽固缓存旧 favicon，
+// 即使硬刷也常不更新；给图标 URL 带版本 query，旧访客也会自动重取新图标。
+// 每次更换图标资源时 bump 这个值。
+const ICON_V = '?v=130'
+
 const DESCRIPTION =
   'KinMate is a Personal Record Manager and Family Information Organizer. Keep personal documents, daily reminders, and records for yourself, family and pets in one private place; get bilingual (EN/中文) AI explanations of uploaded documents; bring your own cloud backup (iCloud / Google Drive / OneDrive). Available in 6 languages — English, 中文, Español, हिन्दी, Português and العربية (with full Arabic RTL). Private by design — your data stays yours.'
 
@@ -89,13 +94,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: `${SITE}/favicon.ico`, sizes: 'any' },
-      { url: `${SITE}/favicon-32x32.png`, type: 'image/png', sizes: '32x32' },
-      { url: `${SITE}/favicon-16x16.png`, type: 'image/png', sizes: '16x16' },
-      { url: `${SITE}/icon-192.png`, type: 'image/png', sizes: '192x192' },
-      { url: `${SITE}/icon-512.png`, type: 'image/png', sizes: '512x512' },
+      { url: `${SITE}/favicon.ico${ICON_V}`, sizes: 'any' },
+      { url: `${SITE}/favicon-32x32.png${ICON_V}`, type: 'image/png', sizes: '32x32' },
+      { url: `${SITE}/favicon-16x16.png${ICON_V}`, type: 'image/png', sizes: '16x16' },
+      { url: `${SITE}/icon-192.png${ICON_V}`, type: 'image/png', sizes: '192x192' },
+      { url: `${SITE}/icon-512.png${ICON_V}`, type: 'image/png', sizes: '512x512' },
     ],
-    apple: [{ url: `${SITE}/apple-touch-icon.png`, sizes: '180x180' }],
+    apple: [{ url: `${SITE}/apple-touch-icon.png${ICON_V}`, sizes: '180x180' }],
   },
   openGraph: {
     type: 'website',
@@ -104,14 +109,14 @@ export const metadata: Metadata = {
     title: 'KinMate · Your family\'s record organizer',
     description: DESCRIPTION,
     images: [
-      { url: `${SITE}/icon-512.png`, width: 512, height: 512, alt: 'KinMate' },
+      { url: `${SITE}/icon-512.png${ICON_V}`, width: 512, height: 512, alt: 'KinMate' },
     ],
   },
   twitter: {
     card: 'summary',
     title: 'KinMate · Your family\'s record organizer',
     description: DESCRIPTION,
-    images: [`${SITE}/icon-512.png`],
+    images: [`${SITE}/icon-512.png${ICON_V}`],
   },
 }
 

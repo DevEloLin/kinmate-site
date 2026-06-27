@@ -29,7 +29,7 @@ export function Navbar() {
           {/* 品牌图标：与 App 图标一致（米白底 + 绿色家庭树：双人形托树冠 + 中央水滴），见 public/kinmate-mark.svg */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/kinmate-mark.svg`}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/kinmate-mark.svg?v=130`}
             alt=""
             aria-hidden="true"
             width={32}

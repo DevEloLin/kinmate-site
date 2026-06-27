@@ -73,6 +73,7 @@ export async function JsonLd({ locale }: { locale: string }) {
       '@id': `${SITE}/#app`,
       name: 'KinMate',
       url,
+      image: `${SITE}/icon-512.png`,
       operatingSystem: 'iOS, Android',
       applicationCategory: 'ProductivityApplication',
       inLanguage: APP_LANGUAGES,
