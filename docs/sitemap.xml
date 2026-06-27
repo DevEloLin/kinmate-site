@@ -1,159 +1,861 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
-<loc>https://develolin.github.io/kinmate-site/en</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh" />
-<lastmod>2026-06-25T17:07:49.503Z</lastmod>
+<loc>https://kinmate.elolin.com/en</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh" />
-<lastmod>2026-06-25T17:07:49.503Z</lastmod>
+<loc>https://kinmate.elolin.com/zh</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/features</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/features" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/features" />
-<lastmod>2026-06-25T17:07:49.503Z</lastmod>
+<loc>https://kinmate.elolin.com/es</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/features</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/features" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/features" />
-<lastmod>2026-06-25T17:07:49.503Z</lastmod>
+<loc>https://kinmate.elolin.com/hi</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/pricing</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/pricing" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/pricing" />
-<lastmod>2026-06-25T17:07:49.503Z</lastmod>
+<loc>https://kinmate.elolin.com/pt</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/pricing</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/pricing" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/pricing" />
-<lastmod>2026-06-25T17:07:49.503Z</lastmod>
+<loc>https://kinmate.elolin.com/ar</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/byoc</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/byoc" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/byoc" />
-<lastmod>2026-06-25T17:07:49.503Z</lastmod>
+<loc>https://kinmate.elolin.com/en/features</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/features" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/features" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/features" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/features" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/features" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/features" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/features" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/byoc</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/byoc" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/byoc" />
-<lastmod>2026-06-25T17:07:49.503Z</lastmod>
+<loc>https://kinmate.elolin.com/zh/features</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/features" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/features" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/features" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/features" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/features" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/features" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/features" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/referral</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/referral" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/referral" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/es/features</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/features" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/features" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/features" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/features" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/features" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/features" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/features" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/referral</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/referral" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/referral" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/hi/features</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/features" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/features" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/features" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/features" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/features" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/features" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/features" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/download</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/download" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/download" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/pt/features</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/features" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/features" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/features" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/features" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/features" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/features" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/features" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/download</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/download" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/download" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/ar/features</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/features" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/features" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/features" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/features" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/features" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/features" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/features" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/about</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/about" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/about" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/en/pricing</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/pricing" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/pricing" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/pricing" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/pricing" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/pricing" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/pricing" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/pricing" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/about</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/about" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/about" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/zh/pricing</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/pricing" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/pricing" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/pricing" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/pricing" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/pricing" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/pricing" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/pricing" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/contact</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/contact" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/contact" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/es/pricing</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/pricing" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/pricing" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/pricing" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/pricing" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/pricing" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/pricing" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/pricing" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/contact</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/contact" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/contact" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/hi/pricing</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/pricing" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/pricing" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/pricing" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/pricing" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/pricing" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/pricing" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/pricing" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/feedback</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/feedback" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/feedback" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/pt/pricing</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/pricing" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/pricing" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/pricing" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/pricing" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/pricing" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/pricing" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/pricing" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/feedback</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/feedback" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/feedback" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/ar/pricing</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/pricing" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/pricing" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/pricing" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/pricing" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/pricing" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/pricing" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/pricing" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/privacy</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/privacy" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/privacy" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/en/byoc</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/byoc" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/byoc" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/byoc" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/byoc" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/byoc" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/byoc" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/byoc" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/privacy</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/privacy" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/privacy" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/zh/byoc</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/byoc" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/byoc" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/byoc" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/byoc" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/byoc" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/byoc" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/byoc" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/terms</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/terms" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/terms" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/es/byoc</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/byoc" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/byoc" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/byoc" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/byoc" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/byoc" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/byoc" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/byoc" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/terms</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/terms" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/terms" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/hi/byoc</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/byoc" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/byoc" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/byoc" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/byoc" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/byoc" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/byoc" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/byoc" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/delete-account</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/delete-account" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/delete-account" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/pt/byoc</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/byoc" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/byoc" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/byoc" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/byoc" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/byoc" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/byoc" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/byoc" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/delete-account</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/delete-account" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/delete-account" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/ar/byoc</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/byoc" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/byoc" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/byoc" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/byoc" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/byoc" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/byoc" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/byoc" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/en/ai-disclaimer</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/ai-disclaimer" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/ai-disclaimer" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/en/referral</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/referral" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/referral" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/referral" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/referral" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/referral" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/referral" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/referral" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
 </url>
 <url>
-<loc>https://develolin.github.io/kinmate-site/zh/ai-disclaimer</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://develolin.github.io/kinmate-site/en/ai-disclaimer" />
-<xhtml:link rel="alternate" hreflang="zh" href="https://develolin.github.io/kinmate-site/zh/ai-disclaimer" />
-<lastmod>2026-06-25T17:07:49.504Z</lastmod>
+<loc>https://kinmate.elolin.com/zh/referral</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/referral" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/referral" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/referral" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/referral" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/referral" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/referral" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/referral" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/referral</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/referral" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/referral" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/referral" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/referral" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/referral" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/referral" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/referral" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/referral</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/referral" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/referral" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/referral" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/referral" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/referral" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/referral" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/referral" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/referral</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/referral" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/referral" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/referral" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/referral" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/referral" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/referral" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/referral" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/referral</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/referral" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/referral" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/referral" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/referral" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/referral" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/referral" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/referral" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/en/download</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/download" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/download" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/download" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/download" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/download" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/download" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/download" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/zh/download</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/download" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/download" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/download" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/download" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/download" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/download" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/download" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/download</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/download" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/download" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/download" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/download" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/download" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/download" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/download" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/download</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/download" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/download" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/download" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/download" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/download" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/download" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/download" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/download</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/download" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/download" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/download" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/download" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/download" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/download" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/download" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/download</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/download" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/download" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/download" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/download" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/download" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/download" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/download" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/en/about</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/about" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/about" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/about" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/about" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/about" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/about" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/about" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/zh/about</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/about" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/about" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/about" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/about" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/about" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/about" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/about" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/about</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/about" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/about" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/about" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/about" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/about" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/about" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/about" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/about</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/about" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/about" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/about" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/about" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/about" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/about" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/about" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/about</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/about" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/about" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/about" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/about" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/about" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/about" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/about" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/about</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/about" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/about" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/about" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/about" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/about" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/about" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/about" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/en/contact</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/contact" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/contact" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/contact" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/contact" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/contact" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/contact" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/contact" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/zh/contact</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/contact" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/contact" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/contact" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/contact" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/contact" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/contact" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/contact" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/contact</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/contact" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/contact" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/contact" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/contact" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/contact" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/contact" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/contact" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/contact</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/contact" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/contact" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/contact" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/contact" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/contact" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/contact" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/contact" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/contact</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/contact" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/contact" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/contact" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/contact" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/contact" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/contact" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/contact" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/contact</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/contact" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/contact" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/contact" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/contact" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/contact" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/contact" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/contact" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/en/feedback</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/feedback" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/feedback" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/feedback" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/feedback" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/feedback" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/feedback" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/feedback" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/zh/feedback</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/feedback" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/feedback" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/feedback" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/feedback" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/feedback" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/feedback" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/feedback" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/feedback</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/feedback" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/feedback" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/feedback" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/feedback" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/feedback" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/feedback" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/feedback" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/feedback</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/feedback" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/feedback" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/feedback" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/feedback" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/feedback" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/feedback" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/feedback" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/feedback</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/feedback" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/feedback" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/feedback" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/feedback" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/feedback" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/feedback" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/feedback" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/feedback</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/feedback" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/feedback" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/feedback" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/feedback" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/feedback" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/feedback" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/feedback" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/en/privacy</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/privacy" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/privacy" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/privacy" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/privacy" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/privacy" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/privacy" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/zh/privacy</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/privacy" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/privacy" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/privacy" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/privacy" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/privacy" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/privacy" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/privacy</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/privacy" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/privacy" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/privacy" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/privacy" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/privacy" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/privacy" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/privacy</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/privacy" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/privacy" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/privacy" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/privacy" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/privacy" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/privacy" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/privacy</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/privacy" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/privacy" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/privacy" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/privacy" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/privacy" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/privacy" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/privacy</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/privacy" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/privacy" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/privacy" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/privacy" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/privacy" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/privacy" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/en/terms</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/terms" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/terms" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/terms" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/terms" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/terms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/terms" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/zh/terms</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/terms" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/terms" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/terms" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/terms" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/terms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/terms" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/terms</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/terms" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/terms" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/terms" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/terms" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/terms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/terms" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/terms</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/terms" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/terms" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/terms" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/terms" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/terms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/terms" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/terms</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/terms" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/terms" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/terms" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/terms" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/terms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/terms" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/terms</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/terms" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/terms" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/terms" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/terms" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/terms" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/terms" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/en/delete-account</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/delete-account" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/delete-account" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/delete-account" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/delete-account" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/delete-account" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/delete-account" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/delete-account" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/zh/delete-account</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/delete-account" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/delete-account" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/delete-account" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/delete-account" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/delete-account" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/delete-account" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/delete-account" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/delete-account</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/delete-account" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/delete-account" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/delete-account" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/delete-account" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/delete-account" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/delete-account" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/delete-account" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/delete-account</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/delete-account" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/delete-account" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/delete-account" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/delete-account" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/delete-account" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/delete-account" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/delete-account" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/delete-account</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/delete-account" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/delete-account" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/delete-account" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/delete-account" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/delete-account" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/delete-account" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/delete-account" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/delete-account</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/delete-account" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/delete-account" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/delete-account" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/delete-account" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/delete-account" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/delete-account" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/delete-account" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/en/ai-disclaimer</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/zh/ai-disclaimer</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/es/ai-disclaimer</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/hi/ai-disclaimer</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/pt/ai-disclaimer</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<lastmod>2026-06-27T18:39:11.686Z</lastmod>
+</url>
+<url>
+<loc>https://kinmate.elolin.com/ar/ai-disclaimer</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="zh" href="https://kinmate.elolin.com/zh/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="es" href="https://kinmate.elolin.com/es/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://kinmate.elolin.com/hi/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="pt" href="https://kinmate.elolin.com/pt/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://kinmate.elolin.com/ar/ai-disclaimer" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://kinmate.elolin.com/en/ai-disclaimer" />
+<lastmod>2026-06-27T18:39:11.687Z</lastmod>
 </url>
 </urlset>
