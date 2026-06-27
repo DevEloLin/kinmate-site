@@ -7,6 +7,18 @@ import { Reveal, RevealStagger, RevealItem, Floaty } from '@/components/motion'
 import { Heart, Shield, Sparkles, Users, Clock3, Search, MessageSquareText, CloudCog } from 'lucide-react'
 import clsx from 'clsx'
 
+import type { Metadata } from 'next'
+import { buildPageMetadata } from '@/lib/page-metadata'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return buildPageMetadata(locale, 'about', '/about')
+}
+
 export default async function AboutPage({
   params,
 }: {

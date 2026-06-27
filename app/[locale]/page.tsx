@@ -12,6 +12,18 @@ import { HomeScreen, HealthScreen } from '@/components/app-mockup/screens'
 import { Link } from '@/i18n/routing'
 import { ShieldCheck, Cloud, Languages, PawPrint, ArrowRight, Check, ArrowDown } from 'lucide-react'
 
+import type { Metadata } from 'next'
+import { buildPageMetadata } from '@/lib/page-metadata'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return buildPageMetadata(locale, 'home', '', { absoluteTitle: true })
+}
+
 export default async function Home({
   params,
 }: {
@@ -253,6 +265,43 @@ export default async function Home({
         </RevealStagger>
       </Section>
 
+      {/* ───────────────── 多语言（6 种语言 + 阿拉伯语 RTL） ───────────────── */}
+      <Section className="border-t border-ink-100 bg-white">
+        <Reveal>
+          <SectionHeading
+            eyebrow={t('languages.eyebrow')}
+            title={t('languages.title')}
+            subtitle={t('languages.subtitle')}
+            center
+          />
+        </Reveal>
+        <RevealStagger className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5">
+          {(t.raw('languages.items') as Array<{ native: string; name: string; tag: string }>).map((lang) => (
+            <RevealItem key={lang.name}>
+              <div className="group flex h-full items-center gap-4 rounded-2xl border border-ink-100 bg-white p-5 shadow-sm transition-all duration-200 hover:border-brand-200 hover:shadow-md">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
+                  <Languages className="h-5 w-5" aria-hidden />
+                </span>
+                <div className="min-w-0">
+                  <p className="truncate text-lg font-semibold text-ink-900">{lang.native}</p>
+                  <p className="truncate text-sm text-ink-500">{lang.name}</p>
+                </div>
+                <span className="ml-auto shrink-0 rounded-full bg-brand-100/70 px-2.5 py-1 text-xs font-medium text-brand-700">
+                  {lang.tag}
+                </span>
+              </div>
+            </RevealItem>
+          ))}
+        </RevealStagger>
+        <Reveal className="mt-8">
+          <div className="mx-auto flex max-w-2xl flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-ink-500">
+            <span className="flex items-center gap-1.5"><Check className="h-4 w-4 text-brand-600" aria-hidden />{t('languages.rtlBadge')}</span>
+            <span className="flex items-center gap-1.5"><Check className="h-4 w-4 text-brand-600" aria-hidden />{t('languages.aiNote')}</span>
+            <span className="flex items-center gap-1.5"><Check className="h-4 w-4 text-brand-600" aria-hidden />{t('languages.switchNote')}</span>
+          </div>
+        </Reveal>
+      </Section>
+
       {/* ───────────────── BYOC ───────────────── */}
       <Section className="bg-cream/30">
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-20">
@@ -340,7 +389,7 @@ export default async function Home({
             <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-ink-400">
               <span className="flex items-center gap-1.5"><ShieldCheck className="h-4 w-4" /><span>GDPR Compliant</span></span>
               <span className="flex items-center gap-1.5"><Cloud className="h-4 w-4" /><span>Local-First</span></span>
-              <span className="flex items-center gap-1.5"><Languages className="h-4 w-4" /><span>EN / 中文</span></span>
+              <span className="flex items-center gap-1.5"><Languages className="h-4 w-4" /><span>{locale === 'zh' ? '6 种语言' : '6 languages'}</span></span>
             </div>
           </div>
         </Reveal>

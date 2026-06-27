@@ -152,6 +152,22 @@
       }
     ]
   },
+  "languages": {
+    "eyebrow": "说你家人的语言",
+    "title": "KinMate 支持 6 种语言",
+    "subtitle": "整个 App——每一个界面、提醒和记录——原生支持六种语言，并为阿拉伯语提供完整的从右到左（RTL）布局。可随时在「设置」中切换。上传文件的 AI 解读为中英双语——为跨越语言与国界的家庭而生。",
+    "rtlBadge": "完整 RTL 布局",
+    "aiNote": "AI 文件解读：中文 ⇄ English",
+    "switchNote": "随时在「设置」中切换语言",
+    "items": [
+      { "native": "English", "name": "英语", "tag": "默认" },
+      { "native": "中文", "name": "简体中文", "tag": "简体中文" },
+      { "native": "Español", "name": "西班牙语", "tag": "Español" },
+      { "native": "हिन्दी", "name": "印地语", "tag": "हिन्दी" },
+      { "native": "Português", "name": "葡萄牙语", "tag": "Português" },
+      { "native": "العربية", "name": "阿拉伯语", "tag": "RTL" }
+    ]
+  },
   "pricing": {
     "title": "给家庭用的清楚价格，不绕弯子。",
     "subtitle": "前 1000 名用户可获得 60 天完整功能试用。Family 8 以永久创始价 $199.99 上线，较原价 $399.99 永久优惠 50%。",
@@ -751,5 +767,103 @@
       "title": "或者直接写信给我们",
       "desc": "每一封都会有真人阅读。我们通常几天内回复——谢谢你的耐心等待。"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "KinMate · 支持 6 种语言的家庭档案整理工具",
+      "description": "拍下任意文件，AI 自动按人归档，下次就诊一键备好。隐私优先、本地优先的家庭档案——为人和宠物而设，支持 6 种语言。"
+    },
+    "features": {
+      "title": "功能",
+      "description": "AI 文件采集、中英双语解读、趋势图表、提醒、家庭共享、紧急信息卡和宠物记录——KinMate 的全部能力，集中在一处。"
+    },
+    "pricing": {
+      "title": "价格",
+      "description": "免费起步。Personal Plus、Family 3 / 5 可月付或年付，另有 Family 8 永久创始价 $199.99。新用户享 60 天免费试用。"
+    },
+    "byoc": {
+      "title": "自带网盘",
+      "description": "你的文件、你的网盘、你的密钥。KinMate 在设备本地用 AES-256-GCM 加密，再备份到你自己的 iCloud Drive、Google Drive 或 OneDrive。"
+    },
+    "referral": {
+      "title": "邀请有奖",
+      "description": "邀请真正使用 KinMate 的朋友，赚取免费 Pro 天数——每账号最多 365 天。档位简单，规则透明。"
+    },
+    "download": {
+      "title": "下载",
+      "description": "在 iPhone、iPad 和 Android 上免费获取 KinMate，含 60 天 Pro 试用，几分钟即可上手。"
+    },
+    "about": {
+      "title": "关于",
+      "description": "KinMate 让家庭档案有一个安静、私密的归处：看得懂，只在你愿意时才分享。由 EloLin 打造。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "客服、隐私问题或媒体合作请联系 KinMate 团队：kinmate@elolin.com。每一封都有真人阅读。"
+    },
+    "feedback": {
+      "title": "反馈与支持",
+      "description": "发现 Bug 或有想法？告诉 KinMate 团队——我们阅读每一条并跟进，无需账号。"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "description": "KinMate 如何处理你的数据：默认本地优先、自带网盘加密、不接任何广告或分析 SDK，以及你在 GDPR、CCPA、PIPL 下的权利。"
+    },
+    "terms": {
+      "title": "服务条款",
+      "description": "使用 KinMate 的条款：产品定义、订阅与计费、你的内容与所有权、可接受使用以及免责声明。"
+    },
+    "deleteAccount": {
+      "title": "注销账户",
+      "description": "在 App 内三步即可注销 KinMate 账户并删除相关云端数据，或通过邮件申请删除。"
+    },
+    "aiDisclaimer": {
+      "title": "AI 解读免责声明",
+      "description": "KinMate 的 AI 解读仅用于理解与查阅参考，不构成医疗建议。说明我们如何处理文件并保护你的隐私。"
+    }
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "KinMate 是什么？",
+        "a": "KinMate 是一款「本地优先」的家庭档案整理工具。它为你、家人和宠物保存文件、日常提醒和指标记录，用中英双语 AI 帮你读懂上传的文件，并支持备份到你自己的网盘（iCloud / Google Drive / OneDrive）。"
+      },
+      {
+        "q": "KinMate 免费吗？",
+        "a": "有免费版（1 只宠物、基础档案与提醒）。付费档增加托管档案、家庭席位、AI 配额和宠物位：Personal Plus 与 Family 3 / 5 按月或按年订阅，另有 Family 8 永久买断（一次性 ￥199.99）。新用户享 60 天免费试用。"
+      },
+      {
+        "q": "我的数据归谁所有？",
+        "a": "归你。KinMate 隐私优先、本地优先：数据存在你的设备上；开启备份后存进你自己的网盘账户（自带网盘）。KinMate 不出售数据，不接入任何第三方分析或崩溃 SDK。"
+      },
+      {
+        "q": "AI 能帮我读懂上传的文件吗？",
+        "a": "能。KinMate 可读取你上传的文件（图片或 PDF），用通俗的中英双语解释各项关键值与值得注意的项目。仅用于理解与查阅参考，不构成医疗建议——请务必咨询持证医生。"
+      },
+      {
+        "q": "KinMate 适合管理长辈和家人吗？",
+        "a": "适合。你可以为父母、孩子等家人建立托管档案，在家庭内共享档案，进行平安打卡与温和提醒，并邀请家人——所有家庭信息事务集中在一处。"
+      },
+      {
+        "q": "可以管理宠物吗？",
+        "a": "可以。KinMate 管理宠物档案、疫苗与护理记录、喂养和日常提醒，还能把个人宠物共享进家庭，让全家一起照看。"
+      },
+      {
+        "q": "支持哪些网盘备份？",
+        "a": "自带网盘：iCloud Drive、Google Drive 和 OneDrive。加密的报告和文件同步到你选择的网盘账户，可随时切换。"
+      },
+      {
+        "q": "KinMate 能离线使用吗？",
+        "a": "能。KinMate 本地优先，添加档案、提醒和资料离线即可用；网盘备份与 AI 解读会在联网后同步。"
+      },
+      {
+        "q": "可以注销账户并删除数据吗？",
+        "a": "可以。你随时能在 App 内永久注销账户并删除相关云端数据。"
+      },
+      {
+        "q": "KinMate 支持哪些平台和语言？",
+        "a": "KinMate 支持 iOS（iPhone / iPad）和 Android，可用邮箱或 Google 登录。App 界面支持 6 种语言——英语、中文、西班牙语、印地语、葡萄牙语和阿拉伯语，其中阿拉伯语提供完整的从右到左布局。"
+      }
+    ]
   }
 }
