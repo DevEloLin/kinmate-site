@@ -3,6 +3,7 @@
 
 import type { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { buildPageMetadata } from '@/lib/page-metadata'
 import { Section, SectionHeading } from '@/components/section'
 import { Reveal, RevealStagger, RevealItem } from '@/components/motion'
 import { FeedbackForm } from '@/components/feedback-form'
@@ -17,8 +18,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const { locale } = await params
-  const t = await getTranslations({ locale, namespace: 'feedback' })
-  return { title: t('metaTitle'), description: t('subtitle') }
+  return buildPageMetadata(locale, 'feedback', '/feedback')
 }
 
 export default async function FeedbackPage({

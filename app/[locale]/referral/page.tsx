@@ -8,6 +8,18 @@ import { CtaGroup } from '@/components/cta'
 import { Reveal, RevealStagger, RevealItem } from '@/components/motion'
 import { CheckCircle2, Gift, Users, Clock } from 'lucide-react'
 
+import type { Metadata } from 'next'
+import { buildPageMetadata } from '@/lib/page-metadata'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return buildPageMetadata(locale, 'referral', '/referral')
+}
+
 export default async function ReferralPage({
   params,
 }: {

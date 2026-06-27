@@ -152,6 +152,22 @@
       }
     ]
   },
+  "languages": {
+    "eyebrow": "Speaks your family's language",
+    "title": "KinMate speaks 6 languages",
+    "subtitle": "The whole app — every screen, reminder and record — runs natively in six languages, with full right-to-left support for Arabic. Switch anytime in Settings. AI document explanations are bilingual in English and 中文 — built for families living across languages and borders.",
+    "rtlBadge": "Full RTL layout",
+    "aiNote": "AI document explanations: English ⇄ 中文",
+    "switchNote": "Change language anytime in Settings",
+    "items": [
+      { "native": "English", "name": "English", "tag": "Default" },
+      { "native": "中文", "name": "Chinese (Simplified)", "tag": "简体中文" },
+      { "native": "Español", "name": "Spanish", "tag": "Español" },
+      { "native": "हिन्दी", "name": "Hindi", "tag": "हिन्दी" },
+      { "native": "Português", "name": "Portuguese", "tag": "Português" },
+      { "native": "العربية", "name": "Arabic", "tag": "RTL" }
+    ]
+  },
   "pricing": {
     "title": "Simple pricing for families who want clarity.",
     "subtitle": "Start with a 60-day full-feature trial for the first 1,000 users. Family 8 is a lifetime founder offer at $199.99, 50% off the regular $399.99.",
@@ -751,5 +767,103 @@
       "title": "Or just write to us",
       "desc": "A real person reads every message. We usually reply within a few days — thank you for your patience."
     }
+  },
+  "seo": {
+    "home": {
+      "title": "KinMate · Family record organizer in 6 languages",
+      "description": "Snap any document, let AI file it by person, and walk into the next appointment ready. Private, local-first family records for people and pets — available in 6 languages."
+    },
+    "features": {
+      "title": "Features",
+      "description": "AI document capture, bilingual explanations, trend charts, reminders, family sharing, an emergency card and pet records — everything KinMate does, in one place."
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "Start free. Personal Plus, Family 3 / 5 monthly or yearly, and a Family 8 lifetime founder offer at $199.99. New users get a 60-day free trial."
+    },
+    "byoc": {
+      "title": "Bring Your Own Cloud",
+      "description": "Your files, your cloud, your key. KinMate encrypts your vault on-device with AES-256-GCM, then backs up to your own iCloud Drive, Google Drive or OneDrive."
+    },
+    "referral": {
+      "title": "Invite & Earn",
+      "description": "Invite friends who actually use KinMate and earn free Pro days — up to 365 days per account. Simple tiers, transparent rules."
+    },
+    "download": {
+      "title": "Download",
+      "description": "Get KinMate free on iPhone, iPad and Android. A 60-day Pro trial is included. Set up in minutes."
+    },
+    "about": {
+      "title": "About",
+      "description": "KinMate is one calm, private place for family records: easy to understand and simple to share only when you choose. Built by EloLin."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Reach the KinMate team for support, privacy questions or press at kinmate@elolin.com. A real person reads every message."
+    },
+    "feedback": {
+      "title": "Feedback & Support",
+      "description": "Found a bug or have an idea? Tell the KinMate team — we read every message and follow up. No account needed."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How KinMate handles your data: local-first by default, bring-your-own-cloud encryption, no ad or analytics SDKs, and your rights under GDPR, CCPA and PIPL."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "The terms for using KinMate: what the app is, subscriptions and billing, your content and ownership, acceptable use, and disclaimers."
+    },
+    "deleteAccount": {
+      "title": "Delete your account",
+      "description": "Delete your KinMate account and associated cloud data from inside the app in three taps, or request deletion by email."
+    },
+    "aiDisclaimer": {
+      "title": "AI explanation disclaimer",
+      "description": "KinMate AI explanations are for understanding and reference only — not medical advice. How we process documents and protect your privacy."
+    }
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "What is KinMate?",
+        "a": "KinMate is a local-first family record organizer. It stores documents, daily reminders and tracking entries for you, your family members and pets, explains uploaded documents with bilingual (English / 中文) AI, and lets you back up to your own cloud (iCloud, Google Drive or OneDrive)."
+      },
+      {
+        "q": "Is KinMate free?",
+        "a": "Yes. KinMate has a free plan (1 pet, basic records and reminders). Paid plans add more managed profiles, family seats, higher AI quota and pet slots: Personal Plus and Family 3 / 5 monthly or yearly subscriptions, plus a Family 8 lifetime one-time purchase ($199.99). New users get a 60-day free trial."
+      },
+      {
+        "q": "Who owns my data?",
+        "a": "You do. KinMate is private by design and local-first: your records live on your device and, if you enable backup, in your own cloud account (bring-your-own-cloud). KinMate does not sell data and uses no third-party analytics or crash SDKs."
+      },
+      {
+        "q": "Can AI help me read uploaded documents?",
+        "a": "Yes. KinMate reads documents you upload (image or PDF) and gives a plain-language bilingual explanation of key values and notable items. It is for understanding and reference only and is not medical advice — always consult a licensed healthcare professional."
+      },
+      {
+        "q": "Does KinMate work for older family members?",
+        "a": "Yes. You can create managed profiles for older parents, children and other family members, share profiles within a family, run safety check-ins and gentle reminders, and invite family members — all in one place."
+      },
+      {
+        "q": "Can I track my pet too?",
+        "a": "Yes. KinMate manages pet profiles, vaccination and care records, feeding and daily reminders, and you can share a personal pet into the family pool so everyone helps look after it."
+      },
+      {
+        "q": "Which cloud backups are supported?",
+        "a": "Bring your own cloud: iCloud Drive, Google Drive and OneDrive. Your encrypted reports and files sync to the cloud account you choose; switch providers anytime."
+      },
+      {
+        "q": "Does KinMate work offline?",
+        "a": "Yes. KinMate is local-first, so adding records, reminders and profiles works offline; cloud backup and AI explanation sync when you are back online."
+      },
+      {
+        "q": "Can I delete my account and data?",
+        "a": "Yes. You can permanently delete your account and associated cloud data from inside the app at any time."
+      },
+      {
+        "q": "What platforms and languages does KinMate support?",
+        "a": "KinMate runs on iOS (iPhone / iPad) and Android, with sign-in by email or Google. The interface is available in 6 languages — English, Chinese, Spanish, Hindi, Portuguese and Arabic, with full right-to-left layout for Arabic."
+      }
+    ]
   }
 }
