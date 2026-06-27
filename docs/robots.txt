@@ -1,4 +1,5 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://develolin.github.io/kinmate-site/sitemap.xml
+Host: https://kinmate.elolin.com
+Sitemap: https://kinmate.elolin.com/sitemap.xml
