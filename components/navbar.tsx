@@ -26,7 +26,7 @@ export function Navbar() {
           className="flex items-center gap-2 rounded-lg transition-opacity duration-150 hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
           aria-label="KinMate - Back to home"
         >
-          {/* 品牌图标：与 App 图标一致（浅绿渐变底 + 珊瑚心 + 叶脉），见 public/kinmate-mark.svg */}
+          {/* 品牌图标：与 App 图标一致（米白底 + 绿色家庭树：双人形托树冠 + 中央水滴），见 public/kinmate-mark.svg */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/kinmate-mark.svg`}
