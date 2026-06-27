@@ -8,6 +8,18 @@ import { PhoneFrame } from '@/components/app-mockup/phone-frame'
 import { FamilyScreen } from '@/components/app-mockup/screens'
 import { Cloud, AlertTriangle, KeyRound, Shield, Lock } from 'lucide-react'
 
+import type { Metadata } from 'next'
+import { buildPageMetadata } from '@/lib/page-metadata'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return buildPageMetadata(locale, 'byoc', '/byoc')
+}
+
 export default async function ByocPage({
   params,
 }: {

@@ -20,6 +20,18 @@ interface FeatureGroup {
   items: FeatureItem[]
 }
 
+import type { Metadata } from 'next'
+import { buildPageMetadata } from '@/lib/page-metadata'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return buildPageMetadata(locale, 'features', '/features')
+}
+
 export default async function FeaturesPage({
   params,
 }: {

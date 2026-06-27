@@ -6,6 +6,18 @@ import { Section } from '@/components/section'
 import { Reveal } from '@/components/motion'
 import { Bot, AlertTriangle, Stethoscope } from 'lucide-react'
 
+import type { Metadata } from 'next'
+import { buildPageMetadata } from '@/lib/page-metadata'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return buildPageMetadata(locale, 'aiDisclaimer', '/ai-disclaimer')
+}
+
 export default async function AiDisclaimerPage({
   params,
 }: {
