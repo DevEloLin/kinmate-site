@@ -55,7 +55,7 @@ export function Footer() {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/kinmate-mark.svg`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/kinmate-mark.svg?v=130`}
               alt=""
               aria-hidden="true"
               width={28}
