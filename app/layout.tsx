@@ -69,16 +69,18 @@ export const metadata: Metadata = {
   publisher: 'KinMate',
   category: 'productivity',
   manifest: `${SITE}/site.webmanifest`,
+  // trailingSlash: true（next.config.mjs 静态导出）→ 页面服务在 /<loc>/，
+  // canonical / hreflang 必须带尾斜杠，否则指向会 301 重定向的 URL（重定向错误）。
   alternates: {
-    canonical: `${SITE}/en`,
+    canonical: `${SITE}/en/`,
     languages: {
-      en: `${SITE}/en`,
-      zh: `${SITE}/zh`,
-      es: `${SITE}/es`,
-      hi: `${SITE}/hi`,
-      pt: `${SITE}/pt`,
-      ar: `${SITE}/ar`,
-      'x-default': `${SITE}/en`,
+      en: `${SITE}/en/`,
+      zh: `${SITE}/zh/`,
+      es: `${SITE}/es/`,
+      hi: `${SITE}/hi/`,
+      pt: `${SITE}/pt/`,
+      ar: `${SITE}/ar/`,
+      'x-default': `${SITE}/en/`,
     },
   },
   robots: {
