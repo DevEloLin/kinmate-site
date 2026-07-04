@@ -25,17 +25,21 @@ const PATHS = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL
+  // 静态导出用 trailingSlash: true（next.config.mjs），页面实际服务在 /<loc>/<path>/
+  // （文件是 /<loc>/<path>/index.html）。sitemap 必须带尾斜杠，否则每条 URL 都会
+  // 301 重定向到带斜杠版 → Google Search Console 报「重定向错误」无法编入索引。
+  const url = (loc: string, p: string) => `${base}/${loc}${p}/`
   return PATHS.flatMap((p) =>
     routing.locales.map((loc) => ({
-      url: `${base}/${loc}${p}`,
+      url: url(loc, p),
       lastModified: new Date(),
       alternates: {
         languages: {
           ...Object.fromEntries(
-            routing.locales.map((l) => [l, `${base}/${l}${p}`]),
+            routing.locales.map((l) => [l, url(l, p)]),
           ),
           // x-default 指向默认语言，告诉搜索引擎语言/地区不匹配时的兜底页
-          'x-default': `${base}/${routing.defaultLocale}${p}`,
+          'x-default': url(routing.defaultLocale, p),
         },
       },
     })),

@@ -46,12 +46,16 @@ export async function buildPageMetadata(
   const t = await getTranslations({ locale, namespace: 'seo' })
   const titleText = t(`${pageKey}.title`)
   const description = t(`${pageKey}.description`)
-  const canonical = `${SITE_URL}/${locale}${path}`
+  // trailingSlash: true（静态导出）→ 页面服务在 /<loc>/<path>/。canonical / hreflang
+  // 必须带尾斜杠，否则指向会 301 重定向的 URL → Google「重定向错误」无法编入索引。
+  const p = path.replace(/\/$/, '')
+  const localeUrl = (l: string) => `${SITE_URL}/${l}${p}/`
+  const canonical = localeUrl(locale)
 
   const languages: Record<string, string> = Object.fromEntries(
-    routing.locales.map((l) => [l, `${SITE_URL}/${l}${path}`]),
+    routing.locales.map((l) => [l, localeUrl(l)]),
   )
-  languages['x-default'] = `${SITE_URL}/${routing.defaultLocale}${path}`
+  languages['x-default'] = localeUrl(routing.defaultLocale)
 
   return {
     // absoluteTitle: 首页用整句标题（不再叠加 `· KinMate` 模板）
