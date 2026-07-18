@@ -58,17 +58,11 @@ jobs:
           mkdir -p docs
           cp -R out/. docs/
           touch docs/.nojekyll
-          # localePrefix=always 没有 / 路由，补一个根重定向到默认语言
-          cat > docs/index.html <<'HTML'
-          <!doctype html>
-          <html lang="en"><head><meta charset="utf-8">
-          <title>KinMate</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <meta http-equiv="refresh" content="0; url=./en/">
-          <link rel="canonical" href="./en/">
-          <script>location.replace('./en/' + location.search + location.hash)</script>
-          </head><body>Redirecting to <a href="./en/">KinMate</a>…</body></html>
-          HTML
+          # 根 / 直出英文首页真实内容(取代旧的 meta-refresh 跳转桩)。
+          # 旧做法根是 390B 空壳跳 /en/ → Google 报「网页会自动重定向」、根 URL 权重浪费。
+          # en 首页资源路径为绝对 /_next/…、canonical 指向 /en/,搬到根后:
+          # 根是可抓取真页、canonical 归 /en/(Google 收录 /en/,根为其副本无重复冲突)。
+          cp out/en/index.html docs/index.html
 
       - name: Commit docs/
         run: |
