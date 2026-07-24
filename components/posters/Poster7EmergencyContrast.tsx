@@ -19,7 +19,7 @@ export function Poster7EmergencyContrast({ locale = 'en' }: { locale?: Locale })
         beforeDesc: '说不清 · 找不到',
         afterDesc: '一目了然 · 立即可用',
         chips: ['🔒 锁屏可见', '📱 二维码', '👥 紧急联系人', '✓ 个人档案'],
-        cta: '60 天免费试用',
+        cta: '20 天免费试用',
         brand: 'KinMate', brandSub: '家庭记录工具',
       }
     : {
@@ -32,7 +32,7 @@ export function Poster7EmergencyContrast({ locale = 'en' }: { locale?: Locale })
         beforeDesc: 'Lost · Frantic',
         afterDesc: 'Visible · Instant',
         chips: ['🔒 Lock-screen', '📱 QR scan', '👥 ICE contacts', '✓ Personal card'],
-        cta: '60-day free trial',
+        cta: '20-day free trial',
         brand: 'KinMate', brandSub: 'Family record organizer',
       }
 

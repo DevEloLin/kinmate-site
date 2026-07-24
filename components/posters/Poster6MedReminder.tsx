@@ -19,7 +19,7 @@ export function Poster6MedReminder({ locale = 'en' }: { locale?: Locale }) {
         beforeDesc: '健忘 · 紊乱',
         afterDesc: '准时 · 连续',
         chips: ['⏰ 温柔提醒', '🔥 28 天 streak', '👨‍👩‍👧 多人共享', '✓ 仅供参考'],
-        cta: '60 天免费试用',
+        cta: '20 天免费试用',
         brand: 'KinMate', brandSub: '家庭记录工具',
       }
     : {
@@ -32,7 +32,7 @@ export function Poster6MedReminder({ locale = 'en' }: { locale?: Locale }) {
         beforeDesc: 'Forgetful · Chaotic',
         afterDesc: 'Steady · Streak',
         chips: ['⏰ Gentle nudges', '🔥 28-day streak', '👨‍👩‍👧 Shared', '✓ For reference'],
-        cta: '60-day free trial',
+        cta: '20-day free trial',
         brand: 'KinMate', brandSub: 'Family record organizer',
       }
 

@@ -14,7 +14,7 @@ export function Poster13AiBento({ locale = 'en' }: { locale?: Locale }) {
       { icon: Sparkles, label: 'AI 处理', sub: '几秒提取 · 双语解释', color: '#15803D' },
       { icon: BookOpen, label: '读懂', sub: '一段话 · 关键值齐全', color: '#F59E0B' },
     ],
-    cta: '60 天免费试用 · KinMate',
+    cta: '20 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
     title1: 'Three steps,', title2: 'one paragraph.',
@@ -25,7 +25,7 @@ export function Poster13AiBento({ locale = 'en' }: { locale?: Locale }) {
       { icon: Sparkles, label: 'AI', sub: 'Seconds · bilingual', color: '#15803D' },
       { icon: BookOpen, label: 'Read', sub: 'A paragraph · key values', color: '#F59E0B' },
     ],
-    cta: '60-day free trial · KinMate',
+    cta: '20-day free trial · KinMate',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #FAFAF9 0%, #E0F2FE 50%, #ECFDF5 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>

@@ -15,7 +15,7 @@ export function Poster17FamilyBig({ locale = 'en' }: { locale?: Locale }) {
       { color: '#F97316', icon: PawPrint,    big: '宠物', sub: '档案 · 日常护理 · 看兽医前一秒就绪' },
       { color: '#7C3AED', icon: ShieldCheck, big: '隐私', sub: '本地优先 · 端到端加密 · 你的网盘' },
     ],
-    cta: '60 天免费试用 · KinMate',
+    cta: '20 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
     title1: 'Five things,', title2: 'one app.',
@@ -27,7 +27,7 @@ export function Poster17FamilyBig({ locale = 'en' }: { locale?: Locale }) {
       { color: '#F97316', icon: PawPrint,    big: 'Pets',      sub: 'Profiles · daily care · vet-ready' },
       { color: '#7C3AED', icon: ShieldCheck, big: 'Privacy',   sub: 'Local-first · end-to-end · your cloud' },
     ],
-    cta: '60-day free trial · KinMate',
+    cta: '20-day free trial · KinMate',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: '#FAFAF9', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>

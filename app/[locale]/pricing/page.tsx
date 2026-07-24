@@ -94,7 +94,7 @@ export default async function PricingPage({
               {isZh ? '首发试用' : 'Launch trial'}
             </p>
             <p className="mt-2 text-lg font-semibold text-ink-900">
-              {isZh ? '前 1000 名用户可获得 60 天免费试用' : 'The first 1,000 users get a 60-day free trial'}
+              {isZh ? '前 1000 名用户可获得 20 天免费试用' : 'The first 1,000 users get a 20-day free trial'}
             </p>
             <p className="mt-2 text-sm leading-6 text-ink-500">
               {isZh ? '先到先得，名额用完即止。' : 'First come, first served. The offer ends once the quota is claimed.'}

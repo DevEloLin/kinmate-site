@@ -9,7 +9,7 @@
     "feedback": "Comentarios"
   },
   "cta": {
-    "primary": "Empieza tu prueba gratis de 60 días",
+    "primary": "Empieza tu prueba gratis de 20 días",
     "secondary": "Ver precios",
     "appStore": "Descargar en la App Store",
     "playStore": "Disponible en Google Play"
@@ -170,16 +170,16 @@
   },
   "pricing": {
     "title": "Precios claros para familias que quieren claridad.",
-    "subtitle": "Empieza con una prueba completa de 60 días para los primeros 1.000 usuarios. Family 8 es una oferta fundador de por vida a $199.99, un 50 % menos del precio habitual de $399.99.",
+    "subtitle": "Empieza con una prueba completa de 20 días para los primeros 1.000 usuarios. Family 8 es una oferta fundador de por vida a $199.99, un 50 % menos del precio habitual de $399.99.",
     "billingMonthly": "Mensual",
     "billingYearly": "Anual",
     "perMonth": "/mes",
     "perYear": "/año",
-    "freeTrialBadge": "Oferta de lanzamiento: los primeros 1.000 usuarios obtienen 60 días gratis",
+    "freeTrialBadge": "Oferta de lanzamiento: los primeros 1.000 usuarios obtienen 20 días gratis",
     "launchPromo": {
       "title": "KinMate ya está disponible oficialmente",
       "badge": "Oferta de lanzamiento",
-      "body": "Gracias a nuestros primeros usuarios. Para celebrar nuestro lanzamiento en la App Store, damos a los primeros 1.000 usuarios una prueba gratis de 60 días y abrimos una oferta de membresía de por vida por tiempo limitado. Las suscripciones de iOS ya están activas; las de Android se abrirán tras el lanzamiento en Google Play.",
+      "body": "Gracias a nuestros primeros usuarios. Para celebrar nuestro lanzamiento en la App Store, damos a los primeros 1.000 usuarios una prueba gratis de 20 días y abrimos una oferta de membresía de por vida por tiempo limitado. Las suscripciones de iOS ya están activas; las de Android se abrirán tras el lanzamiento en Google Play.",
       "originalPriceLabel": "Precio original",
       "originalPrice": "$399.99",
       "launchPriceLabel": "Precio de lanzamiento",
@@ -466,7 +466,7 @@
   },
   "download": {
     "title": "Consigue KinMate",
-    "subtitle": "Descarga gratis. Prueba Pro de 60 días incluida. Configúralo en minutos en iPhone, iPad y Android.",
+    "subtitle": "Descarga gratis. Prueba Pro de 20 días incluida. Configúralo en minutos en iPhone, iPad y Android.",
     "ios": "App Store",
     "android": "Google Play",
     "apk": "APK de Android",
@@ -779,7 +779,7 @@
     },
     "pricing": {
       "title": "Precios",
-      "description": "Empieza gratis. Personal Plus, Family 3 / 5 mensual o anual, y una oferta fundador de por vida Family 8 a $199.99. Los nuevos usuarios obtienen una prueba gratis de 60 días."
+      "description": "Empieza gratis. Personal Plus, Family 3 / 5 mensual o anual, y una oferta fundador de por vida Family 8 a $199.99. Los nuevos usuarios obtienen una prueba gratis de 20 días."
     },
     "byoc": {
       "title": "Usa tu propia nube",
@@ -791,7 +791,7 @@
     },
     "download": {
       "title": "Descargar",
-      "description": "Consigue KinMate gratis en iPhone, iPad y Android. Incluye una prueba Pro de 60 días. Configúralo en minutos."
+      "description": "Consigue KinMate gratis en iPhone, iPad y Android. Incluye una prueba Pro de 20 días. Configúralo en minutos."
     },
     "about": {
       "title": "Acerca de",
@@ -830,7 +830,7 @@
       },
       {
         "q": "¿KinMate es gratis?",
-        "a": "Sí. KinMate tiene un plan gratuito (1 mascota, registros y recordatorios básicos). Los planes de pago añaden más perfiles gestionados, asientos familiares, mayor cuota de IA y espacios para mascotas: suscripciones mensuales o anuales Personal Plus y Family 3 / 5, además de una compra única de por vida Family 8 ($199.99). Los nuevos usuarios obtienen una prueba gratis de 60 días."
+        "a": "Sí. KinMate tiene un plan gratuito (1 mascota, registros y recordatorios básicos). Los planes de pago añaden más perfiles gestionados, asientos familiares, mayor cuota de IA y espacios para mascotas: suscripciones mensuales o anuales Personal Plus y Family 3 / 5, además de una compra única de por vida Family 8 ($199.99). Los nuevos usuarios obtienen una prueba gratis de 20 días."
       },
       {
         "q": "¿De quién son mis datos?",

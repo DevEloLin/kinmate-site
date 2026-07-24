@@ -9,7 +9,7 @@
     "feedback": "Feedback"
   },
   "cta": {
-    "primary": "Start 60-day free trial",
+    "primary": "Start 20-day free trial",
     "secondary": "See pricing",
     "appStore": "Download on the App Store",
     "playStore": "Get it on Google Play"
@@ -170,16 +170,16 @@
   },
   "pricing": {
     "title": "Simple pricing for families who want clarity.",
-    "subtitle": "Start with a 60-day full-feature trial for the first 1,000 users. Family 8 is a lifetime founder offer at $199.99, 50% off the regular $399.99.",
+    "subtitle": "Start with a 20-day full-feature trial for the first 1,000 users. Family 8 is a lifetime founder offer at $199.99, 50% off the regular $399.99.",
     "billingMonthly": "Monthly",
     "billingYearly": "Yearly",
     "perMonth": "/month",
     "perYear": "/year",
-    "freeTrialBadge": "Launch special: first 1,000 users get 60 days free",
+    "freeTrialBadge": "Launch special: first 1,000 users get 20 days free",
     "launchPromo": {
       "title": "KinMate is officially live",
       "badge": "Launch special",
-      "body": "Thank you to our earliest users. To celebrate our App Store launch, we are giving the first 1,000 users a 60-day free trial and opening a limited-time lifetime membership offer. iOS subscriptions are live now; Android subscriptions will open after the Google Play release.",
+      "body": "Thank you to our earliest users. To celebrate our App Store launch, we are giving the first 1,000 users a 20-day free trial and opening a limited-time lifetime membership offer. iOS subscriptions are live now; Android subscriptions will open after the Google Play release.",
       "originalPriceLabel": "Original price",
       "originalPrice": "$399.99",
       "launchPriceLabel": "Launch price",
@@ -466,7 +466,7 @@
   },
   "download": {
     "title": "Get KinMate",
-    "subtitle": "Free to download. 60-day Pro trial included. Set up in minutes on iPhone, iPad, and Android.",
+    "subtitle": "Free to download. 20-day Pro trial included. Set up in minutes on iPhone, iPad, and Android.",
     "ios": "App Store",
     "android": "Google Play",
     "apk": "Android APK",
@@ -779,7 +779,7 @@
     },
     "pricing": {
       "title": "Pricing",
-      "description": "Start free. Personal Plus, Family 3 / 5 monthly or yearly, and a Family 8 lifetime founder offer at $199.99. New users get a 60-day free trial."
+      "description": "Start free. Personal Plus, Family 3 / 5 monthly or yearly, and a Family 8 lifetime founder offer at $199.99. New users get a 20-day free trial."
     },
     "byoc": {
       "title": "Bring Your Own Cloud",
@@ -791,7 +791,7 @@
     },
     "download": {
       "title": "Download",
-      "description": "Get KinMate free on iPhone, iPad and Android. A 60-day Pro trial is included. Set up in minutes."
+      "description": "Get KinMate free on iPhone, iPad and Android. A 20-day Pro trial is included. Set up in minutes."
     },
     "about": {
       "title": "About",
@@ -830,7 +830,7 @@
       },
       {
         "q": "Is KinMate free?",
-        "a": "Yes. KinMate has a free plan (1 pet, basic records and reminders). Paid plans add more managed profiles, family seats, higher AI quota and pet slots: Personal Plus and Family 3 / 5 monthly or yearly subscriptions, plus a Family 8 lifetime one-time purchase ($199.99). New users get a 60-day free trial."
+        "a": "Yes. KinMate has a free plan (1 pet, basic records and reminders). Paid plans add more managed profiles, family seats, higher AI quota and pet slots: Personal Plus and Family 3 / 5 monthly or yearly subscriptions, plus a Family 8 lifetime one-time purchase ($199.99). New users get a 20-day free trial."
       },
       {
         "q": "Who owns my data?",

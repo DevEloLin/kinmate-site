@@ -28,7 +28,7 @@ export function Poster2BeforeAfter({ locale = 'en' }: { locale?: Locale }) {
         beforeDesc: '一堆术语 · 看不懂',
         afterDesc: '一段话 · 全明白',
         chips: ['⚡ 几秒完成', '🌐 双语', '🔒 本地优先', '✓ 仅供参考'],
-        cta: '60 天免费试用',
+        cta: '20 天免费试用',
         brand: 'KinMate',
         brandSub: '家庭记录工具',
       }
@@ -42,7 +42,7 @@ export function Poster2BeforeAfter({ locale = 'en' }: { locale?: Locale }) {
         beforeDesc: 'Jargon · Unclear',
         afterDesc: 'Plain · Clear',
         chips: ['⚡ Seconds', '🌐 Bilingual', '🔒 Local-first', '✓ For reference'],
-        cta: '60-day free trial',
+        cta: '20-day free trial',
         brand: 'KinMate',
         brandSub: 'Family record organizer',
       }

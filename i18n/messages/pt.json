@@ -9,7 +9,7 @@
     "feedback": "Feedback"
   },
   "cta": {
-    "primary": "Comece o teste grátis de 60 dias",
+    "primary": "Comece o teste grátis de 20 dias",
     "secondary": "Ver preços",
     "appStore": "Baixar na App Store",
     "playStore": "Disponível no Google Play"
@@ -170,16 +170,16 @@
   },
   "pricing": {
     "title": "Preços simples para famílias que querem clareza.",
-    "subtitle": "Comece com um teste de 60 dias com todos os recursos para os primeiros 1.000 usuários. O Family 8 é uma oferta vitalícia de fundador por $199.99, 50% de desconto sobre o preço normal de $399.99.",
+    "subtitle": "Comece com um teste de 20 dias com todos os recursos para os primeiros 1.000 usuários. O Family 8 é uma oferta vitalícia de fundador por $199.99, 50% de desconto sobre o preço normal de $399.99.",
     "billingMonthly": "Mensal",
     "billingYearly": "Anual",
     "perMonth": "/mês",
     "perYear": "/ano",
-    "freeTrialBadge": "Oferta de lançamento: os primeiros 1.000 usuários ganham 60 dias grátis",
+    "freeTrialBadge": "Oferta de lançamento: os primeiros 1.000 usuários ganham 20 dias grátis",
     "launchPromo": {
       "title": "O KinMate está oficialmente no ar",
       "badge": "Oferta de lançamento",
-      "body": "Obrigado aos nossos primeiros usuários. Para celebrar o lançamento na App Store, estamos dando aos primeiros 1.000 usuários um teste grátis de 60 dias e abrindo uma oferta de adesão vitalícia por tempo limitado. As assinaturas no iOS já estão disponíveis; as do Android serão abertas após o lançamento no Google Play.",
+      "body": "Obrigado aos nossos primeiros usuários. Para celebrar o lançamento na App Store, estamos dando aos primeiros 1.000 usuários um teste grátis de 20 dias e abrindo uma oferta de adesão vitalícia por tempo limitado. As assinaturas no iOS já estão disponíveis; as do Android serão abertas após o lançamento no Google Play.",
       "originalPriceLabel": "Preço original",
       "originalPrice": "$399.99",
       "launchPriceLabel": "Preço de lançamento",
@@ -466,7 +466,7 @@
   },
   "download": {
     "title": "Baixar o KinMate",
-    "subtitle": "Grátis para baixar. Teste Pro de 60 dias incluído. Configure em minutos no iPhone, iPad e Android.",
+    "subtitle": "Grátis para baixar. Teste Pro de 20 dias incluído. Configure em minutos no iPhone, iPad e Android.",
     "ios": "App Store",
     "android": "Google Play",
     "apk": "APK do Android",
@@ -779,7 +779,7 @@
     },
     "pricing": {
       "title": "Preços",
-      "description": "Comece grátis. Personal Plus, Family 3 / 5 mensal ou anual, e uma oferta vitalícia de fundador do Family 8 por $199.99. Novos usuários ganham um teste grátis de 60 dias."
+      "description": "Comece grátis. Personal Plus, Family 3 / 5 mensal ou anual, e uma oferta vitalícia de fundador do Family 8 por $199.99. Novos usuários ganham um teste grátis de 20 dias."
     },
     "byoc": {
       "title": "Use a Sua Própria Nuvem",
@@ -791,7 +791,7 @@
     },
     "download": {
       "title": "Baixar",
-      "description": "Obtenha o KinMate grátis no iPhone, iPad e Android. Um teste Pro de 60 dias está incluído. Configure em minutos."
+      "description": "Obtenha o KinMate grátis no iPhone, iPad e Android. Um teste Pro de 20 dias está incluído. Configure em minutos."
     },
     "about": {
       "title": "Sobre",
@@ -830,7 +830,7 @@
       },
       {
         "q": "O KinMate é grátis?",
-        "a": "Sim. O KinMate tem um plano gratuito (1 pet, registros e lembretes básicos). Os planos pagos adicionam mais perfis gerenciados, vagas de família, cota maior de IA e vagas para pets: assinaturas Personal Plus e Family 3 / 5 mensais ou anuais, mais uma compra única vitalícia do Family 8 ($199.99). Novos usuários ganham um teste grátis de 60 dias."
+        "a": "Sim. O KinMate tem um plano gratuito (1 pet, registros e lembretes básicos). Os planos pagos adicionam mais perfis gerenciados, vagas de família, cota maior de IA e vagas para pets: assinaturas Personal Plus e Family 3 / 5 mensais ou anuais, mais uma compra única vitalícia do Family 8 ($199.99). Novos usuários ganham um teste grátis de 20 dias."
       },
       {
         "q": "De quem são os meus dados?",

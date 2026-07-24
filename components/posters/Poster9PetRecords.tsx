@@ -22,7 +22,7 @@ export function Poster9PetRecords({ locale = 'en' }: { locale?: Locale }) {
           { icon: Calendar, label: isZh ? '驱虫记录' : 'Deworming log',       sub: isZh ? '每月 / 每季' : 'Monthly · quarterly' },
         ],
         cta: '宠物的故事，从此有归处',
-        trial: '60 天免费试用',
+        trial: '20 天免费试用',
       }
     : {
         eyebrow: 'PETS · ALSO FAMILY',
@@ -36,7 +36,7 @@ export function Poster9PetRecords({ locale = 'en' }: { locale?: Locale }) {
           { icon: Calendar, label: 'Deworming log',    sub: 'Monthly · quarterly' },
         ],
         cta: 'A home for their story',
-        trial: '60-day free trial',
+        trial: '20-day free trial',
       }
 
   return (

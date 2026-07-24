@@ -18,7 +18,7 @@ export function Poster15AiBig({ locale = 'en' }: { locale?: Locale }) {
       { icon: Calendar, label: '提醒', big: 0, color: '#F59E0B' },
       { icon: Cloud, label: '你的网盘', big: 0, color: '#0F172A' },
     ],
-    cta: '60 天免费试用 · KinMate',
+    cta: '20 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
     title1: 'Seven tiles,', title2: 'one family.',
@@ -33,7 +33,7 @@ export function Poster15AiBig({ locale = 'en' }: { locale?: Locale }) {
       { icon: Calendar, label: 'Reminders', big: 0, color: '#F59E0B' },
       { icon: Cloud, label: 'Your cloud', big: 0, color: '#0F172A' },
     ],
-    cta: '60-day free trial · KinMate',
+    cta: '20-day free trial · KinMate',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #FDF4FF 0%, #FAE8FF 50%, #F5D0FE 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>
