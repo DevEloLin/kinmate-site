@@ -15,7 +15,7 @@
 - **Free**: 1 pet, basic records and reminders.
 - **Personal Plus / Family 3 / Family 5**: monthly or yearly subscriptions adding managed profiles, family seats, higher AI quota and pet slots.
 - **Family 8 (Lifetime)**: one-time purchase, US$199.99, never expires.
-- **60-day free trial** for new users.
+- **20-day free trial** for new users.
 
 ## Privacy
 - Local-first; data lives on-device and in the user's own cloud account.
@@ -35,6 +35,13 @@
 - Privacy: https://kinmate.elolin.com/en/privacy
 - AI disclaimer: https://kinmate.elolin.com/en/ai-disclaimer
 - 简体中文首页: https://kinmate.elolin.com/zh
+
+## FAQ
+- **How long is the free trial?** New users get a 20-day free trial of the full Family features. It can be started only once per account and does not auto-renew unless you choose a paid plan.
+- **How much does KinMate cost?** There is a free tier (1 pet, basic records and reminders). Paid plans — Personal Plus and Family 3 / 5 — are monthly or yearly subscriptions; Family 8 is a one-time US$199.99 lifetime purchase that never expires.
+- **Is my data private?** Yes. KinMate is local-first: your data stays on your device and in your own cloud (iCloud, Google Drive or OneDrive). No data selling, and no third-party analytics or crash SDKs.
+- **Which platforms are supported?** iOS (iPhone / iPad) and Android. Sign in with email or Google.
+- **Is the AI a medical tool?** No. AI document explanations are for understanding and reference only — not medical advice or diagnosis.
 
 ## Parent organization
 - [EloLin](https://elolin.com): the indie studio · 6 products
