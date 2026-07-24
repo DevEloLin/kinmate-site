@@ -14,7 +14,7 @@ export function Poster11FamilyBento({ locale = 'en' }: { locale?: Locale }) {
     rating: '4.9 · 1,200+',
     syncLabels: ['你的手机', '你的平板', '家人手机'],
     bullets: ['新设备登录 · 一秒回来', '加密同步 · 只在你网盘', '家人独立 · 看到的不一样'],
-    cta: '60 天免费试用 · KinMate',
+    cta: '20 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
     title1: 'Filed once,', title2: 'seen everywhere.',
@@ -22,7 +22,7 @@ export function Poster11FamilyBento({ locale = 'en' }: { locale?: Locale }) {
     rating: '4.9 · 1,200+',
     syncLabels: ['Your phone', 'Your tablet', 'Family phone'],
     bullets: ['Sign in on new device · everything\'s back', 'Encrypted sync · in your own cloud', 'Family sees only what you share'],
-    cta: '60-day free trial · KinMate',
+    cta: '20-day free trial · KinMate',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #F0F9FF 0%, #E0F2FE 50%, #BAE6FD 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>

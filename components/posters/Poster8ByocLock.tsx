@@ -17,7 +17,7 @@ export function Poster8ByocLock({ locale = 'en' }: { locale?: Locale }) {
         sub: 'AES-256-GCM 端到端加密。备份存进你自己的 iCloud / Google Drive / OneDrive，密钥只在你手里。',
         bullets: ['端到端加密 (AES-256-GCM)', '密钥只在你设备', '随时切换网盘', '我们读不到任何内容'],
         cta: '我们看不到一行',
-        store: '60 天免费试用',
+        store: '20 天免费试用',
       }
     : {
         eyebrow: 'PRIVATE · BYOC',
@@ -27,7 +27,7 @@ export function Poster8ByocLock({ locale = 'en' }: { locale?: Locale }) {
         sub: 'AES-256-GCM end-to-end encrypted. Backups land in your own iCloud / Google Drive / OneDrive — keys only on your device.',
         bullets: ['End-to-end encrypted (AES-256-GCM)', 'Keys stay on your device', 'Switch clouds anytime', 'We cannot read a byte'],
         cta: 'We see zero',
-        store: '60-day free trial',
+        store: '20-day free trial',
       }
 
   return (

@@ -17,7 +17,7 @@ export function Poster14HomeBig({ locale = 'en' }: { locale?: Locale }) {
       { mon: '十月', icon: ShieldCheck, label: '开启云盘加密', color: '#DC2626' },
       { mon: '十二月', icon: Calendar, label: '本年共 47 份',  color: '#F59E0B' },
     ],
-    cta: '60 天免费试用 · KinMate',
+    cta: '20 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
     title1: 'A year of you,', title2: 'one timeline.',
@@ -31,7 +31,7 @@ export function Poster14HomeBig({ locale = 'en' }: { locale?: Locale }) {
       { mon: 'Oct', icon: ShieldCheck, label: 'Cloud backup on', color: '#DC2626' },
       { mon: 'Dec', icon: Calendar,    label: '47 filed total', color: '#F59E0B' },
     ],
-    cta: '60-day free trial · KinMate',
+    cta: '20-day free trial · KinMate',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #FFFBEB 0%, #FEF3C7 50%, #FDE68A 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>

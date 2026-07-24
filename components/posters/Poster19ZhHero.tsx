@@ -17,7 +17,7 @@ export function Poster19ZhHero({ locale = 'en' }: { locale?: Locale }) {
       { emoji: '👧', role: '女儿',   relation: 'bot' },
       { emoji: '🐈', role: '咪咪',   relation: 'bot' },
     ],
-    cta: '60 天免费试用 · KinMate',
+    cta: '20 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
     title1: 'One thread,', title2: 'one family.',
@@ -31,7 +31,7 @@ export function Poster19ZhHero({ locale = 'en' }: { locale?: Locale }) {
       { emoji: '👧', role: 'Daughter',relation: 'bot' },
       { emoji: '🐈', role: 'Mimi',    relation: 'bot' },
     ],
-    cta: '60-day free trial · KinMate',
+    cta: '20-day free trial · KinMate',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(160deg, #FFFBEB 0%, #FEE2E2 50%, #FECDD3 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>

@@ -9,7 +9,7 @@
     "feedback": "反馈"
   },
   "cta": {
-    "primary": "开启 60 天免费试用",
+    "primary": "开启 20 天免费试用",
     "secondary": "查看套餐",
     "appStore": "App Store 下载",
     "playStore": "Google Play 下载"
@@ -170,16 +170,16 @@
   },
   "pricing": {
     "title": "给家庭用的清楚价格，不绕弯子。",
-    "subtitle": "前 1000 名用户可获得 60 天完整功能试用。Family 8 以永久创始价 $199.99 上线，较原价 $399.99 永久优惠 50%。",
+    "subtitle": "前 1000 名用户可获得 20 天完整功能试用。Family 8 以永久创始价 $199.99 上线，较原价 $399.99 永久优惠 50%。",
     "billingMonthly": "月付",
     "billingYearly": "年付",
     "perMonth": "/月",
     "perYear": "/年",
-    "freeTrialBadge": "首发特别活动：前 1000 名送 60 天试用",
+    "freeTrialBadge": "首发特别活动：前 1000 名送 20 天试用",
     "launchPromo": {
       "title": "KinMate 正式上线",
       "badge": "首发活动",
-      "body": "感谢每一位早期用户的支持。为了庆祝 KinMate 在 App Store 正式发布，我们为前 1000 名用户提供 60 天免费试用，并开放永久会员优惠。当前仅开放 iPhone / iPad 订阅，Android 订阅将随 Google Play 上架后开放。",
+      "body": "感谢每一位早期用户的支持。为了庆祝 KinMate 在 App Store 正式发布，我们为前 1000 名用户提供 20 天免费试用，并开放永久会员优惠。当前仅开放 iPhone / iPad 订阅，Android 订阅将随 Google Play 上架后开放。",
       "originalPriceLabel": "原价",
       "originalPrice": "$399.99",
       "launchPriceLabel": "首发特惠价",
@@ -466,7 +466,7 @@
   },
   "download": {
     "title": "获取 KinMate",
-    "subtitle": "免费下载。含 60 天 Pro 试用。iPhone、iPad、Android 都能快速上手。",
+    "subtitle": "免费下载。含 20 天 Pro 试用。iPhone、iPad、Android 都能快速上手。",
     "ios": "App Store",
     "android": "Google Play",
     "apk": "Android APK",
@@ -779,7 +779,7 @@
     },
     "pricing": {
       "title": "价格",
-      "description": "免费起步。Personal Plus、Family 3 / 5 可月付或年付，另有 Family 8 永久创始价 $199.99。新用户享 60 天免费试用。"
+      "description": "免费起步。Personal Plus、Family 3 / 5 可月付或年付，另有 Family 8 永久创始价 $199.99。新用户享 20 天免费试用。"
     },
     "byoc": {
       "title": "自带网盘",
@@ -791,7 +791,7 @@
     },
     "download": {
       "title": "下载",
-      "description": "在 iPhone、iPad 和 Android 上免费获取 KinMate，含 60 天 Pro 试用，几分钟即可上手。"
+      "description": "在 iPhone、iPad 和 Android 上免费获取 KinMate，含 20 天 Pro 试用，几分钟即可上手。"
     },
     "about": {
       "title": "关于",
@@ -830,7 +830,7 @@
       },
       {
         "q": "KinMate 免费吗？",
-        "a": "有免费版（1 只宠物、基础档案与提醒）。付费档增加托管档案、家庭席位、AI 配额和宠物位：Personal Plus 与 Family 3 / 5 按月或按年订阅，另有 Family 8 永久买断（一次性 ￥199.99）。新用户享 60 天免费试用。"
+        "a": "有免费版（1 只宠物、基础档案与提醒）。付费档增加托管档案、家庭席位、AI 配额和宠物位：Personal Plus 与 Family 3 / 5 按月或按年订阅，另有 Family 8 永久买断（一次性 ￥199.99）。新用户享 20 天免费试用。"
       },
       {
         "q": "我的数据归谁所有？",

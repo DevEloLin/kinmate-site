@@ -11,7 +11,7 @@ export function Poster10Cta({ locale = 'en' }: { locale?: Locale }) {
     bigRating: '4.9',
     starText: '五星好评',
     ctaTitle: '一家人，', ctaTitle2: '一个口袋。',
-    tagline: '本地优先 · 双语 AI · 自带网盘 · 60 天免费',
+    tagline: '本地优先 · 双语 AI · 自带网盘 · 20 天免费',
     avatars: ['👩', '👨', '👵', '👴', '👧', '👦', '🐈', '🐕'],
     store1: 'App Store', store2: 'Google Play', downloadOn: '下载于', getOn: '获取',
     trust: ['无广告', '无追踪', '无第三方分析', '随时取消'],
@@ -21,7 +21,7 @@ export function Poster10Cta({ locale = 'en' }: { locale?: Locale }) {
     bigRating: '4.9',
     starText: 'five-star reviews',
     ctaTitle: 'One family,', ctaTitle2: 'one pocket.',
-    tagline: 'Local-first · Bilingual AI · Your own cloud · 60-day free trial',
+    tagline: 'Local-first · Bilingual AI · Your own cloud · 20-day free trial',
     avatars: ['👩', '👨', '👵', '👴', '👧', '👦', '🐈', '🐕'],
     store1: 'App Store', store2: 'Google Play', downloadOn: 'Download on the', getOn: 'Get it on',
     trust: ['Zero ads', 'Zero tracking', 'Zero analytics SDKs', 'Cancel anytime'],
@@ -85,7 +85,7 @@ export function Poster10Cta({ locale = 'en' }: { locale?: Locale }) {
       <div className="absolute inset-x-0 z-30 px-12" style={{ bottom: '60px' }}>
         <div className="flex items-center justify-between">
           <span className="text-sm font-bold uppercase" style={{ color: '#94A3B8', letterSpacing: '0.16em' }}>{t.chip}</span>
-          <span className="inline-flex items-center gap-2 text-2xl font-extrabold" style={{ color: '#FCD34D' }}><Sparkles className="h-6 w-6" />60 Days · Free</span>
+          <span className="inline-flex items-center gap-2 text-2xl font-extrabold" style={{ color: '#FCD34D' }}><Sparkles className="h-6 w-6" />20 Days · Free</span>
         </div>
       </div>
     </div>

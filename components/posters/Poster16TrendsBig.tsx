@@ -14,7 +14,7 @@ export function Poster16TrendsBig({ locale = 'en' }: { locale?: Locale }) {
     attribution: 'KinMate 的产品哲学',
     sub: '把"记得"和"在意"分开。让 app 替你"记得"，你只需要"在意"。',
     rating: '4.9 · 1,200+',
-    cta: '60 天免费试用 · KinMate',
+    cta: '20 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
     quote: 'Care',
@@ -25,7 +25,7 @@ export function Poster16TrendsBig({ locale = 'en' }: { locale?: Locale }) {
     attribution: '— KinMate product philosophy',
     sub: 'Separate "remembering" from "caring". Let the app remember; you focus on caring.',
     rating: '4.9 · 1,200+',
-    cta: '60-day free trial · KinMate',
+    cta: '20-day free trial · KinMate',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: '#FAFAF9', fontFamily: 'ui-serif, Georgia, "Times New Roman", serif' }}>

@@ -17,7 +17,7 @@ export function Poster12PrivacyBento({ locale = 'en' }: { locale?: Locale }) {
       { icon: ShieldCheck, label: '零第三方 SDK' },
       { icon: Server,      label: '本地优先' },
     ],
-    cta: '60 天免费试用 · KinMate',
+    cta: '20 天免费试用 · KinMate',
   } : {
     chip: 'BETA · OPEN TESTING',
     title1: 'Your data.', title2: 'Your keys.',
@@ -31,7 +31,7 @@ export function Poster12PrivacyBento({ locale = 'en' }: { locale?: Locale }) {
       { icon: ShieldCheck, label: 'No 3rd-party SDKs' },
       { icon: Server,      label: 'Local-first' },
     ],
-    cta: '60-day free trial · KinMate',
+    cta: '20-day free trial · KinMate',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(165deg, #FFFFFF 0%, #F5F5F4 100%)', fontFamily: 'ui-sans-serif, -apple-system, system-ui' }}>

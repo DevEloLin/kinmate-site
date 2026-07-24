@@ -15,7 +15,7 @@ export function Poster18LocalFirst({ locale = 'en' }: { locale?: Locale }) {
     ],
     bottomText: 'KinMate · 本地优先 · 端到端加密',
     rating: '4.9 · 1,200+',
-    cta: '60 天免费试用',
+    cta: '20 天免费试用',
   } : {
     chip: 'BETA · OPEN TESTING',
     time: '9:41', day: 'Friday, June 13',
@@ -27,7 +27,7 @@ export function Poster18LocalFirst({ locale = 'en' }: { locale?: Locale }) {
     ],
     bottomText: 'KinMate · Local-first · End-to-end encrypted',
     rating: '4.9 · 1,200+',
-    cta: '60-day free trial',
+    cta: '20-day free trial',
   }
   return (
     <div className="relative h-screen w-screen overflow-hidden" style={{ background: 'radial-gradient(ellipse at center, #1E1B4B 0%, #0F172A 50%, #020617 100%)', fontFamily: '-apple-system, "SF Pro Display", system-ui' }}>

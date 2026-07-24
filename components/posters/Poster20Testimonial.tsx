@@ -6,7 +6,7 @@ export function Poster20Testimonial({ locale = 'en' }: { locale?: Locale }) {
   const isZh = locale === 'zh'
   const t = isZh ? {
     chip: 'BETA · 公开测试',
-    big1: '60', big2: '天',
+    big1: '20', big2: '天',
     label1: '免费', label2: '试用',
     title: '把一家人，', title2: '装进口袋。',
     sub: '本地优先 · 双语 AI · 自带网盘 · 随时取消',
@@ -17,7 +17,7 @@ export function Poster20Testimonial({ locale = 'en' }: { locale?: Locale }) {
     store1: 'App Store', store2: 'Google Play',
   } : {
     chip: 'BETA · OPEN TESTING',
-    big1: '60', big2: 'days',
+    big1: '20', big2: 'days',
     label1: 'free', label2: 'trial',
     title: 'Put a family', title2: 'in your pocket.',
     sub: 'Local-first · Bilingual AI · Your own cloud · Cancel anytime',
@@ -40,7 +40,7 @@ export function Poster20Testimonial({ locale = 'en' }: { locale?: Locale }) {
       </div>
       <span className="absolute right-12 top-14 z-30 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-bold uppercase shadow-md" style={{ background: 'white', color: '#0F172A', letterSpacing: '0.18em' }}>{t.chip}</span>
 
-      {/* 巨型 "60 days" 杂志封面 */}
+      {/* 巨型 "20 days" 杂志封面 */}
       <div className="absolute z-20" style={{ left: '60px', top: '180px' }}>
         <p className="font-black" style={{ fontSize: '440px', lineHeight: 0.78, letterSpacing: '-22px', color: '#0F172A', textShadow: '12px 12px 0 #DC2626' }}>{t.big1}</p>
       </div>
