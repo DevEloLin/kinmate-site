@@ -1,12 +1,12 @@
 {
   "prod": {
     "status": "ready",
-    "version": "1.3.2",
-    "buildNumber": 67,
-    "appVersion": "1.3.2+67",
-    "releaseTag": "v1.3.2",
-    "releaseUrl": "https://github.com/DevEloLin/kinmate-site/releases/tag/v1.3.2",
-    "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/v1.3.2/kinmate-1.3.2-67-release.apk"
+    "version": "1.3.3",
+    "buildNumber": 68,
+    "appVersion": "1.3.3+68",
+    "releaseTag": "v1.3.3",
+    "releaseUrl": "https://github.com/DevEloLin/kinmate-site/releases/tag/v1.3.3",
+    "apkDownloadUrl": "https://github.com/DevEloLin/kinmate-site/releases/download/v1.3.3/kinmate-1.3.3-68-release.apk"
   },
   "beta": {
     "available": true,
